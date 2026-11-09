@@ -1,0 +1,1946 @@
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .97576     (Insuf)    .22357     2.8832         51    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         51    
+Customer.WaitTime                           .03030     (Insuf)    .00000     .73754         51    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         51    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         51    
+Customer.TotalTime                          1.0060     (Insuf)    .22357     3.6208         51    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .08587     (Insuf)    .00000     .73754         11    
+Express Checkout.Queue.WaitingTime          .01502     (Insuf)    .00000     .60085         40    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .11402     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .04276     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .04276     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .06783     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .06783     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00210     (Insuf)    .00000     1.0000     .00000    
+Express Checkout.Queue.NumberInQueue        .00134     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           51.000    
+Customer.NumberOut                          51.000    
+Regular_Counter_1.NumberSeized              11.000    
+Regular_Counter_1.ScheduledUtilization      .04276    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                40.000    
+Express_Counter.ScheduledUtilization        .06783    
+System.NumberOut                            51.000    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93198     (Insuf)    .40886     3.6125         70    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         70    
+Customer.WaitTime                           .03579     (Insuf)    .00000     .69127         70    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         70    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         70    
+Customer.TotalTime                          .96777     (Insuf)    .40886     3.6125         70    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          7    
+Express Checkout.Queue.WaitingTime          .03977     (Insuf)    .00000     .69127         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15054     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .03152     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03152     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11345     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11345     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00557     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           70.000    
+Customer.NumberOut                          70.000    
+Regular_Counter_1.NumberSeized              7.0000    
+Regular_Counter_1.ScheduledUtilization      .03152    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                63.000    
+Express_Counter.ScheduledUtilization        .11345    
+System.NumberOut                            70.000    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89243     (Insuf)    .31892     2.0162         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .04753     (Insuf)    .00000     .67239         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          .93996     (Insuf)    .31892     2.0162         75    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          3    
+Express Checkout.Queue.WaitingTime          .04951     (Insuf)    .00000     .67239         72    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15666     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .01211     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01211     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .13663     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .13663     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00792     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           75.000    
+Customer.NumberOut                          75.000    
+Regular_Counter_1.NumberSeized              3.0000    
+Regular_Counter_1.ScheduledUtilization      .01211    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                72.000    
+Express_Counter.ScheduledUtilization        .13663    
+System.NumberOut                            75.000    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .88792     (Insuf)    .45574     2.1181         70    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         70    
+Customer.WaitTime                           .09040     (Insuf)    .00000     1.6860         70    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         70    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         70    
+Customer.TotalTime                          .97832     (Insuf)    .45574     2.4814         70    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+Express Checkout.Queue.WaitingTime          .09588     (Insuf)    .00000     1.6860         66    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15218     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .01629     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01629     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .12183     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .12183     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .01406     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           70.000    
+Customer.NumberOut                          70.000    
+Regular_Counter_1.NumberSeized              4.0000    
+Regular_Counter_1.ScheduledUtilization      .01629    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                66.000    
+Express_Counter.ScheduledUtilization        .12183    
+System.NumberOut                            70.000    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87021     (Insuf)    .39685     2.3537         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .13989     (Insuf)    .00000     1.2883         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          1.0100     (Insuf)    .39685     2.5538         73    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+Express Checkout.Queue.WaitingTime          .15017     (Insuf)    .00000     1.2883         68    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .16257     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .01692     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01692     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .12296     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .12296     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .02269     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           72.000    
+Customer.NumberOut                          73.000    
+Regular_Counter_1.NumberSeized              4.0000    
+Regular_Counter_1.ScheduledUtilization      .01692    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                68.000    
+Express_Counter.ScheduledUtilization        .12296    
+System.NumberOut                            73.000    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93032     (Insuf)    .40785     2.6219         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .04342     (Insuf)    .00000     .79470         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .97374     (Insuf)    .40785     2.6219         63    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         10    
+Express Checkout.Queue.WaitingTime          .05161     (Insuf)    .00000     .79470         53    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13632     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .04005     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .04005     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .09020     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .09020     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00608     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+Regular_Counter_1.NumberSeized              10.000    
+Regular_Counter_1.ScheduledUtilization      .04005    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                53.000    
+Express_Counter.ScheduledUtilization        .09020    
+System.NumberOut                            63.000    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .96860     (Insuf)    .34781     2.2849         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .03990     (Insuf)    .00000     .80474         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          1.0085     (Insuf)    .34781     2.4241         75    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .02824     (Insuf)    .00000     .36706         13    
+Express Checkout.Queue.WaitingTime          .04167     (Insuf)    .00000     .80474         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .16950     (Insuf)    .00000     2.0000     1.0000    
+Regular_Counter_1.NumberBusy                .04759     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .04759     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11527     (Insuf)    .00000     1.0000     1.0000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11527     (Insuf)    .00000     1.0000     1.0000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue       8.1569E-4 (Insuf)    .00000     1.0000     .00000    
+Express Checkout.Queue.NumberInQueue        .00583     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           76.000    
+Customer.NumberOut                          75.000    
+Regular_Counter_1.NumberSeized              13.000    
+Regular_Counter_1.ScheduledUtilization      .04759    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                63.000    
+Express_Counter.ScheduledUtilization        .11527    
+System.NumberOut                            75.000    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1.0012     (Insuf)    .27894     2.6727         77    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         77    
+Customer.WaitTime                           .09899     (Insuf)    .00000     1.2212         77    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         77    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         77    
+Customer.TotalTime                          1.1002     (Insuf)    .27894     2.6727         77    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          9    
+Express Checkout.Queue.WaitingTime          .11209     (Insuf)    .00000     1.2212         68    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .18826     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .03864     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03864     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .13268     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .13268     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .01694     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           77.000    
+Customer.NumberOut                          77.000    
+Regular_Counter_1.NumberSeized              9.0000    
+Regular_Counter_1.ScheduledUtilization      .03864    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                68.000    
+Express_Counter.ScheduledUtilization        .13268    
+System.NumberOut                            77.000    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89143     (Insuf)    .33818     2.2458         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .07944     (Insuf)    .00000     1.0273         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .97087     (Insuf)    .33818     2.2458         65    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+Express Checkout.Queue.WaitingTime          .08465     (Insuf)    .00000     1.0273         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14024     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .01775     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01775     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11101     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11101     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .01147     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+Regular_Counter_1.NumberSeized              4.0000    
+Regular_Counter_1.ScheduledUtilization      .01775    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                61.000    
+Express_Counter.ScheduledUtilization        .11101    
+System.NumberOut                            65.000    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87563     (Insuf)    .35438     2.1529         72    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         72    
+Customer.WaitTime                           .03773     (Insuf)    .00000     .94880         72    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         72    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         72    
+Customer.TotalTime                          .91335     (Insuf)    .35438     2.1529         72    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          5    
+Express Checkout.Queue.WaitingTime          .04115     (Insuf)    .00000     .94880         66    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14352     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .01953     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01953     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11796     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11796     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00604     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           71.000    
+Customer.NumberOut                          72.000    
+Regular_Counter_1.NumberSeized              5.0000    
+Regular_Counter_1.ScheduledUtilization      .01953    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                66.000    
+Express_Counter.ScheduledUtilization        .11796    
+System.NumberOut                            72.000    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .85013     (Insuf)    .25541     2.0750         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .02346     (Insuf)    .00000     .88423         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          .87359     (Insuf)    .25541     2.0808         73    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          6    
+Express Checkout.Queue.WaitingTime          .02556     (Insuf)    .00000     .88423         67    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14172     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .02200     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02200     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11591     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11591     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00381     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           73.000    
+Customer.NumberOut                          73.000    
+Regular_Counter_1.NumberSeized              6.0000    
+Regular_Counter_1.ScheduledUtilization      .02200    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                67.000    
+Express_Counter.ScheduledUtilization        .11591    
+System.NumberOut                            73.000    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95491     (Insuf)    .45669     2.3259         60    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         60    
+Customer.WaitTime                           .03829     (Insuf)    .00000     .78200         60    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         60    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         60    
+Customer.TotalTime                          .99320     (Insuf)    .48429     2.3259         60    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          9    
+Express Checkout.Queue.WaitingTime          .04504     (Insuf)    .00000     .78200         51    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13243     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .03384     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03384     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .09348     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .09348     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00511     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           60.000    
+Customer.NumberOut                          60.000    
+Regular_Counter_1.NumberSeized              9.0000    
+Regular_Counter_1.ScheduledUtilization      .03384    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                51.000    
+Express_Counter.ScheduledUtilization        .09348    
+System.NumberOut                            60.000    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .88239     (Insuf)    .32776     1.8994         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .04682     (Insuf)    .00000     .90481         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .92921     (Insuf)    .32776     1.9521         65    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          6    
+Express Checkout.Queue.WaitingTime          .05158     (Insuf)    .00000     .90481         59    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13422     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .02060     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02060     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10686     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10686     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00676     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+Regular_Counter_1.NumberSeized              6.0000    
+Regular_Counter_1.ScheduledUtilization      .02060    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                59.000    
+Express_Counter.ScheduledUtilization        .10686    
+System.NumberOut                            65.000    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89218     (Insuf)    .38074     2.0169         56    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         56    
+Customer.WaitTime                           .07759     (Insuf)    .00000     .85956         56    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         56    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         56    
+Customer.TotalTime                          .96977     (Insuf)    .43140     2.0942         56    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .17191     (Insuf)    .00000     .85956          5    
+Express Checkout.Queue.WaitingTime          .06834     (Insuf)    .00000     .84215         51    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12068     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .01845     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01845     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .09258     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .09258     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00191     (Insuf)    .00000     1.0000     .00000    
+Express Checkout.Queue.NumberInQueue        .00775     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           56.000    
+Customer.NumberOut                          56.000    
+Regular_Counter_1.NumberSeized              5.0000    
+Regular_Counter_1.ScheduledUtilization      .01845    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                51.000    
+Express_Counter.ScheduledUtilization        .09258    
+System.NumberOut                            56.000    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91124     (Insuf)    .15594     2.5571         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .03212     (Insuf)    .00000     .70854         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          .94336     (Insuf)    .15594     2.5571         73    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          8    
+Express Checkout.Queue.WaitingTime          .03607     (Insuf)    .00000     .70854         65    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15303     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .02938     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02938     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11844     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11844     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00521     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           73.000    
+Customer.NumberOut                          73.000    
+Regular_Counter_1.NumberSeized              8.0000    
+Regular_Counter_1.ScheduledUtilization      .02938    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                65.000    
+Express_Counter.ScheduledUtilization        .11844    
+System.NumberOut                            73.000    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93573     (Insuf)    .35157     1.5373         56    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         56    
+Customer.WaitTime                           .05464     (Insuf)    .00000     .73018         56    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         56    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         56    
+Customer.TotalTime                          .99038     (Insuf)    .35157     1.5373         56    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+Express Checkout.Queue.WaitingTime          .05885     (Insuf)    .00000     .73018         52    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12325     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .01243     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01243     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10401     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10401     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00680     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           56.000    
+Customer.NumberOut                          56.000    
+Regular_Counter_1.NumberSeized              4.0000    
+Regular_Counter_1.ScheduledUtilization      .01243    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                52.000    
+Express_Counter.ScheduledUtilization        .10401    
+System.NumberOut                            56.000    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91001     (Insuf)    .35661     2.2148         57    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         57    
+Customer.WaitTime                           .05193     (Insuf)    .00000     .82677         57    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         57    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         57    
+Customer.TotalTime                          .96194     (Insuf)    .35661     2.2148         57    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          3    
+Express Checkout.Queue.WaitingTime          .05482     (Insuf)    .00000     .82677         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12185     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .01391     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01391     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10135     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10135     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00658     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           57.000    
+Customer.NumberOut                          57.000    
+Regular_Counter_1.NumberSeized              3.0000    
+Regular_Counter_1.ScheduledUtilization      .01391    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                54.000    
+Express_Counter.ScheduledUtilization        .10135    
+System.NumberOut                            57.000    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .94555     (Insuf)    .40086     2.7680         68    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         68    
+Customer.WaitTime                           .06184     (Insuf)    .00000     1.2126         68    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         68    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         68    
+Customer.TotalTime                          1.0073     (Insuf)    .40086     3.9807         68    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .15158     (Insuf)    .00000     1.2126          8    
+Express Checkout.Queue.WaitingTime          .04987     (Insuf)    .00000     .88697         60    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15223     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .03394     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03394     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10894     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10894     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00269     (Insuf)    .00000     1.0000     .00000    
+Express Checkout.Queue.NumberInQueue        .00665     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           68.000    
+Customer.NumberOut                          68.000    
+Regular_Counter_1.NumberSeized              8.0000    
+Regular_Counter_1.ScheduledUtilization      .03394    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                60.000    
+Express_Counter.ScheduledUtilization        .10894    
+System.NumberOut                            68.000    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .90591     (Insuf)    .22915     2.0595         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .06190     (Insuf)    .00000     .71112         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .96781     (Insuf)    .22915     2.0595         65    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          7    
+Express Checkout.Queue.WaitingTime          .06937     (Insuf)    .00000     .71112         58    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13979     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .02431     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02431     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10654     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10654     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00894     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+Regular_Counter_1.NumberSeized              7.0000    
+Regular_Counter_1.ScheduledUtilization      .02431    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                58.000    
+Express_Counter.ScheduledUtilization        .10654    
+System.NumberOut                            65.000    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .90388     (Insuf)    .30646     2.6361         52    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         52    
+Customer.WaitTime                           .01838     (Insuf)    .00000     .95558         52    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         52    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         52    
+Customer.TotalTime                          .92225     (Insuf)    .30646     2.6361         52    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          6    
+Express Checkout.Queue.WaitingTime          .02077     (Insuf)    .00000     .95558         46    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .10657     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .02591     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02591     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .07854     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .07854     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00212     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           52.000    
+Customer.NumberOut                          52.000    
+Regular_Counter_1.NumberSeized              6.0000    
+Regular_Counter_1.ScheduledUtilization      .02591    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                46.000    
+Express_Counter.ScheduledUtilization        .07854    
+System.NumberOut                            52.000    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .84093     (Insuf)    .35416     2.4888         67    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         67    
+Customer.WaitTime                           .02892     (Insuf)    .00000     .68701         67    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         67    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         67    
+Customer.TotalTime                          .86985     (Insuf)    .35416     2.4888         67    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          6    
+Express Checkout.Queue.WaitingTime          .03176     (Insuf)    .00000     .68701         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12951     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .02468     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02468     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10053     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10053     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00431     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           67.000    
+Customer.NumberOut                          67.000    
+Regular_Counter_1.NumberSeized              6.0000    
+Regular_Counter_1.ScheduledUtilization      .02468    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                61.000    
+Express_Counter.ScheduledUtilization        .10053    
+System.NumberOut                            67.000    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .97169     (Insuf)    .32607     2.0698         64    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         64    
+Customer.WaitTime                           .10251     (Insuf)    .00000     1.3435         64    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         64    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         64    
+Customer.TotalTime                          1.0742     (Insuf)    .32607     2.2562         64    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          7    
+Express Checkout.Queue.WaitingTime          .11509     (Insuf)    .00000     1.3435         57    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15277     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .02536     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02536     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .11283     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .11283     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .01458     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           64.000    
+Customer.NumberOut                          64.000    
+Regular_Counter_1.NumberSeized              7.0000    
+Regular_Counter_1.ScheduledUtilization      .02536    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                57.000    
+Express_Counter.ScheduledUtilization        .11283    
+System.NumberOut                            64.000    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89161     (Insuf)    .39019     2.3952         58    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         58    
+Customer.WaitTime                           .04112     (Insuf)    .00000     1.0342         58    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         58    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         58    
+Customer.TotalTime                          .93273     (Insuf)    .39019     2.3952         58    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          4    
+Express Checkout.Queue.WaitingTime          .04416     (Insuf)    .00000     1.0342         54    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12022     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .01552     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01552     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .09940     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .09940     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00530     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           58.000    
+Customer.NumberOut                          58.000    
+Regular_Counter_1.NumberSeized              4.0000    
+Regular_Counter_1.ScheduledUtilization      .01552    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                54.000    
+Express_Counter.ScheduledUtilization        .09940    
+System.NumberOut                            58.000    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1.0009     (Insuf)    .47403     2.1430         53    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         53    
+Customer.WaitTime                           .06133     (Insuf)    .00000     1.0764         53    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         53    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         53    
+Customer.TotalTime                          1.0622     (Insuf)    .48552     2.1430         53    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          9    
+Express Checkout.Queue.WaitingTime          .07066     (Insuf)    .00000     1.0764         46    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12594     (Insuf)    .00000     3.0000     2.0000    
+Regular_Counter_1.NumberBusy                .03041     (Insuf)    .00000     1.0000     1.0000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03041     (Insuf)    .00000     1.0000     1.0000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .08831     (Insuf)    .00000     1.0000     1.0000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .08831     (Insuf)    .00000     1.0000     1.0000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00722     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           55.000    
+Customer.NumberOut                          53.000    
+Regular_Counter_1.NumberSeized              9.0000    
+Regular_Counter_1.ScheduledUtilization      .03041    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                46.000    
+Express_Counter.ScheduledUtilization        .08831    
+System.NumberOut                            53.000    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95404     (Insuf)    .42997     2.2740         88    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         88    
+Customer.WaitTime                           .06819     (Insuf)    .00000     .91196         88    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         88    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         88    
+Customer.TotalTime                          1.0222     (Insuf)    .42997     2.2740         88    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         11    
+Express Checkout.Queue.WaitingTime          .07058     (Insuf)    .00000     .91196         76    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .19779     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .04434     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .04434     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .14153     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .14153     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .01192     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           87.000    
+Customer.NumberOut                          88.000    
+Regular_Counter_1.NumberSeized              11.000    
+Regular_Counter_1.ScheduledUtilization      .04434    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                76.000    
+Express_Counter.ScheduledUtilization        .14153    
+System.NumberOut                            88.000    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91292     (Insuf)    .35268     1.7514         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .01834     (Insuf)    .00000     .86473         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .93126     (Insuf)    .35268     1.8109         63    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          7    
+Express Checkout.Queue.WaitingTime          .02064     (Insuf)    .00000     .86473         56    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13038     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .02339     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02339     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10442     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10442     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00257     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+Regular_Counter_1.NumberSeized              7.0000    
+Regular_Counter_1.ScheduledUtilization      .02339    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                56.000    
+Express_Counter.ScheduledUtilization        .10442    
+System.NumberOut                            63.000    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95071     (Insuf)    .31588     3.4985         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .01901     (Insuf)    .00000     .46712         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .96972     (Insuf)    .31588     3.4985         63    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          5    
+Express Checkout.Queue.WaitingTime          .02065     (Insuf)    .00000     .46712         58    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13576     (Insuf)    .00000     2.0000     .00000    
+Regular_Counter_1.NumberBusy                .02512     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .02512     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10798     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10798     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00266     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+Regular_Counter_1.NumberSeized              5.0000    
+Regular_Counter_1.ScheduledUtilization      .02512    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                58.000    
+Express_Counter.ScheduledUtilization        .10798    
+System.NumberOut                            63.000    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .94664     (Insuf)    .39507     2.2306         71    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         71    
+Customer.WaitTime                           .02621     (Insuf)    .00000     .58575         71    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         71    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         71    
+Customer.TotalTime                          .97285     (Insuf)    .39507     2.2306         71    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000         11    
+Express Checkout.Queue.WaitingTime          .03102     (Insuf)    .00000     .58575         60    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15349     (Insuf)    .00000     3.0000     .00000    
+Regular_Counter_1.NumberBusy                .04169     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .04169     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10767     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10767     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00414     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           71.000    
+Customer.NumberOut                          71.000    
+Regular_Counter_1.NumberSeized              11.000    
+Regular_Counter_1.ScheduledUtilization      .04169    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                60.000    
+Express_Counter.ScheduledUtilization        .10767    
+System.NumberOut                            71.000    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .92990     (Insuf)    .33050     3.0985         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .05982     (Insuf)    .00000     .96395         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          .98972     (Insuf)    .33050     3.0985         75    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          8    
+Express Checkout.Queue.WaitingTime          .06597     (Insuf)    .00000     .96395         68    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .17116     (Insuf)    .00000     2.0000     2.0000    
+Regular_Counter_1.NumberBusy                .03435     (Insuf)    .00000     1.0000     1.0000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .03435     (Insuf)    .00000     1.0000     1.0000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .12383     (Insuf)    .00000     1.0000     .00000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .12383     (Insuf)    .00000     1.0000     .00000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00302     (Insuf)    .00000     1.0000     1.0000    
+Express Checkout.Queue.NumberInQueue        .00997     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           77.000    
+Customer.NumberOut                          75.000    
+Regular_Counter_1.NumberSeized              8.0000    
+Regular_Counter_1.ScheduledUtilization      .03435    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                68.000    
+Express_Counter.ScheduledUtilization        .12383    
+System.NumberOut                            75.000    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Sunday, November 08, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87491     (Insuf)    .37657     2.0670         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .01686     (Insuf)    .00000     .45145         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .89178     (Insuf)    .37657     2.0670         63    
+Regular Checkout 2.Queue.WaitingTime            --         --         --         --          0
+Regular Checkout 1.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000          5    
+Express Checkout.Queue.WaitingTime          .01801     (Insuf)    .00000     .45145         59    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12617     (Insuf)    .00000     2.0000     1.0000    
+Regular_Counter_1.NumberBusy                .01861     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_1.Utilization               .01861     (Insuf)    .00000     1.0000     .00000    
+Regular_Counter_2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Regular_Counter_2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Regular_Counter_2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Express_Counter.NumberBusy                  .10521     (Insuf)    .00000     1.0000     1.0000    
+Express_Counter.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express_Counter.Utilization                 .10521     (Insuf)    .00000     1.0000     1.0000    
+Regular Checkout 2.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Regular Checkout 1.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout.Queue.NumberInQueue        .00236     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           64.000    
+Customer.NumberOut                          63.000    
+Regular_Counter_1.NumberSeized              5.0000    
+Regular_Counter_1.ScheduledUtilization      .01861    
+Regular_Counter_2.NumberSeized              .00000    
+Regular_Counter_2.ScheduledUtilization      .00000    
+Express_Counter.NumberSeized                59.000    
+Express_Counter.ScheduledUtilization        .10521    
+System.NumberOut                            63.000    
+
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Express Checkout                                            Run execution date :11/ 8/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 8/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           66.133     3.1356     51.000     87.000     30
+Customer.NumberOut                          66.033     3.1824     51.000     88.000     30
+Regular_Counter_1.NumberSeized              6.8333     .99066     3.0000     13.000     30
+Regular_Counter_1.ScheduledUtilization      .02671     .00381     .01211     .04759     30
+Regular_Counter_2.NumberSeized              .00000     .00000     .00000     .00000     30
+Regular_Counter_2.ScheduledUtilization      .00000     .00000     .00000     .00000     30
+Express_Counter.NumberSeized                59.266     3.0347     40.000     76.000     30
+Express_Counter.ScheduledUtilization        .10827     .00598     .06783     .14153     30
+System.NumberOut                            66.033     3.1824     51.000     88.000     30
+
+Simulation run time: 3.53 minutes.
+Simulation run complete.

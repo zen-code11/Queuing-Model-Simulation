@@ -1,0 +1,2432 @@
+SIMAN Run Controller.
+
+13.6 Minutes>
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .97576     (Insuf)    .22357     2.8832         51    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         51    
+Customer.WaitTime                           .05637     (Insuf)    .00000     1.3295         51    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         51    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         51    
+Customer.TotalTime                          1.0321     (Insuf)    .22357     3.6208         51    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .05637     (Insuf)    .00000     1.3295         51    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .11697     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11059     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11059     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00639     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           51.000    
+Customer.NumberOut                          51.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      51.000    
+Counter_2.ScheduledUtilization              .11059    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            51.000    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93198     (Insuf)    .40886     3.6125         70    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         70    
+Customer.WaitTime                           .05860     (Insuf)    .00000     .89531         70    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         70    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         70    
+Customer.TotalTime                          .99058     (Insuf)    .40886     3.6125         70    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .05860     (Insuf)    .00000     .89531         70    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15409     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .14497     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .14497     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00912     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           70.000    
+Customer.NumberOut                          70.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      70.000    
+Counter_2.ScheduledUtilization              .14497    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            70.000    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89243     (Insuf)    .31892     2.0162         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .07706     (Insuf)    .00000     1.5281         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          .96950     (Insuf)    .31892     2.8884         75    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .07811     (Insuf)    .00000     1.5281         74    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .16158     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .14699     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .14699     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00175     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00175     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01284     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           75.000    
+Customer.NumberOut                          75.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      74.000    
+Counter_2.ScheduledUtilization              .14699    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00175    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            75.000    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .88792     (Insuf)    .45574     2.1181         70    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         70    
+Customer.WaitTime                           .06083     (Insuf)    .00000     1.0729         70    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         70    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         70    
+Customer.TotalTime                          .94876     (Insuf)    .45574     2.1181         70    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .06171     (Insuf)    .00000     1.0729         69    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14758     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13676     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13676     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00136     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00136     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00946     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           70.000    
+Customer.NumberOut                          70.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      69.000    
+Counter_2.ScheduledUtilization              .13676    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00136    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            70.000    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87021     (Insuf)    .39685     2.3537         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .10790     (Insuf)    .00000     1.1436         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          .97811     (Insuf)    .39685     2.5538         73    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          2    
+Checkout 2.Queue.WaitingTime                .11252     (Insuf)    .00000     1.1436         70    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15738     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13696     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13696     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00293     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00293     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01750     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           72.000    
+Customer.NumberOut                          73.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      70.000    
+Counter_2.ScheduledUtilization              .13696    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      2.0000    
+Counter_1.ScheduledUtilization              .00293    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            73.000    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93032     (Insuf)    .40785     2.6219         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .06290     (Insuf)    .00000     .86941         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .99322     (Insuf)    .40785     2.6219         63    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .06290     (Insuf)    .00000     .86941         63    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13905     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13024     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13024     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00881     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      63.000    
+Counter_2.ScheduledUtilization              .13024    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            63.000    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .96860     (Insuf)    .34781     2.2849         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .03990     (Insuf)    .00000     .80474         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          1.0085     (Insuf)    .34781     2.4241         75    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .03937     (Insuf)    .00000     .80474         76    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .16950     (Insuf)    .00000     2.0000     1.0000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .16286     (Insuf)    .00000     1.0000     1.0000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .16286     (Insuf)    .00000     1.0000     1.0000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00665     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           76.000    
+Customer.NumberOut                          75.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      76.000    
+Counter_2.ScheduledUtilization              .16286    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            75.000    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1.0012     (Insuf)    .27894     2.6727         77    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         77    
+Customer.WaitTime                           .11660     (Insuf)    .00000     1.2212         77    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         77    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         77    
+Customer.TotalTime                          1.1178     (Insuf)    .27894     2.6727         77    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .11813     (Insuf)    .00000     1.2212         76    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .19127     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .16898     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .16898     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00234     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00234     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01995     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           77.000    
+Customer.NumberOut                          77.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      76.000    
+Counter_2.ScheduledUtilization              .16898    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00234    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            77.000    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89143     (Insuf)    .33818     2.2458         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .07393     (Insuf)    .00000     1.0273         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .96536     (Insuf)    .33818     2.3987         65    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .07508     (Insuf)    .00000     1.0273         64    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13944     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12702     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12702     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00174     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00174     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01068     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      64.000    
+Counter_2.ScheduledUtilization              .12702    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00174    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            65.000    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87563     (Insuf)    .35438     2.1529         72    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         72    
+Customer.WaitTime                           .07797     (Insuf)    .00000     1.1305         72    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         72    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         72    
+Customer.TotalTime                          .95360     (Insuf)    .35438     3.1322         72    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .07907     (Insuf)    .00000     1.1305         71    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14996     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13749     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13749     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01247     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           71.000    
+Customer.NumberOut                          72.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      71.000    
+Counter_2.ScheduledUtilization              .13749    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            72.000    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .85013     (Insuf)    .25541     2.0750         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .01910     (Insuf)    .00000     .56570         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          .86922     (Insuf)    .25541     2.0750         73    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .01936     (Insuf)    .00000     .56570         72    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14101     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13525     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13525     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00266     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00266     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00310     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           73.000    
+Customer.NumberOut                          73.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      72.000    
+Counter_2.ScheduledUtilization              .13525    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00266    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            73.000    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95491     (Insuf)    .45669     2.3259         60    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         60    
+Customer.WaitTime                           .04380     (Insuf)    .00000     .78200         60    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         60    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         60    
+Customer.TotalTime                          .99871     (Insuf)    .48429     2.3259         60    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .04454     (Insuf)    .00000     .78200         59    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13316     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12465     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12465     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00267     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00267     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00584     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           60.000    
+Customer.NumberOut                          60.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      59.000    
+Counter_2.ScheduledUtilization              .12465    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00267    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            60.000    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .88239     (Insuf)    .32776     1.8994         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .07926     (Insuf)    .00000     1.6846         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .96165     (Insuf)    .32776     2.3158         65    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .07926     (Insuf)    .00000     1.6846         65    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13890     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12746     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12746     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01145     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      65.000    
+Counter_2.ScheduledUtilization              .12746    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            65.000    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89218     (Insuf)    .38074     2.0169         56    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         56    
+Customer.WaitTime                           .07759     (Insuf)    .00000     .85956         56    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         56    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         56    
+Customer.TotalTime                          .96977     (Insuf)    .43140     2.0942         56    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .07759     (Insuf)    .00000     .85956         56    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12068     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11103     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11103     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00966     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           56.000    
+Customer.NumberOut                          56.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      56.000    
+Counter_2.ScheduledUtilization              .11103    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            56.000    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91124     (Insuf)    .15594     2.5571         73    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         73    
+Customer.WaitTime                           .04531     (Insuf)    .00000     .70854         73    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         73    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         73    
+Customer.TotalTime                          .95655     (Insuf)    .15594     2.9786         73    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .04531     (Insuf)    .00000     .70854         73    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15517     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .14782     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .14782     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00735     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           73.000    
+Customer.NumberOut                          73.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      73.000    
+Counter_2.ScheduledUtilization              .14782    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            73.000    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .93573     (Insuf)    .35157     1.5373         56    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         56    
+Customer.WaitTime                           .04340     (Insuf)    .00000     .73018         56    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         56    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         56    
+Customer.TotalTime                          .97913     (Insuf)    .35157     1.5373         56    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .04419     (Insuf)    .00000     .73018         55    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12185     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11552     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11552     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                         9.2513E-4 (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                        9.2513E-4 (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00540     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           56.000    
+Customer.NumberOut                          56.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      55.000    
+Counter_2.ScheduledUtilization              .11552    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization               9.2513E-4
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            56.000    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91001     (Insuf)    .35661     2.2148         57    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         57    
+Customer.WaitTime                           .05380     (Insuf)    .00000     .82677         57    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         57    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         57    
+Customer.TotalTime                          .96381     (Insuf)    .35661     2.2148         57    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .05380     (Insuf)    .00000     .82677         57    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12208     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11527     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11527     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00681     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           57.000    
+Customer.NumberOut                          57.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      57.000    
+Counter_2.ScheduledUtilization              .11527    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            57.000    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .94555     (Insuf)    .40086     2.7680         68    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         68    
+Customer.WaitTime                           .09613     (Insuf)    .00000     1.3241         68    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         68    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         68    
+Customer.TotalTime                          1.0416     (Insuf)    .40086     3.9807         68    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .09756     (Insuf)    .00000     1.3241         67    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15741     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13928     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13928     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00360     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00360     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01453     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           68.000    
+Customer.NumberOut                          68.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      67.000    
+Counter_2.ScheduledUtilization              .13928    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00360    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            68.000    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .90591     (Insuf)    .22915     2.0595         65    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Customer.WaitTime                           .06444     (Insuf)    .00000     .60674         65    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Customer.TotalTime                          .97035     (Insuf)    .22915     2.0595         65    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .06544     (Insuf)    .00000     .60674         64    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14016     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12910     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12910     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00175     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00175     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00931     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           65.000    
+Customer.NumberOut                          65.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      64.000    
+Counter_2.ScheduledUtilization              .12910    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00175    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            65.000    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .90388     (Insuf)    .30646     2.6361         52    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         52    
+Customer.WaitTime                           .04049     (Insuf)    .00000     .95558         52    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         52    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         52    
+Customer.TotalTime                          .94437     (Insuf)    .30646     2.6361         52    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .04049     (Insuf)    .00000     .95558         52    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .10913     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .10445     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .10445     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00468     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           52.000    
+Customer.NumberOut                          52.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      52.000    
+Counter_2.ScheduledUtilization              .10445    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            52.000    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .84093     (Insuf)    .35416     2.4888         67    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         67    
+Customer.WaitTime                           .05677     (Insuf)    .00000     1.2132         67    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         67    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         67    
+Customer.TotalTime                          .89771     (Insuf)    .35416     2.4888         67    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .05763     (Insuf)    .00000     1.2132         66    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13366     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12287     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12287     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00234     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00234     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00845     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           67.000    
+Customer.NumberOut                          67.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      66.000    
+Counter_2.ScheduledUtilization              .12287    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00234    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            67.000    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .97169     (Insuf)    .32607     2.0698         64    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         64    
+Customer.WaitTime                           .05331     (Insuf)    .00000     .66133         64    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         64    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         64    
+Customer.TotalTime                          1.0250     (Insuf)    .32607     2.0698         64    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .05416     (Insuf)    .00000     .66133         63    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14578     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13617     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13617     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00203     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00203     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00758     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           64.000    
+Customer.NumberOut                          64.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      63.000    
+Counter_2.ScheduledUtilization              .13617    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00203    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            64.000    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89161     (Insuf)    .39019     2.3952         58    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         58    
+Customer.WaitTime                           .04112     (Insuf)    .00000     1.0342         58    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         58    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         58    
+Customer.TotalTime                          .93273     (Insuf)    .39019     2.3952         58    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .04112     (Insuf)    .00000     1.0342         58    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12022     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11492     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11492     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00530     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           58.000    
+Customer.NumberOut                          58.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      58.000    
+Counter_2.ScheduledUtilization              .11492    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            58.000    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             1.0009     (Insuf)    .47403     2.1430         53    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         53    
+Customer.WaitTime                           .08997     (Insuf)    .00000     1.0764         53    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         53    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         53    
+Customer.TotalTime                          1.0909     (Insuf)    .48552     2.1430         53    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .08997     (Insuf)    .00000     1.0764         53    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12931     (Insuf)    .00000     3.0000     2.0000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .11643     (Insuf)    .00000     1.0000     1.0000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .11643     (Insuf)    .00000     1.0000     1.0000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00198     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00198     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01089     (Insuf)    .00000     1.0000     1.0000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           55.000    
+Customer.NumberOut                          53.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      53.000    
+Counter_2.ScheduledUtilization              .11643    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00198    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            53.000    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95404     (Insuf)    .42997     2.2740         88    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         88    
+Customer.WaitTime                           .09628     (Insuf)    .00000     1.2693         88    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         88    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         88    
+Customer.TotalTime                          1.0503     (Insuf)    .42997     2.3854         88    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .09006     (Insuf)    .00000     1.2693         87    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .20328     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .18587     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .18587     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01741     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           87.000    
+Customer.NumberOut                          88.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      87.000    
+Counter_2.ScheduledUtilization              .18587    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            88.000    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .91292     (Insuf)    .35268     1.7514         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .04580     (Insuf)    .00000     .86473         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .95872     (Insuf)    .35268     1.8109         63    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .04580     (Insuf)    .00000     .86473         63    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .13422     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12781     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12781     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00641     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      63.000    
+Counter_2.ScheduledUtilization              .12781    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            63.000    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95071     (Insuf)    .31588     3.4985         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .06003     (Insuf)    .00000     1.8177         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          1.0107     (Insuf)    .31588     3.4985         63    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .06003     (Insuf)    .00000     1.8177         63    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .14150     (Insuf)    .00000     2.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .13310     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .13310     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00840     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           63.000    
+Customer.NumberOut                          63.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      63.000    
+Counter_2.ScheduledUtilization              .13310    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            63.000    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .94664     (Insuf)    .39507     2.2306         71    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         71    
+Customer.WaitTime                           .06348     (Insuf)    .00000     .86297         71    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         71    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         71    
+Customer.TotalTime                          1.0101     (Insuf)    .39507     2.4428         71    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Checkout 2.Queue.WaitingTime                .06439     (Insuf)    .00000     .86297         70    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .15937     (Insuf)    .00000     3.0000     .00000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .14804     (Insuf)    .00000     1.0000     .00000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .14804     (Insuf)    .00000     1.0000     .00000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00132     (Insuf)    .00000     1.0000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00132     (Insuf)    .00000     1.0000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01002     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           71.000    
+Customer.NumberOut                          71.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      70.000    
+Counter_2.ScheduledUtilization              .14804    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      1.0000    
+Counter_1.ScheduledUtilization              .00132    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            71.000    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .92990     (Insuf)    .33050     3.0985         75    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         75    
+Customer.WaitTime                           .09293     (Insuf)    .00000     2.4834         75    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         75    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         75    
+Customer.TotalTime                          1.0228     (Insuf)    .33050     3.4844         75    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .09171     (Insuf)    .00000     2.4834         76    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .17668     (Insuf)    .00000     2.0000     2.0000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .15818     (Insuf)    .00000     1.0000     1.0000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .15818     (Insuf)    .00000     1.0000     1.0000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .01850     (Insuf)    .00000     1.0000     1.0000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           77.000    
+Customer.NumberOut                          75.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      76.000    
+Counter_2.ScheduledUtilization              .15818    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            75.000    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+Replication ended at time      : 480.0 Minutes 
+Statistics were cleared at time: 30.0 Minutes (Monday, November 09, 2026, 00:30:00)
+Statistics accumulated for time: 450.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87491     (Insuf)    .37657     2.0670         63    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         63    
+Customer.WaitTime                           .01686     (Insuf)    .00000     .45145         63    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         63    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         63    
+Customer.TotalTime                          .89178     (Insuf)    .37657     2.0670         63    
+ControlEntity.VATime                            --         --         --         --          0
+ControlEntity.NVATime                           --         --         --         --          0
+ControlEntity.WaitTime                          --         --         --         --          0
+ControlEntity.TranTime                          --         --         --         --          0
+ControlEntity.OtherTime                         --         --         --         --          0
+ControlEntity.TotalTime                         --         --         --         --          0
+Checkout 1.Queue.WaitingTime                    --         --         --         --          0
+Checkout 2.Queue.WaitingTime                .01660     (Insuf)    .00000     .45145         64    
+Checkout 3.Queue.WaitingTime                    --         --         --         --          0
+Checkout 4.Queue.WaitingTime                    --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .12617     (Insuf)    .00000     2.0000     1.0000    
+ControlEntity.WIP                           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.NumberBusy                        .12381     (Insuf)    .00000     1.0000     1.0000    
+Counter_2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_2.Utilization                       .12381     (Insuf)    .00000     1.0000     1.0000    
+Counter_3.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_3.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Counter_1.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberBusy                        .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.NumberScheduled                   .00000     (Insuf)    .00000     .00000     .00000    
+Counter_4.Utilization                       .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 1.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 2.Queue.NumberInQueue              .00236     (Insuf)    .00000     1.0000     .00000    
+Checkout 3.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Checkout 4.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           64.000    
+Customer.NumberOut                          63.000    
+ControlEntity.NumberIn                      .00000    
+ControlEntity.NumberOut                     .00000    
+Counter_2.NumberSeized                      64.000    
+Counter_2.ScheduledUtilization              .12381    
+Counter_3.NumberSeized                      .00000    
+Counter_3.ScheduledUtilization              .00000    
+Counter_1.NumberSeized                      .00000    
+Counter_1.ScheduledUtilization              .00000    
+Counter_4.NumberSeized                      .00000    
+Counter_4.ScheduledUtilization              .00000    
+System.NumberOut                            63.000    
+
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Dynamic Counter                                             Run execution date :11/ 9/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/ 9/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           66.133     3.1356     51.000     87.000     30
+Customer.NumberOut                          66.033     3.1824     51.000     88.000     30
+ControlEntity.NumberIn                      .00000     .00000     .00000     .00000     30
+ControlEntity.NumberOut                     .00000     .00000     .00000     .00000     30
+Counter_2.NumberSeized                      65.566     3.1171     51.000     87.000     30
+Counter_2.ScheduledUtilization              .13400     .00689     .10445     .18587     30
+Counter_3.NumberSeized                      .00000     .00000     .00000     .00000     30
+Counter_3.ScheduledUtilization              .00000     .00000     .00000     .00000     30
+Counter_1.NumberSeized                      .50000     .21370     .00000     2.0000     30
+Counter_1.ScheduledUtilization               9.7964E-4  4.3586E-4 .00000     .00360     30
+Counter_4.NumberSeized                      .00000     .00000     .00000     .00000     30
+Counter_4.ScheduledUtilization              .00000     .00000     .00000     .00000     30
+System.NumberOut                            66.033     3.1824     51.000     88.000     30
+
+Simulation run time: 0.15 minutes.
+Simulation run complete.
