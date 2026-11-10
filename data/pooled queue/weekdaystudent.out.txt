@@ -1,0 +1,1524 @@
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89865     (Insuf)    .38223     2.8832         19    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         19    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         19    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         19    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         19    
+Customer.TotalTime                          .89865     (Insuf)    .38223     2.8832         19    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         19    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .34149     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .34149     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .08537     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           19.000    
+Customer.NumberOut                          19.000    
+server.NumberSeized                         19.000    
+server.ScheduledUtilization                 .08537    
+System.NumberOut                            19.000    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .81816     (Insuf)    .26357     2.1657         29    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
+Customer.TotalTime                          .81816     (Insuf)    .26357     2.1657         29    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         29    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .47453     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .47453     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .11863     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           29.000    
+Customer.NumberOut                          29.000    
+server.NumberSeized                         29.000    
+server.ScheduledUtilization                 .11863    
+System.NumberOut                            29.000    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .77480     (Insuf)    .34167     2.0995         32    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         32    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         32    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         32    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         32    
+Customer.TotalTime                          .77480     (Insuf)    .34167     2.0995         32    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         32    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .49587     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .49587     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .12397     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           32.000    
+Customer.NumberOut                          32.000    
+server.NumberSeized                         32.000    
+server.ScheduledUtilization                 .12397    
+System.NumberOut                            32.000    
+
+Beginning replication 4 of 30
+SIMAN Run Controller.
+
+34.653472 Minutes>
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .77931     (Insuf)    .36313     1.9754         26    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         26    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         26    
+Customer.TotalTime                          .77931     (Insuf)    .36313     1.9754         26    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .40524     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .40524     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .10131     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           26.000    
+Customer.NumberOut                          26.000    
+server.NumberSeized                         26.000    
+server.ScheduledUtilization                 .10131    
+System.NumberOut                            26.000    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .80193     (Insuf)    .46740     1.5971         31    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .80193     (Insuf)    .46740     1.5971         31    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .49720     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .49720     (Insuf)    .00000     4.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .12430     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           31.000    
+Customer.NumberOut                          31.000    
+server.NumberSeized                         31.000    
+server.ScheduledUtilization                 .12430    
+System.NumberOut                            31.000    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .68591     (Insuf)    .20907     1.0523         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .68591     (Insuf)    .20907     1.0523         20    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .27436     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .27436     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .06859     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           20.000    
+Customer.NumberOut                          20.000    
+server.NumberSeized                         20.000    
+server.ScheduledUtilization                 .06859    
+System.NumberOut                            20.000    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .73092     (Insuf)    .34857     1.4303         33    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         33    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         33    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         33    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         33    
+Customer.TotalTime                          .73092     (Insuf)    .34857     1.4303         33    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         34    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .48377     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .48377     (Insuf)    .00000     3.0000     1.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .12094     (Insuf)    .00000     .75000     .25000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           34.000    
+Customer.NumberOut                          33.000    
+server.NumberSeized                         34.000    
+server.ScheduledUtilization                 .12094    
+System.NumberOut                            33.000    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .97789     (Insuf)    .35566     2.6727         36    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         36    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         36    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         36    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         36    
+Customer.TotalTime                          .97789     (Insuf)    .35566     2.6727         36    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         36    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .69031     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .69031     (Insuf)    .00000     3.0000     1.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .17258     (Insuf)    .00000     .75000     .25000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           36.000    
+Customer.NumberOut                          36.000    
+server.NumberSeized                         36.000    
+server.ScheduledUtilization                 .17258    
+System.NumberOut                            36.000    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .87073     (Insuf)    .28114     1.5789         23    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         23    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         23    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         23    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         23    
+Customer.TotalTime                          .87073     (Insuf)    .28114     1.5789         23    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         24    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .40806     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .40806     (Insuf)    .00000     3.0000     1.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .10201     (Insuf)    .00000     .75000     .25000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           24.000    
+Customer.NumberOut                          23.000    
+server.NumberSeized                         24.000    
+server.ScheduledUtilization                 .10201    
+System.NumberOut                            23.000    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .90457     (Insuf)    .42342     1.9380         31    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .90457     (Insuf)    .42342     1.9380         31    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .56083     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .56083     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .14021     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           31.000    
+Customer.NumberOut                          31.000    
+server.NumberSeized                         31.000    
+server.ScheduledUtilization                 .14021    
+System.NumberOut                            31.000    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .77519     (Insuf)    .32873     1.6080         25    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         25    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         25    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         25    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         25    
+Customer.TotalTime                          .77519     (Insuf)    .32873     1.6080         25    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .38760     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .38760     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .09690     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           25.000    
+Customer.NumberOut                          25.000    
+server.NumberSeized                         25.000    
+server.ScheduledUtilization                 .09690    
+System.NumberOut                            25.000    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .77004     (Insuf)    .34061     1.3956         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .77004     (Insuf)    .34061     1.3956         20    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .30801     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .30801     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .07700     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           20.000    
+Customer.NumberOut                          20.000    
+server.NumberSeized                         20.000    
+server.ScheduledUtilization                 .07700    
+System.NumberOut                            20.000    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .76157     (Insuf)    .45012     1.6321         25    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         25    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         25    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         25    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         25    
+Customer.TotalTime                          .76157     (Insuf)    .45012     1.6321         25    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .38078     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .38078     (Insuf)    .00000     4.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .09520     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           25.000    
+Customer.NumberOut                          25.000    
+server.NumberSeized                         25.000    
+server.ScheduledUtilization                 .09520    
+System.NumberOut                            25.000    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .76936     (Insuf)    .31802     2.0876         22    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         22    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         22    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         22    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         22    
+Customer.TotalTime                          .76936     (Insuf)    .31802     2.0876         22    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         23    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .33316     (Insuf)    .00000     4.0000     2.0000    
+server.NumberBusy                           .33316     (Insuf)    .00000     4.0000     2.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .08329     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           23.000    
+Customer.NumberOut                          22.000    
+server.NumberSeized                         23.000    
+server.ScheduledUtilization                 .08329    
+System.NumberOut                            22.000    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .89895     (Insuf)    .36804     1.6974         26    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         26    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         26    
+Customer.TotalTime                          .89895     (Insuf)    .36804     1.6974         26    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .46745     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .46745     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .11686     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           26.000    
+Customer.NumberOut                          26.000    
+server.NumberSeized                         26.000    
+server.ScheduledUtilization                 .11686    
+System.NumberOut                            26.000    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .80770     (Insuf)    .40921     1.4062         19    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         19    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         19    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         19    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         19    
+Customer.TotalTime                          .80770     (Insuf)    .40921     1.4062         19    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         19    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .30692     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .30692     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .07673     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           19.000    
+Customer.NumberOut                          19.000    
+server.NumberSeized                         19.000    
+server.ScheduledUtilization                 .07673    
+System.NumberOut                            19.000    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .82206     (Insuf)    .41411     1.7682         15    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         15    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         15    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         15    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         15    
+Customer.TotalTime                          .82206     (Insuf)    .41411     1.7682         15    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         16    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .25963     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .25963     (Insuf)    .00000     3.0000     1.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .06491     (Insuf)    .00000     .75000     .25000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           16.000    
+Customer.NumberOut                          15.000    
+server.NumberSeized                         16.000    
+server.ScheduledUtilization                 .06491    
+System.NumberOut                            15.000    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .83695     (Insuf)    .25080     2.7680         34    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         34    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         34    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         34    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         34    
+Customer.TotalTime                          .83695     (Insuf)    .25080     2.7680         34    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         34    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .56913     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .56913     (Insuf)    .00000     4.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .14228     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           34.000    
+Customer.NumberOut                          34.000    
+server.NumberSeized                         34.000    
+server.ScheduledUtilization                 .14228    
+System.NumberOut                            34.000    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .75396     (Insuf)    .29074     1.3001         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .75396     (Insuf)    .29074     1.3001         20    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         21    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .31062     (Insuf)    .00000     3.0000     2.0000    
+server.NumberBusy                           .31062     (Insuf)    .00000     3.0000     2.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .07765     (Insuf)    .00000     .75000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           21.000    
+Customer.NumberOut                          20.000    
+server.NumberSeized                         21.000    
+server.ScheduledUtilization                 .07765    
+System.NumberOut                            20.000    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .80156     (Insuf)    .24014     1.9568         18    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         18    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         18    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         18    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         18    
+Customer.TotalTime                          .80156     (Insuf)    .24014     1.9568         18    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         18    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .28856     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .28856     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .07214     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           18.000    
+Customer.NumberOut                          18.000    
+server.NumberSeized                         18.000    
+server.ScheduledUtilization                 .07214    
+System.NumberOut                            18.000    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .67517     (Insuf)    .29949     1.4731         17    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         17    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         17    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         17    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         17    
+Customer.TotalTime                          .67517     (Insuf)    .29949     1.4731         17    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         18    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .24808     (Insuf)    .00000     2.0000     1.0000    
+server.NumberBusy                           .24808     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .06202     (Insuf)    .00000     .50000     .25000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           18.000    
+Customer.NumberOut                          17.000    
+server.NumberSeized                         18.000    
+server.ScheduledUtilization                 .06202    
+System.NumberOut                            17.000    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .94635     (Insuf)    .40584     1.7501         27    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         27    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         27    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         27    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         27    
+Customer.TotalTime                          .94635     (Insuf)    .40584     1.7501         27    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .49121     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .49121     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .12280     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           26.000    
+Customer.NumberOut                          27.000    
+server.NumberSeized                         26.000    
+server.ScheduledUtilization                 .12280    
+System.NumberOut                            27.000    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .63474     (Insuf)    .36883     1.1667         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .63474     (Insuf)    .36883     1.1667         20    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .25390     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .25390     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .06347     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           20.000    
+Customer.NumberOut                          20.000    
+server.NumberSeized                         20.000    
+server.ScheduledUtilization                 .06347    
+System.NumberOut                            20.000    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .88610     (Insuf)    .28789     2.4763         21    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         21    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Customer.TotalTime                          .88610     (Insuf)    .28789     2.4763         21    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         21    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .37216     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .37216     (Insuf)    .00000     4.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .09304     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           21.000    
+Customer.NumberOut                          21.000    
+server.NumberSeized                         21.000    
+server.ScheduledUtilization                 .09304    
+System.NumberOut                            21.000    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .81119     (Insuf)    .33488     2.2740         31    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .81119     (Insuf)    .33488     2.2740         31    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .50294     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .50294     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .12573     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           31.000    
+Customer.NumberOut                          31.000    
+server.NumberSeized                         31.000    
+server.ScheduledUtilization                 .12573    
+System.NumberOut                            31.000    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .95379     (Insuf)    .54287     1.4780         21    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         21    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Customer.TotalTime                          .95379     (Insuf)    .54287     1.4780         21    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .37702     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .37702     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .09426     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           20.000    
+Customer.NumberOut                          21.000    
+server.NumberSeized                         20.000    
+server.ScheduledUtilization                 .09426    
+System.NumberOut                            21.000    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .75677     (Insuf)    .32494     1.4415         26    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         26    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         26    
+Customer.TotalTime                          .75677     (Insuf)    .32494     1.4415         26    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .39352     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .39352     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .09838     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           26.000    
+Customer.NumberOut                          26.000    
+server.NumberSeized                         26.000    
+server.ScheduledUtilization                 .09838    
+System.NumberOut                            26.000    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .70929     (Insuf)    .31238     1.8036         31    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .70929     (Insuf)    .31238     1.8036         31    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .43976     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .43976     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .10994     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           31.000    
+Customer.NumberOut                          31.000    
+server.NumberSeized                         31.000    
+server.ScheduledUtilization                 .10994    
+System.NumberOut                            31.000    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .79422     (Insuf)    .15205     1.8944         29    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
+Customer.TotalTime                          .79422     (Insuf)    .15205     1.8944         29    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .43904     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .43904     (Insuf)    .00000     3.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .10976     (Insuf)    .00000     .75000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           27.000    
+Customer.NumberOut                          29.000    
+server.NumberSeized                         27.000    
+server.ScheduledUtilization                 .10976    
+System.NumberOut                            29.000    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+Replication ended at time      : 60.0 Minutes 
+Statistics were cleared at time: 10.0 Minutes (Tuesday, November 10, 2026, 00:10:00)
+Statistics accumulated for time: 50.0 Minutes
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .61946     (Insuf)    .27567     1.1681         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .61946     (Insuf)    .27567     1.1681         20    
+Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .24778     (Insuf)    .00000     2.0000     .00000    
+server.NumberBusy                           .24778     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
+server.Utilization                          .06195     (Insuf)    .00000     .50000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           20.000    
+Customer.NumberOut                          20.000    
+server.NumberSeized                         20.000    
+server.ScheduledUtilization                 .06195    
+System.NumberOut                            20.000    
+
+
+                                      ARENA Simulation Results
+                        saishashankreddypuchala@gmail.com - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Unnamed Project                                             Run execution date :11/10/2026
+Analyst: saishashankreddypuchala@gmail.com                           Model revision date:11/10/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           24.966     2.0948     16.000     36.000     30
+Customer.NumberOut                          24.900     2.1399     15.000     36.000     30
+server.NumberSeized                         24.966     2.0948     16.000     36.000     30
+server.ScheduledUtilization                 .10007     .01021     .06195     .17258     30
+System.NumberOut                            24.900     2.1399     15.000     36.000     30
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
