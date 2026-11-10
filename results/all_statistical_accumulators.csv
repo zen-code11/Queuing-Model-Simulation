@@ -1,0 +1,435 @@
+Framework,ScenarioKey,Scenario,Category,Identifier,ReplicationsCount,Mean,StdDev,CI95_HalfWidth,CI95_Lower,CI95_Upper,Median,IQR,MinOfReplications,MaxOfReplications,ObservedGlobalMin,ObservedGlobalMax
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.VATime,30,0.9197219999999999,0.04171211974706037,0.015575561490741071,0.9041464385092589,0.935297561490741,0.91208,0.05821750000000003,0.84093,1.0012,0.15594,3.6125
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.WaitTime,30,0.063731,0.024178235631986508,0.009028301560967122,0.054702698439032874,0.07275930156096712,0.06043,0.0324425,0.01686,0.1166,0.0,2.4834
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Customer.TotalTime,30,0.9834476666666667,0.05371322592430472,0.020056848185209655,0.963390818481457,1.0035045148518764,0.97423,0.053457499999999825,0.86922,1.1178,0.15594,3.9807
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Checkout 1.Queue.WaitingTime,14,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Tally,Checkout 2.Queue.WaitingTime,30,0.064029,0.02437190883670845,0.009100620324135904,0.0549283796758641,0.0731296203241359,0.06087,0.0333975,0.0166,0.11813,0.0,2.4834
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Customer.WIP,30,0.144552,0.021673013316262615,0.008092836174332482,0.13645916382566753,0.1526448361743325,0.14058500000000002,0.026554999999999995,0.10913,0.20328,0.0,3.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,ControlEntity.WIP,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_2.NumberBusy,30,0.1339963333333333,0.018447876521727902,0.006888550303368872,0.12710778302996442,0.14088488363670218,0.13167,0.020442500000000002,0.10445,0.18587,0.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_2.Utilization,30,0.1339963333333333,0.018447876521727902,0.006888550303368872,0.12710778302996442,0.14088488363670218,0.13167,0.020442500000000002,0.10445,0.18587,0.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_3.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_3.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_3.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_1.NumberBusy,29,0.0009817241379310347,0.0011882882916360866,0.00045200069269453556,0.0005297234452364991,0.0014337248306255702,0.0,0.00198,0.0,0.0036,0.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_1.Utilization,29,0.0009817241379310347,0.0011882882916360866,0.00045200069269453556,0.0005297234452364991,0.0014337248306255702,0.0,0.00198,0.0,0.0036,0.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_4.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_4.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Counter_4.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Checkout 1.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Checkout 2.Queue.NumberInQueue,30,0.009577333333333332,0.00446506588230603,0.001667283001482292,0.00791005033185104,0.011244616334815624,0.008965,0.0048400000000000006,0.00236,0.01995,0.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Checkout 3.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Discrete-Change,Checkout 4.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Customer.NumberIn,30,66.13333333333334,8.398412548412548,3.1360187846034795,62.99731454872986,69.26935211793682,65.0,11.0,51.0,87.0,51.0,87.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Customer.NumberOut,30,66.03333333333333,8.523732925690817,3.182814182540026,62.8505191507933,69.21614751587336,65.0,12.0,51.0,88.0,51.0,88.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,ControlEntity.NumberIn,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,ControlEntity.NumberOut,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_2.NumberSeized,30,65.56666666666666,8.34879026270122,3.117489518598906,62.449177148067754,68.68415618526556,64.5,10.75,51.0,87.0,51.0,87.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_2.ScheduledUtilization,30,0.1339963333333333,0.018447876521727902,0.006888550303368872,0.12710778302996442,0.14088488363670218,0.13167,0.020442500000000002,0.10445,0.18587,0.10445,0.18587
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_3.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_3.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_1.NumberSeized,30,0.5,0.572351471472339,0.2137195518303,0.2862804481697,0.7137195518303,0.0,1.0,0.0,2.0,0.0,2.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_1.ScheduledUtilization,29,0.0009817241379310347,0.0011882882916360866,0.00045200069269453556,0.0005297234452364991,0.0014337248306255702,0.0,0.00198,0.0,0.0036,0.0,0.0036
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_4.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,Counter_4.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,Output,System.NumberOut,30,66.03333333333333,8.523732925690817,3.182814182540026,62.8505191507933,69.21614751587336,65.0,12.0,51.0,88.0,51.0,88.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.VATime,30,0.9172570000000001,0.04192269043666302,0.01565418987846008,0.90160281012154,0.9329111898784602,0.920615,0.06477,0.83634,1.0157,0.15594,3.6125
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.WaitTime,30,0.246346,0.0451307714887793,0.01685210703053769,0.22949389296946232,0.2631981070305377,0.23909,0.052547500000000025,0.14705,0.34842,0.0,2.9855
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Customer.TotalTime,30,1.1635566666666668,0.07257830341387696,0.027101183890233017,1.1364554827764337,1.1906578505568999,1.1571,0.11054999999999993,1.0284,1.3551,0.15594,4.4382
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Checkout 1.Queue.WaitingTime,30,0.09605133333333332,0.09185359346614413,0.03429869548354195,0.061752637849791375,0.13035002881687527,0.09351999999999999,0.130575,0.0,0.41065,0.0,1.742
+Dynamic Counter,weekdaypeak,Weekday Peak,Tally,Checkout 2.Queue.WaitingTime,30,0.26861266666666667,0.047787879283734506,0.017844287387201743,0.25076837927946494,0.2864569540538684,0.26888,0.06073249999999997,0.15363,0.3753,0.0,2.9855
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Customer.WIP,30,0.7890619999999998,0.24224849636058737,0.09045707516146559,0.6986049248385342,0.8795190751614654,0.7280549999999999,0.11606749999999999,0.55752,1.9142,0.0,6.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,ControlEntity.WIP,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_2.NumberBusy,30,0.5136470000000001,0.05825732780014711,0.021753643711703196,0.4918933562882969,0.5354006437117033,0.50836,0.05238000000000009,0.41577,0.63573,0.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_2.Utilization,30,0.5136470000000001,0.05825732780014711,0.021753643711703196,0.4918933562882969,0.5354006437117033,0.50836,0.05238000000000009,0.41577,0.63573,0.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_3.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_3.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_3.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_1.NumberBusy,30,0.08013466666666667,0.034547892768049454,0.012900395171650451,0.06723427149501622,0.09303506183831713,0.07585,0.0555,0.02503,0.15036,0.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_1.Utilization,30,0.08013466666666667,0.034547892768049454,0.012900395171650451,0.06723427149501622,0.09303506183831713,0.07585,0.0555,0.02503,0.15036,0.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_4.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_4.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Counter_4.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Checkout 1.Queue.NumberInQueue,30,0.010035666666666667,0.01127104856466897,0.004208678701745969,0.005826987964920698,0.014244345368412636,0.007955,0.012585,0.0,0.04928,0.0,2.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Checkout 2.Queue.NumberInQueue,30,0.15191599999999997,0.035353808710587714,0.013201329130305426,0.13871467086969455,0.16511732913030538,0.14554,0.04344500000000001,0.0891,0.22629,0.0,2.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Checkout 3.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Discrete-Change,Checkout 4.Queue.NumberInQueue,30,0.03333333333333333,0.18257418583505533,0.06817432140442345,-0.034840988071090116,0.10150765473775678,0.0,0.0,0.0,1.0,0.0,1.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Customer.NumberIn,30,64.86666666666666,8.182122367502311,3.055254703731077,61.81141196293558,67.92192137039774,65.5,10.5,50.0,82.0,50.0,82.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Customer.NumberOut,30,64.7,8.086387028359068,3.0195065405903723,61.68049345940963,67.71950654059037,65.0,10.75,50.0,81.0,50.0,81.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,ControlEntity.NumberIn,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,ControlEntity.NumberOut,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_2.NumberSeized,30,56.13333333333333,5.745963100649271,2.1455778833680386,53.98775544996529,58.278911216701374,56.0,6.5,45.0,66.0,45.0,66.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_2.ScheduledUtilization,30,0.5136470000000001,0.05825732780014711,0.021753643711703196,0.4918933562882969,0.5354006437117033,0.50836,0.05238000000000009,0.41577,0.63573,0.41577,0.63573
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_3.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_3.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_1.NumberSeized,30,8.6,3.5095927654516195,1.310503476141466,7.289496523858533,9.910503476141466,9.0,4.0,4.0,17.0,4.0,17.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_1.ScheduledUtilization,30,0.08013466666666667,0.034547892768049454,0.012900395171650451,0.06723427149501622,0.09303506183831713,0.07585,0.0555,0.02503,0.15036,0.02503,0.15036
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_4.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,Counter_4.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaypeak,Weekday Peak,Output,System.NumberOut,30,64.7,8.086387028359068,3.0195065405903723,61.68049345940963,67.71950654059037,65.0,10.75,50.0,81.0,50.0,81.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.VATime,30,0.8020216666666666,0.09152025783223165,0.03417422591223887,0.7678474407544278,0.8361958925789055,0.79789,0.10431499999999994,0.61946,0.97789,0.15205,2.8832
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.WaitTime,30,0.1579306666666667,0.07085993235484588,0.026459533591563295,0.13147113307510339,0.18439020025823,0.162935,0.0700075,0.00861,0.34834,0.0,2.6444
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Customer.TotalTime,30,0.9599376666666666,0.14052351870118013,0.052472344241862305,0.9074653224248043,1.0124100109085288,0.95635,0.1333375,0.62807,1.2344,0.15205,3.5722
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Checkout 1.Queue.WaitingTime,25,0.073598,0.133853140979209,0.05525186102727653,0.01834613897272347,0.12884986102727652,0.0,0.13219,0.0,0.4626,0.0,1.3878
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Tally,Checkout 2.Queue.WaitingTime,30,0.1657546666666667,0.07238165917114511,0.0270277557232388,0.1387269109434279,0.19278242238990548,0.17098,0.06728749999999997,0.00861,0.36272,0.0,2.6444
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Customer.WIP,30,0.5155116666666666,0.25314178953201555,0.09452469768118199,0.4209869689854846,0.6100363643478486,0.478655,0.19427499999999998,0.25123,1.6112,0.0,5.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,ControlEntity.WIP,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_2.NumberBusy,30,0.364753,0.09374393656345884,0.03500456119665757,0.3297484388033424,0.39975756119665756,0.359705,0.15593,0.22578,0.61377,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_2.Utilization,30,0.364753,0.09374393656345884,0.03500456119665757,0.3297484388033424,0.39975756119665756,0.359705,0.15593,0.22578,0.61377,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_3.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_3.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_3.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_1.NumberBusy,30,0.035331666666666664,0.02368288412703809,0.008843334269167022,0.02648833239749964,0.04417500093583369,0.035070000000000004,0.034265000000000004,0.0,0.07654,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_1.Utilization,30,0.035331666666666664,0.02368288412703809,0.008843334269167022,0.02648833239749964,0.04417500093583369,0.035070000000000004,0.034265000000000004,0.0,0.07654,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_4.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_4.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Counter_4.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Checkout 1.Queue.NumberInQueue,30,0.004264333333333333,0.009002524045810836,0.0033615977250181254,0.0009027356083152072,0.007625931058351458,0.0,0.0,0.0,0.0293,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Checkout 2.Queue.NumberInQueue,30,0.07782800000000001,0.04030396706751471,0.01504974863870636,0.06277825136129364,0.09287774863870638,0.07601,0.04460749999999999,0.00344,0.17474,0.0,2.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Checkout 3.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Discrete-Change,Checkout 4.Queue.NumberInQueue,30,0.03333333333333333,0.18257418583505533,0.06817432140442345,-0.034840988071090116,0.10150765473775678,0.0,0.0,0.0,1.0,0.0,1.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Customer.NumberIn,30,24.966666666666665,5.61084745786252,2.0951248731794503,22.871541793487214,27.061791539846116,25.0,10.5,16.0,36.0,16.0,36.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Customer.NumberOut,30,24.833333333333332,5.748063142055545,2.1463620517165873,22.686971281616746,26.97969538504992,25.0,10.5,15.0,36.0,15.0,36.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,ControlEntity.NumberIn,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,ControlEntity.NumberOut,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_2.NumberSeized,30,22.933333333333334,4.834740183678763,1.805321654216634,21.1280116791167,24.738654987549968,23.0,9.25,14.0,32.0,14.0,32.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_2.ScheduledUtilization,30,0.364753,0.09374393656345884,0.03500456119665757,0.3297484388033424,0.39975756119665756,0.359705,0.15593,0.22578,0.61377,0.22578,0.61377
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_3.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_3.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_1.NumberSeized,30,2.0,1.364576478442026,0.5095412311260097,1.4904587688739903,2.5095412311260095,2.0,2.0,0.0,5.0,0.0,5.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_1.ScheduledUtilization,30,0.035331666666666664,0.02368288412703809,0.008843334269167022,0.02648833239749964,0.04417500093583369,0.035070000000000004,0.034265000000000004,0.0,0.07654,0.0,0.07654
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_4.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,Counter_4.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekdaystudent,Weekday Student Rush,Output,System.NumberOut,30,24.833333333333332,5.748063142055545,2.1463620517165873,22.686971281616746,26.97969538504992,25.0,10.5,15.0,36.0,15.0,36.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.VATime,30,1.5852300000000004,0.04538485354206271,0.01694698282847381,1.5682830171715265,1.6021769828284742,1.5842999999999998,0.06835000000000013,1.5084,1.6783,0.28571,5.4259
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.WaitTime,30,0.38881966666666673,0.05930498568814652,0.02214484559630521,0.36667482107036153,0.4109645122629719,0.383895,0.09368750000000003,0.29064,0.51199,0.0,4.3098
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Customer.TotalTime,30,1.9740366666666667,0.08886241392847372,0.033181770688030555,1.940854895978636,2.0072184373546973,1.98365,0.1271,1.8003,2.131,0.36287,7.3224
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Checkout 1.Queue.WaitingTime,30,0.26727900000000004,0.12792899054984938,0.04776947014058275,0.2195095298594173,0.3150484701405828,0.275755,0.16145500000000002,0.0,0.52785,0.0,3.7861
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Tally,Checkout 2.Queue.WaitingTime,30,0.4048959999999999,0.060485140643142185,0.022585522698826067,0.38231047730117385,0.427481522698826,0.40747500000000003,0.07831500000000002,0.3062,0.5251,0.0,4.3098
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Customer.WIP,28,0.7268642857142856,0.19549067391658298,0.07580336986924562,0.65106091584504,0.8026676555835313,0.6809350000000001,0.09198749999999989,0.61557,1.6868,0.0,6.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,ControlEntity.WIP,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_2.NumberBusy,30,0.48852766666666664,0.026734648148221362,0.009982881682614433,0.47854478498405223,0.49851054834928105,0.485615,0.04233500000000001,0.44496,0.55095,0.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_2.Utilization,30,0.48852766666666664,0.026734648148221362,0.009982881682614433,0.47854478498405223,0.49851054834928105,0.485615,0.04233500000000001,0.44496,0.55095,0.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_3.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_3.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_3.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_1.NumberBusy,30,0.070776,0.019534046952560228,0.007294133007806853,0.06348186699219316,0.07807013300780685,0.06834,0.015899999999999997,0.02667,0.11468,0.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_1.Utilization,30,0.070776,0.019534046952560228,0.007294133007806853,0.06348186699219316,0.07807013300780685,0.06834,0.015899999999999997,0.02667,0.11468,0.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_4.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_4.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Counter_4.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Checkout 1.Queue.NumberInQueue,29,0.012776206896551722,0.007335933290412291,0.002790439788194713,0.009985767108357009,0.015566646684746435,0.0113,0.007009999999999999,0.0,0.03131,0.0,2.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Checkout 2.Queue.NumberInQueue,30,0.12525733333333333,0.0221187079396501,0.008259261281825457,0.11699807205150788,0.1335165946151588,0.12015999999999999,0.02656499999999999,0.09186,0.18786,0.0,2.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Checkout 3.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Discrete-Change,Checkout 4.Queue.NumberInQueue,30,0.03333333333333333,0.18257418583505533,0.06817432140442345,-0.034840988071090116,0.10150765473775678,0.0,0.0,0.0,1.0,0.0,1.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Customer.NumberIn,30,158.86666666666667,11.761225989734625,4.391713960365768,154.4749527063009,163.25838062703244,158.0,17.0,144.0,195.0,144.0,195.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Customer.NumberOut,30,158.9,11.86809690464023,4.431620215832474,154.46837978416752,163.3316202158325,158.5,17.0,143.0,194.0,143.0,194.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,ControlEntity.NumberIn,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,ControlEntity.NumberOut,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_2.NumberSeized,30,139.16666666666666,8.271610497955345,3.0886701208092497,136.07799654585742,142.2553367874759,138.5,11.0,125.0,161.0,125.0,161.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_2.ScheduledUtilization,30,0.48852766666666664,0.026734648148221362,0.009982881682614433,0.47854478498405223,0.49851054834928105,0.485615,0.04233500000000001,0.44496,0.55095,0.44496,0.55095
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_3.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_3.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_1.NumberSeized,30,19.733333333333334,5.576634341133785,2.0823494854353193,17.650983847898015,21.815682818768654,19.0,5.5,6.0,34.0,6.0,34.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_1.ScheduledUtilization,30,0.070776,0.019534046952560228,0.007294133007806853,0.06348186699219316,0.07807013300780685,0.06834,0.015899999999999997,0.02667,0.11468,0.02667,0.11468
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_4.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,Counter_4.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,Output,System.NumberOut,30,158.9,11.86809690464023,4.431620215832474,154.46837978416752,163.3316202158325,158.5,17.0,143.0,194.0,143.0,194.0
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.VATime,30,1.58593,0.046919624230496934,0.017520075622051604,1.5684099243779484,1.6034500756220518,1.5922,0.06807499999999989,1.4932,1.6809,0.28571,5.4259
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.WaitTime,30,0.944117,0.2985254138566361,0.11147122151231947,0.8326457784876805,1.0555882215123193,0.899755,0.26251250000000004,0.54251,2.1713,0.0,144.21
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Customer.TotalTime,30,2.5300633333333336,0.3121705761425881,0.11656640884695413,2.4134969244863793,2.646629742180288,2.50185,0.2976749999999999,2.0357,3.7831,0.36287,145.47
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Checkout 1.Queue.WaitingTime,30,0.7615863333333331,0.23364747470883585,0.08724540089431228,0.6743409324390208,0.8488317342276455,0.754335,0.3633025,0.40619,1.2565,0.0,5.5383
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Checkout 2.Queue.WaitingTime,30,0.9529053333333335,0.16575409294854654,0.0618935954997598,0.8910117378335737,1.0147989288330932,0.92259,0.21706500000000006,0.58993,1.3482,0.0,6.316
+Dynamic Counter,weekendpeak,Weekend Peak,Tally,Checkout 3.Queue.WaitingTime,8,10.5872075,24.53691475929264,20.513374091013493,-9.926166591013493,31.100581591013494,0.8541700000000001,2.868185,0.0,70.678,0.0,144.21
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Customer.WIP,25,2.01056,0.4868079241343551,0.20094443488200397,1.809615565117996,2.211504434882004,1.859,0.5704,1.4935,3.6773,0.0,11.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,ControlEntity.WIP,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_2.NumberBusy,30,0.8065633333333334,0.03419446641392922,0.012768423602129913,0.7937949097312035,0.8193317569354633,0.80257,0.051557500000000034,0.75236,0.88312,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_2.Utilization,30,0.8065633333333334,0.03419446641392922,0.012768423602129913,0.7937949097312035,0.8193317569354633,0.80257,0.051557500000000034,0.75236,0.88312,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_3.NumberBusy,30,0.005595,0.010293356997397014,0.003843602670669976,0.0017513973293300242,0.009438602670669975,0.0,0.0092175,0.0,0.03776,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_3.NumberScheduled,30,0.0052380000000000005,0.008762914174382071,0.003272125928598805,0.0019658740714011956,0.008510125928598806,0.0,0.01071,0.0,0.02619,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_3.Utilization,30,0.005595,0.010293356997397014,0.003843602670669976,0.0017513973293300242,0.009438602670669975,0.0,0.0092175,0.0,0.03776,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_1.NumberBusy,30,0.381847,0.060084919110228965,0.022436077522373536,0.35941092247762646,0.4042830775223735,0.37973,0.06428249999999996,0.2636,0.4974,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_1.Utilization,30,0.381847,0.060084919110228965,0.022436077522373536,0.35941092247762646,0.4042830775223735,0.37973,0.06428249999999996,0.2636,0.4974,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_4.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_4.NumberScheduled,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Counter_4.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Checkout 1.Queue.NumberInQueue,30,0.186749,0.07465354546630491,0.027876092007868097,0.1588729079921319,0.21462509200786808,0.189355,0.11473250000000002,0.06576,0.38294,0.0,3.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Checkout 2.Queue.NumberInQueue,30,0.4876426666666666,0.09290926359416049,0.03469288918773546,0.45294977747893117,0.5223355558544021,0.46709,0.10994249999999994,0.33429,0.71894,0.0,4.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Checkout 3.Queue.NumberInQueue,30,0.10815299999999999,0.2746542786115941,0.10255759312043822,0.005595406879561768,0.21071059312043822,0.0,0.0,0.0,0.98229,0.0,2.0
+Dynamic Counter,weekendpeak,Weekend Peak,Discrete-Change,Checkout 4.Queue.NumberInQueue,30,0.03333333333333333,0.18257418583505533,0.06817432140442345,-0.034840988071090116,0.10150765473775678,0.0,0.0,0.0,1.0,0.0,1.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Customer.NumberIn,30,158.46666666666667,12.153425324838953,4.538163598926171,153.9285030677405,163.00483026559283,158.0,18.0,140.0,192.0,140.0,192.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Customer.NumberOut,30,158.23333333333332,11.921245402810184,4.4514661912086115,153.7818671421247,162.68479952454194,157.5,16.75,139.0,192.0,139.0,192.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,ControlEntity.NumberIn,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,ControlEntity.NumberOut,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_2.NumberSeized,30,107.13333333333334,5.709842278957862,2.1320901468837214,105.00124318644961,109.26542348021707,107.0,6.75,98.0,123.0,98.0,123.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_2.ScheduledUtilization,30,0.8065633333333334,0.03419446641392922,0.012768423602129913,0.7937949097312035,0.8193317569354633,0.80257,0.051557500000000034,0.75236,0.88312,0.75236,0.88312
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_3.NumberSeized,30,0.7666666666666667,1.381736372213908,0.5159488407665476,0.25071782590011915,1.2826155074332144,0.0,1.5,0.0,5.0,0.0,5.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_3.ScheduledUtilization,30,0.31056333333333336,0.5684934087224931,0.21227892752350974,0.09828440580982362,0.522842260856843,0.0,0.46199250000000003,0.0,1.9501,0.0,1.9501
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_1.NumberSeized,30,50.43333333333333,7.68645621827135,2.8701699218249805,47.56316341150835,53.30350325515831,49.5,11.25,34.0,64.0,34.0,64.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_1.ScheduledUtilization,30,0.381847,0.060084919110228965,0.022436077522373536,0.35941092247762646,0.4042830775223735,0.37973,0.06428249999999996,0.2636,0.4974,0.2636,0.4974
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_4.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,Counter_4.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dynamic Counter,weekendpeak,Weekend Peak,Output,System.NumberOut,30,158.23333333333332,11.921245402810184,4.4514661912086115,153.7818671421247,162.68479952454194,157.5,16.75,139.0,192.0,139.0,192.0
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.VATime,30,0.9197219999999999,0.04171211974706037,0.015575561490741071,0.9041464385092589,0.935297561490741,0.91208,0.05821750000000003,0.84093,1.0012,0.15594,3.6125
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.WaitTime,30,0.05175566666666667,0.029054735465815305,0.01084921652481865,0.04090645014184802,0.06260488319148533,0.04512,0.031129999999999994,0.01686,0.13989,0.0,1.686
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Customer.TotalTime,30,0.9714676666666667,0.05361034850457149,0.02001843312534743,0.9514492335413193,0.9914860997920142,0.9703200000000001,0.06826249999999989,0.86985,1.1002,0.15594,3.9807
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Regular Checkout 1.Queue.WaitingTime,30,0.014586666666666666,0.043278398556429926,0.01616041961003383,-0.001573752943367165,0.030747086276700496,0.0,0.0,0.0,0.17191,0.0,1.2126
+Express Lane,weekdaydaytime,Weekday Daytime,Tally,Express Checkout.Queue.WaitingTime,30,0.05501100000000001,0.03174370297044537,0.011853293492590629,0.04315770650740938,0.06686429349259064,0.04969,0.036274999999999995,0.01502,0.15017,0.0,1.686
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Customer.WIP,30,0.142759,0.021081613225910786,0.007872003751315814,0.1348869962486842,0.1506310037513158,0.140015,0.025959999999999983,0.10657,0.19779,0.0,3.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_1.NumberBusy,30,0.026713333333333335,0.010198284958362069,0.003808102187860221,0.022905231145473114,0.030521435521193557,0.0249,0.015425000000000001,0.01211,0.04759,0.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_1.Utilization,30,0.026713333333333335,0.010198284958362069,0.003808102187860221,0.022905231145473114,0.030521435521193557,0.0249,0.015425000000000001,0.01211,0.04759,0.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_2.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular_Counter_2.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Express_Counter.NumberBusy,30,0.10827266666666667,0.01602989490217302,0.005985661128058789,0.10228700553860788,0.11425832779472546,0.107825,0.016712500000000005,0.06783,0.14153,0.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Express_Counter.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Express_Counter.Utilization,30,0.10827266666666667,0.01602989490217302,0.005985661128058789,0.10228700553860788,0.11425832779472546,0.107825,0.016712500000000005,0.06783,0.14153,0.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,29,0.0003351724137931034,0.0008692509940404981,0.00033064539489045564,4.527018902647777e-06,0.0006658178086835591,0.0,0.0,0.0,0.00302,0.0,1.0
+Express Lane,weekdaydaytime,Weekday Daytime,Discrete-Change,Express Checkout.Queue.NumberInQueue,30,0.007423333333333332,0.004777132550212402,0.0017838106103561834,0.005639522722977149,0.009207143943689516,0.0063300000000000006,0.004175,0.00134,0.02269,0.0,2.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Customer.NumberIn,30,66.13333333333334,8.398412548412548,3.1360187846034795,62.99731454872986,69.26935211793682,65.0,11.0,51.0,87.0,51.0,87.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Customer.NumberOut,30,66.03333333333333,8.523732925690817,3.182814182540026,62.8505191507933,69.21614751587336,65.0,12.0,51.0,88.0,51.0,88.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Regular_Counter_1.NumberSeized,30,6.833333333333333,2.6533431525261624,0.9907746160783525,5.84255871725498,7.824107949411686,6.5,3.75,3.0,13.0,3.0,13.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Regular_Counter_1.ScheduledUtilization,30,0.026713333333333335,0.010198284958362069,0.003808102187860221,0.022905231145473114,0.030521435521193557,0.0249,0.015425000000000001,0.01211,0.04759,0.01211,0.04759
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Regular_Counter_2.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Regular_Counter_2.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Express_Counter.NumberSeized,30,59.266666666666666,8.127999004434729,3.035044707819656,56.23162195884701,62.301711374486324,59.5,11.75,40.0,76.0,40.0,76.0
+Express Lane,weekdaydaytime,Weekday Daytime,Output,Express_Counter.ScheduledUtilization,30,0.10827266666666667,0.01602989490217302,0.005985661128058789,0.10228700553860788,0.11425832779472546,0.107825,0.016712500000000005,0.06783,0.14153,0.06783,0.14153
+Express Lane,weekdaydaytime,Weekday Daytime,Output,System.NumberOut,30,66.03333333333333,8.523732925690817,3.182814182540026,62.8505191507933,69.21614751587336,65.0,12.0,51.0,88.0,51.0,88.0
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.VATime,30,0.9168566666666668,0.042762852904194175,0.015967911699710048,0.9008887549669568,0.9328245783663768,0.920615,0.06477,0.83634,1.0157,0.15594,3.6125
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.WaitTime,30,0.32385600000000003,0.1394491427404073,0.05207116566492434,0.2717848343350757,0.37592716566492435,0.29708500000000004,0.1418725,0.13449,0.73843,0.0,3.7909
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,Tally,Customer.TotalTime,30,1.2406633333333335,0.1577407551984417,0.0589013660079553,1.181761967325378,1.2995646993412888,1.19535,0.174825,1.0381,1.7071,0.15594,4.6251
+Express Lane,weekdaypeak,Weekday Peak,Tally,Regular Checkout 2.Queue.WaitingTime,1,0.0,0.0,,,,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,Tally,Regular Checkout 1.Queue.WaitingTime,30,0.09154433333333335,0.12240552020691896,0.04570697241833116,0.04583736091500219,0.1372513057516645,0.00238,0.175885,0.0,0.35453,0.0,2.4923
+Express Lane,weekdaypeak,Weekday Peak,Tally,Express Checkout.Queue.WaitingTime,30,0.35070799999999996,0.15720892065590014,0.05870277572603035,0.29200522427396963,0.4094107757260303,0.302925,0.16970999999999997,0.14762,0.82764,0.0,3.7909
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Customer.WIP,30,0.8124870000000002,0.18881674725090936,0.07050533214619267,0.7419816678538075,0.8829923321461929,0.772365,0.22023500000000007,0.53973,1.2683,0.0,7.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_1.NumberBusy,30,0.11548200000000003,0.042151743318961155,0.01573971963035234,0.09974228036964769,0.13122171963035237,0.113095,0.05166249999999997,0.03841,0.184,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_1.Utilization,30,0.11548200000000003,0.042151743318961155,0.01573971963035234,0.09974228036964769,0.13122171963035237,0.113095,0.05166249999999997,0.03841,0.184,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_2.NumberBusy,30,0.00044533333333333333,0.0024391911227563405,0.0009108089339630978,-0.00046547560062976443,0.0013561422672964312,0.0,0.0,0.0,0.01336,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular_Counter_2.Utilization,30,0.00044533333333333333,0.0024391911227563405,0.0009108089339630978,-0.00046547560062976443,0.0013561422672964312,0.0,0.0,0.0,0.01336,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Express_Counter.NumberBusy,30,0.47764100000000004,0.06634203459450072,0.02477252284260474,0.4528684771573953,0.5024135228426048,0.47992500000000005,0.08419999999999994,0.31473,0.59805,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Express_Counter.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Express_Counter.Utilization,30,0.47764100000000004,0.06634203459450072,0.02477252284260474,0.4528684771573953,0.5024135228426048,0.47992500000000005,0.08419999999999994,0.31473,0.59805,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,29,0.006836551724137931,0.008428999379634093,0.0032062198922037403,0.0036303318319341905,0.010042771616341671,0.00148,0.01418,0.0,0.02492,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Discrete-Change,Express Checkout.Queue.NumberInQueue,30,0.21231033333333335,0.11641757769528098,0.04347103793793083,0.16883929539540252,0.25578137127126416,0.175565,0.1272625,0.05905,0.52141,0.0,5.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Customer.NumberIn,30,64.86666666666666,8.182122367502311,3.055254703731077,61.81141196293558,67.92192137039774,65.5,10.5,50.0,82.0,50.0,82.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Customer.NumberOut,30,64.56666666666666,8.04163018870888,3.002794062003094,61.56387260466357,67.56946072866975,64.0,10.0,50.0,81.0,50.0,81.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Regular_Counter_1.NumberSeized,30,6.533333333333333,2.3449628088122516,0.8756235032800062,5.657709830053327,7.408956836613339,6.0,3.75,2.0,10.0,2.0,10.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Regular_Counter_1.ScheduledUtilization,30,0.11548200000000003,0.042151743318961155,0.01573971963035234,0.09974228036964769,0.13122171963035237,0.113095,0.05166249999999997,0.03841,0.184,0.03841,0.184
+Express Lane,weekdaypeak,Weekday Peak,Output,Regular_Counter_2.NumberSeized,30,0.03333333333333333,0.18257418583505533,0.06817432140442345,-0.034840988071090116,0.10150765473775678,0.0,0.0,0.0,1.0,0.0,1.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Regular_Counter_2.ScheduledUtilization,30,0.00044533333333333333,0.0024391911227563405,0.0009108089339630978,-0.00046547560062976443,0.0013561422672964312,0.0,0.0,0.0,0.01336,0.0,0.01336
+Express Lane,weekdaypeak,Weekday Peak,Output,Express_Counter.NumberSeized,30,58.13333333333333,7.744779480101568,2.891948185708133,55.2413851476252,61.025281519041464,58.5,10.75,40.0,72.0,40.0,72.0
+Express Lane,weekdaypeak,Weekday Peak,Output,Express_Counter.ScheduledUtilization,30,0.47764100000000004,0.06634203459450072,0.02477252284260474,0.4528684771573953,0.5024135228426048,0.47992500000000005,0.08419999999999994,0.31473,0.59805,0.31473,0.59805
+Express Lane,weekdaypeak,Weekday Peak,Output,System.NumberOut,30,64.56666666666666,8.04163018870888,3.002794062003094,61.56387260466357,67.56946072866975,64.0,10.0,50.0,81.0,50.0,81.0
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.VATime,30,0.754081,0.05640600422613376,0.021062348128041673,0.7330186518719584,0.7751433481280416,0.75819,0.05535499999999993,0.62448,0.88298,0.22915,2.2792
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.WaitTime,30,0.20570533333333335,0.1432092444457153,0.05347521071652095,0.1522301226168124,0.2591805440498543,0.17644500000000002,0.12905250000000001,0.02234,0.61126,0.0,2.8052
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Customer.TotalTime,30,0.9597806666666668,0.14292066405294,0.05336745302691059,0.9064132136397562,1.0131481196935774,0.93379,0.11958749999999996,0.75251,1.372,0.25541,3.5029
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Regular Checkout 1.Queue.WaitingTime,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Tally,Express Checkout.Queue.WaitingTime,30,0.20915533333333336,0.14136024363631927,0.05278478246742178,0.1563705508659116,0.26194011580075516,0.179845,0.1204975,0.02234,0.61126,0.0,2.8052
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Customer.WIP,30,0.4575626666666667,0.10852859384650135,0.04052524295601098,0.41703742371065566,0.4980879096226777,0.456445,0.12528499999999998,0.30665,0.67722,0.0,5.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_1.NumberBusy,29,0.014398620689655174,0.02231107359972652,0.008486678521379867,0.005911942168275307,0.02288529921103504,0.0,0.02806,0.0,0.07153,0.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_1.Utilization,29,0.014398620689655174,0.02231107359972652,0.008486678521379867,0.005911942168275307,0.02288529921103504,0.0,0.02806,0.0,0.07153,0.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_2.NumberBusy,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular_Counter_2.Utilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Express_Counter.NumberBusy,30,0.34314333333333324,0.060377973623255816,0.02254550587594242,0.32059782745739085,0.36568883920927564,0.33601499999999995,0.07567250000000003,0.22869,0.48143,0.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Express_Counter.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Express_Counter.Utilization,30,0.34314333333333324,0.060377973623255816,0.02254550587594242,0.32059782745739085,0.36568883920927564,0.33601499999999995,0.07567250000000003,0.22869,0.48143,0.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Discrete-Change,Express Checkout.Queue.NumberInQueue,30,0.10048100000000001,0.06839277963251726,0.02553828362472634,0.07494271637527368,0.12601928362472636,0.09179499999999999,0.07289999999999998,0.00804,0.28118,0.0,4.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Customer.NumberIn,30,23.766666666666666,4.1329903454281505,1.543283958144851,22.223382708521815,25.309950624811517,22.5,5.0,17.0,35.0,17.0,35.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Customer.NumberOut,30,23.7,4.153519488088509,1.5509496659966115,22.149050334003388,25.25094966599661,23.0,4.75,17.0,36.0,17.0,36.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Regular_Counter_1.NumberSeized,30,0.4666666666666667,0.68144538746106,0.25445588954346104,0.21221077712320563,0.7211225562101278,0.0,1.0,0.0,2.0,0.0,2.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Regular_Counter_1.ScheduledUtilization,29,0.014398620689655174,0.02231107359972652,0.008486678521379867,0.005911942168275307,0.02288529921103504,0.0,0.02806,0.0,0.07153,0.0,0.07153
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Regular_Counter_2.NumberSeized,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Regular_Counter_2.ScheduledUtilization,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Express_Counter.NumberSeized,30,23.3,4.078116536191508,1.5227937410285954,21.777206258971404,24.822793741028597,23.0,4.75,15.0,34.0,15.0,34.0
+Express Lane,weekdaystudent,Weekday Student Rush,Output,Express_Counter.ScheduledUtilization,30,0.34314333333333324,0.060377973623255816,0.02254550587594242,0.32059782745739085,0.36568883920927564,0.33601499999999995,0.07567250000000003,0.22869,0.48143,0.22869,0.48143
+Express Lane,weekdaystudent,Weekday Student Rush,Output,System.NumberOut,30,23.7,4.153519488088509,1.5509496659966115,22.149050334003388,25.25094966599661,23.0,4.75,17.0,36.0,17.0,36.0
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.VATime,30,1.5847166666666666,0.04552682485754082,0.016999995788916953,1.5677166708777497,1.6017166624555834,1.5859999999999999,0.07157499999999994,1.5084,1.6731,0.28571,5.4259
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.WaitTime,30,0.23984133333333332,0.04780738954087165,0.01785157263694648,0.22198976069638685,0.25769290597027983,0.22952,0.058892500000000014,0.16343,0.33952,0.0,4.3098
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Customer.TotalTime,30,1.8245433333333336,0.0805255311123096,0.03006872748304172,1.7944746058502918,1.8546120608163754,1.81565,0.11260000000000003,1.6718,1.966,0.34378,7.3224
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Regular Checkout 2.Queue.WaitingTime,30,0.17144033333333333,0.16326366670328796,0.06096365505663681,0.11047667827669652,0.23240398838997015,0.182305,0.267295,0.0,0.6999,0.0,2.5147
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Regular Checkout 1.Queue.WaitingTime,30,0.3494236666666667,0.0782981904262352,0.029237024802210545,0.32018664186445617,0.3786606914688772,0.347615,0.09017999999999998,0.17823,0.52791,0.0,4.3098
+Express Lane,weekendnormal,Weekend Non-Peak,Tally,Express Checkout.Queue.WaitingTime,30,0.09583833333333332,0.03911313996365022,0.014605086490305483,0.08123324684302784,0.1104434198236388,0.088805,0.06976750000000001,0.03796,0.17318,0.0,3.1888
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Customer.WIP,29,0.643975172413793,0.05339086964618908,0.02030880067867551,0.6236663717351175,0.6642839730924684,0.63841,0.07950999999999997,0.57485,0.7882,0.0,6.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_1.NumberBusy,30,0.377173,0.025448348926864556,0.009502569659652635,0.36767043034034735,0.3866755696596526,0.376685,0.022127499999999967,0.32834,0.45055,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_1.Utilization,30,0.377173,0.025448348926864556,0.009502569659652635,0.36767043034034735,0.3866755696596526,0.376685,0.022127499999999967,0.32834,0.45055,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_2.NumberBusy,30,0.02744866666666667,0.011428102908705103,0.0042673237576135795,0.02318134290905309,0.03171599042428025,0.025335,0.010557500000000001,0.00808,0.05374,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular_Counter_2.Utilization,30,0.02744866666666667,0.011428102908705103,0.0042673237576135795,0.02318134290905309,0.03171599042428025,0.025335,0.010557500000000001,0.00808,0.05374,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Express_Counter.NumberBusy,30,0.15446300000000004,0.018977064405441526,0.007086152306645572,0.14737684769335446,0.16154915230664563,0.1558,0.021512500000000018,0.1216,0.19742,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Express_Counter.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Express_Counter.Utilization,30,0.15446300000000004,0.018977064405441526,0.007086152306645572,0.14737684769335446,0.16154915230664563,0.1558,0.021512500000000018,0.1216,0.19742,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,28,0.002816785714285714,0.0026817767100844403,0.001039884449669469,0.001776901264616245,0.003856670163955183,0.0030800000000000003,0.0038475000000000002,0.0,0.00999,0.0,1.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,30,0.06853933333333333,0.01737688971283279,0.006488637256540462,0.062050696076792866,0.07502797058987379,0.066495,0.021824999999999997,0.03327,0.1055,0.0,2.0
+Express Lane,weekendnormal,Weekend Non-Peak,Discrete-Change,Express Checkout.Queue.NumberInQueue,30,0.013804333333333337,0.005883683858529997,0.002197003659519678,0.011607329673813659,0.016001336992853013,0.012615,0.0084025,0.00457,0.02654,0.0,3.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Customer.NumberIn,30,158.86666666666667,11.761225989734625,4.391713960365768,154.4749527063009,163.25838062703244,158.0,17.0,144.0,195.0,144.0,195.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Customer.NumberOut,30,158.8,11.894362617179851,4.441427994081093,154.35857200591892,163.2414279940811,158.5,17.0,142.0,194.0,142.0,194.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Regular_Counter_1.NumberSeized,30,87.5,6.0841795978842,2.27186999898839,85.2281300010116,89.7718699989884,87.0,7.0,74.0,103.0,74.0,103.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Regular_Counter_1.ScheduledUtilization,30,0.377173,0.025448348926864556,0.009502569659652635,0.36767043034034735,0.3866755696596526,0.376685,0.022127499999999967,0.32834,0.45055,0.32834,0.45055
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Regular_Counter_2.NumberSeized,30,6.566666666666666,2.4869775775556096,0.9286526894390583,5.638013977227608,7.495319356105725,6.0,1.75,2.0,12.0,2.0,12.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Regular_Counter_2.ScheduledUtilization,30,0.02744866666666667,0.011428102908705103,0.0042673237576135795,0.02318134290905309,0.03171599042428025,0.025335,0.010557500000000001,0.00808,0.05374,0.00808,0.05374
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Express_Counter.NumberSeized,30,64.66666666666667,8.035839261936376,3.000631694408724,61.66603497225795,67.6672983610754,64.5,11.25,52.0,85.0,52.0,85.0
+Express Lane,weekendnormal,Weekend Non-Peak,Output,Express_Counter.ScheduledUtilization,30,0.15446300000000004,0.018977064405441526,0.007086152306645572,0.14737684769335446,0.16154915230664563,0.1558,0.021512500000000018,0.1216,0.19742,0.1216,0.19742
+Express Lane,weekendnormal,Weekend Non-Peak,Output,System.NumberOut,30,158.8,11.894362617179851,4.441427994081093,154.35857200591892,163.2414279940811,158.5,17.0,142.0,194.0,142.0,194.0
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.VATime,30,1.5867600000000002,0.04429819487253986,0.016541217812712585,1.5702187821872875,1.6033012178127128,1.59055,0.04834999999999989,1.499,1.6757,0.28571,5.4259
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.WaitTime,30,0.5223056666666667,0.08193021772903107,0.03059324608594749,0.4917124205807192,0.5528989127526142,0.533625,0.09148500000000004,0.34182,0.68574,0.0,4.9051
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Express Lane,weekendpeak,Weekend Peak,Tally,Customer.TotalTime,30,2.10906,0.11337394214995215,0.042334525747249954,2.06672547425275,2.15139452574725,2.12395,0.15380000000000038,1.8674,2.3128,0.36287,7.9177
+Express Lane,weekendpeak,Weekend Peak,Tally,Regular Checkout 2.Queue.WaitingTime,30,0.45954300000000003,0.18571554645246566,0.06934732473673468,0.3901956752632654,0.5288903247367347,0.451405,0.24140250000000002,0.0,0.7506,0.0,4.269
+Express Lane,weekendpeak,Weekend Peak,Tally,Regular Checkout 1.Queue.WaitingTime,30,0.763454,0.12493056677403958,0.04664984030209397,0.716804159697906,0.8101038403020939,0.77576,0.12719999999999998,0.48538,1.0656,0.0,4.9051
+Express Lane,weekendpeak,Weekend Peak,Tally,Express Checkout.Queue.WaitingTime,30,0.2621586666666667,0.06474604936600956,0.024176572164110864,0.23798209450255584,0.28633523883077755,0.27308,0.08831750000000002,0.13356,0.40564,0.0,4.4701
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Customer.WIP,28,1.5925250000000002,0.15033434497072776,0.05829357343527045,1.5342314265647297,1.6508185734352707,1.56515,0.17622499999999985,1.3859,1.9149,0.0,8.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_1.NumberBusy,30,0.6807146666666668,0.037851145997622494,0.014133850198839037,0.6665808164678277,0.6948485168655059,0.676185,0.04566250000000005,0.61719,0.78147,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_1.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_1.Utilization,30,0.6807146666666668,0.037851145997622494,0.014133850198839037,0.6665808164678277,0.6948485168655059,0.676185,0.04566250000000005,0.61719,0.78147,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_2.NumberBusy,30,0.18917599999999998,0.041952956790294,0.015665491520643185,0.17351050847935678,0.20484149152064318,0.18473499999999998,0.043782499999999974,0.10895,0.27568,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_2.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular_Counter_2.Utilization,30,0.18917599999999998,0.041952956790294,0.015665491520643185,0.17351050847935678,0.20484149152064318,0.18473499999999998,0.043782499999999974,0.10895,0.27568,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Express_Counter.NumberBusy,30,0.3303753333333334,0.04081541998443416,0.015240728296546912,0.3151346050367865,0.34561606162988034,0.333415,0.06475249999999999,0.26454,0.40659,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Express_Counter.NumberScheduled,30,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Express_Counter.Utilization,30,0.3303753333333334,0.04081541998443416,0.015240728296546912,0.3151346050367865,0.34561606162988034,0.333415,0.06475249999999999,0.26454,0.40659,0.0,1.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,30,0.04901766666666666,0.026827804887047158,0.010017666980572357,0.0389999996860943,0.05903533364723902,0.039935,0.0356375,0.0,0.10576,0.0,2.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,30,0.26735133333333333,0.04517563905113198,0.01686886085366155,0.25048247247967176,0.2842201941869949,0.269555,0.05441749999999995,0.17199,0.38265,0.0,3.0
+Express Lane,weekendpeak,Weekend Peak,Discrete-Change,Express Checkout.Queue.NumberInQueue,30,0.08117966666666666,0.02452625327858003,0.009158253485905253,0.07202141318076141,0.09033792015257192,0.085605,0.030077500000000007,0.03582,0.13148,0.0,4.0
+Express Lane,weekendpeak,Weekend Peak,Output,Customer.NumberIn,30,166.7,12.529000840807917,4.678405801405072,162.02159419859493,171.37840580140505,166.5,14.75,147.0,199.0,147.0,199.0
+Express Lane,weekendpeak,Weekend Peak,Output,Customer.NumberOut,30,166.36666666666667,11.929341784117799,4.454489429674409,161.91217723699228,170.82115609634107,165.0,17.25,147.0,198.0,147.0,198.0
+Express Lane,weekendpeak,Weekend Peak,Output,Regular_Counter_1.NumberSeized,30,77.0,4.675689143379534,1.745931019711142,75.25406898028886,78.74593101971114,77.0,6.25,67.0,86.0,67.0,86.0
+Express Lane,weekendpeak,Weekend Peak,Output,Regular_Counter_1.ScheduledUtilization,30,0.6807146666666668,0.037851145997622494,0.014133850198839037,0.6665808164678277,0.6948485168655059,0.676185,0.04566250000000005,0.61719,0.78147,0.61719,0.78147
+Express Lane,weekendpeak,Weekend Peak,Output,Regular_Counter_2.NumberSeized,30,21.933333333333334,4.555658348527218,1.7011107843133346,20.232222549019998,23.63444411764667,22.0,5.0,13.0,31.0,13.0,31.0
+Express Lane,weekendpeak,Weekend Peak,Output,Regular_Counter_2.ScheduledUtilization,30,0.18917599999999998,0.041952956790294,0.015665491520643185,0.17351050847935678,0.20484149152064318,0.18473499999999998,0.043782499999999974,0.10895,0.27568,0.10895,0.27568
+Express Lane,weekendpeak,Weekend Peak,Output,Express_Counter.NumberSeized,30,67.7,8.251018745877843,3.0809810342169093,64.6190189657831,70.78098103421691,68.0,12.25,54.0,86.0,54.0,86.0
+Express Lane,weekendpeak,Weekend Peak,Output,Express_Counter.ScheduledUtilization,30,0.3303753333333334,0.04081541998443416,0.015240728296546912,0.3151346050367865,0.34561606162988034,0.333415,0.06475249999999999,0.26454,0.40659,0.26454,0.40659
+Express Lane,weekendpeak,Weekend Peak,Output,System.NumberOut,30,166.36666666666667,11.929341784117799,4.454489429674409,161.91217723699228,170.82115609634107,165.0,17.25,147.0,198.0,147.0,198.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.VATime,30,0.9198759999999999,0.04185148550076436,0.01562760151842806,0.9042483984815719,0.9355036015184279,0.91208,0.05821750000000003,0.84093,1.0012,0.15594,3.6125
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.WaitTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Customer.TotalTime,30,0.9198759999999999,0.04185148550076436,0.01562760151842806,0.9042483984815719,0.9355036015184279,0.91208,0.05821750000000003,0.84093,1.0012,0.15594,3.6125
+Pooled Queue,weekdaydaytime,Weekday Daytime,Tally,Pooled Checkout.Queue.WaitingTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Discrete-Change,Customer.WIP,30,0.13506866666666667,0.018635514432419613,0.006958615450709625,0.12811005121595703,0.1420272821173763,0.131975,0.020287500000000014,0.10445,0.18534,0.0,3.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Discrete-Change,server.NumberBusy,30,0.13506866666666667,0.018635514432419613,0.006958615450709625,0.12811005121595703,0.1420272821173763,0.131975,0.020287500000000014,0.10445,0.18534,0.0,3.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Discrete-Change,server.NumberScheduled,30,4.0,0.0,0.0,4.0,4.0,4.0,0.0,4.0,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Discrete-Change,server.Utilization,30,0.033766666666666674,0.0046592313509428995,0.0017397855790178118,0.03202688108764886,0.03550645224568449,0.032990000000000005,0.005072500000000004,0.02611,0.04634,0.0,0.75
+Pooled Queue,weekdaydaytime,Weekday Daytime,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Output,Customer.NumberIn,30,66.13333333333334,8.398412548412548,3.1360187846034795,62.99731454872986,69.26935211793682,65.0,11.0,51.0,87.0,51.0,87.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Output,Customer.NumberOut,30,66.0,8.436374445998911,3.15019399012521,62.84980600987479,69.15019399012522,65.0,12.0,51.0,87.0,51.0,87.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Output,server.NumberSeized,30,66.13333333333334,8.398412548412548,3.1360187846034795,62.99731454872986,69.26935211793682,65.0,11.0,51.0,87.0,51.0,87.0
+Pooled Queue,weekdaydaytime,Weekday Daytime,Output,server.ScheduledUtilization,30,0.033766666666666674,0.0046592313509428995,0.0017397855790178118,0.03202688108764886,0.03550645224568449,0.032990000000000005,0.005072500000000004,0.02611,0.04634,0.02611,0.04634
+Pooled Queue,weekdaydaytime,Weekday Daytime,Output,System.NumberOut,30,66.0,8.436374445998911,3.15019399012521,62.84980600987479,69.15019399012522,65.0,12.0,51.0,87.0,51.0,87.0
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.VATime,30,0.9168413333333335,0.04171043115488543,0.015574930960060466,0.901266402373273,0.932416264293394,0.920615,0.06477,0.83634,1.0103,0.15594,3.6125
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.WaitTime,30,0.00031699999999999995,0.0013110857569468772,0.0004895674674601027,-0.0001725674674601028,0.0008065674674601027,0.0,0.0,0.0,0.00671,0.0,0.30969
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Customer.TotalTime,30,0.9171583333333334,0.041701567743897244,0.015571621308004867,0.9015867120253286,0.9327299546413382,0.920615,0.06477,0.83634,1.0131,0.15594,3.6125
+Pooled Queue,weekdaypeak,Weekday Peak,Tally,Pooled Checkout.Queue.WaitingTime,30,0.00031133333333333333,0.0012825586854445282,0.00047891528389738857,-0.00016758195056405524,0.000790248617230722,0.0,0.0,0.0,0.00654,0.0,0.30969
+Pooled Queue,weekdaypeak,Weekday Peak,Discrete-Change,Customer.WIP,30,0.5949206666666668,0.08225410900262728,0.03071418907515071,0.5642064775915161,0.6256348557418174,0.594195,0.07301000000000002,0.46501,0.77791,0.0,5.0
+Pooled Queue,weekdaypeak,Weekday Peak,Discrete-Change,server.NumberBusy,30,0.5946906666666667,0.08200642867707272,0.030621703721634395,0.5640689629450323,0.6253123703883011,0.594195,0.07171250000000007,0.46501,0.77791,0.0,4.0
+Pooled Queue,weekdaypeak,Weekday Peak,Discrete-Change,server.NumberScheduled,30,4.0,0.0,0.0,4.0,4.0,4.0,0.0,4.0,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,Weekday Peak,Discrete-Change,server.Utilization,30,0.148673,0.020501875801479975,0.007655526239325013,0.141017473760675,0.156328526239325,0.14855000000000002,0.017927499999999985,0.11625,0.19448,0.0,1.0
+Pooled Queue,weekdaypeak,Weekday Peak,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,30,0.00023,0.0009849698052434802,0.0003677937697993461,-0.0001377937697993461,0.0005977937697993461,0.0,0.0,0.0,0.00517,0.0,1.0
+Pooled Queue,weekdaypeak,Weekday Peak,Output,Customer.NumberIn,30,64.86666666666666,8.182122367502311,3.055254703731077,61.81141196293558,67.92192137039774,65.5,10.5,50.0,82.0,50.0,82.0
+Pooled Queue,weekdaypeak,Weekday Peak,Output,Customer.NumberOut,30,64.73333333333333,8.042702124986626,3.0031943295874184,61.73013900374592,67.73652766292075,65.0,10.5,50.0,81.0,50.0,81.0
+Pooled Queue,weekdaypeak,Weekday Peak,Output,server.NumberSeized,30,64.86666666666666,8.182122367502311,3.055254703731077,61.81141196293558,67.92192137039774,65.5,10.5,50.0,82.0,50.0,82.0
+Pooled Queue,weekdaypeak,Weekday Peak,Output,server.ScheduledUtilization,30,0.148673,0.020501875801479975,0.007655526239325013,0.141017473760675,0.156328526239325,0.14855000000000002,0.017927499999999985,0.11625,0.19448,0.11625,0.19448
+Pooled Queue,weekdaypeak,Weekday Peak,Output,System.NumberOut,30,64.73333333333333,8.042702124986626,3.0031943295874184,61.73013900374592,67.73652766292075,65.0,10.5,50.0,81.0,50.0,81.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.VATime,30,0.8009096666666667,0.08953032252599784,0.033431171857139556,0.7674784948095272,0.8343408385238062,0.79789,0.10431499999999994,0.61946,0.97789,0.15205,2.8832
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.WaitTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Customer.TotalTime,30,0.8009096666666667,0.08953032252599784,0.033431171857139556,0.7674784948095272,0.8343408385238062,0.79789,0.10431499999999994,0.61946,0.97789,0.15205,2.8832
+Pooled Queue,weekdaystudent,Weekday Student Rush,Tally,Pooled Checkout.Queue.WaitingTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Discrete-Change,Customer.WIP,30,0.4002976666666667,0.10938705580244144,0.04084579791853237,0.35945186874813434,0.4411434645851991,0.39056,0.1727975,0.24778,0.69031,0.0,4.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Discrete-Change,server.NumberBusy,30,0.4002976666666667,0.10938705580244144,0.04084579791853237,0.35945186874813434,0.4411434645851991,0.39056,0.1727975,0.24778,0.69031,0.0,4.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Discrete-Change,server.NumberScheduled,30,4.0,0.0,0.0,4.0,4.0,4.0,0.0,4.0,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Discrete-Change,server.Utilization,30,0.100074,0.027346711029627144,0.010211429718613196,0.0898625702813868,0.11028542971861319,0.09764,0.043200000000000016,0.06195,0.17258,0.0,1.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Output,Customer.NumberIn,30,24.966666666666665,5.61084745786252,2.0951248731794503,22.871541793487214,27.061791539846116,25.0,10.5,16.0,36.0,16.0,36.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Output,Customer.NumberOut,30,24.9,5.731642359562488,2.1402304307633098,22.75976956923669,27.04023043076331,25.0,10.5,15.0,36.0,15.0,36.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Output,server.NumberSeized,30,24.966666666666665,5.61084745786252,2.0951248731794503,22.871541793487214,27.061791539846116,25.0,10.5,16.0,36.0,16.0,36.0
+Pooled Queue,weekdaystudent,Weekday Student Rush,Output,server.ScheduledUtilization,30,0.100074,0.027346711029627144,0.010211429718613196,0.0898625702813868,0.11028542971861319,0.09764,0.043200000000000016,0.06195,0.17258,0.06195,0.17258
+Pooled Queue,weekdaystudent,Weekday Student Rush,Output,System.NumberOut,30,24.9,5.731642359562488,2.1402304307633098,22.75976956923669,27.04023043076331,25.0,10.5,15.0,36.0,15.0,36.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.VATime,30,1.585356666666667,0.04488301025104492,0.01675959146391689,1.56859707520275,1.602116258130584,1.5871,0.07335000000000003,1.5084,1.6731,0.28571,5.4259
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.WaitTime,29,0.000553448275862069,0.001658590787088478,0.0006308941945633156,-7.744591870124658e-05,0.0011843424704253845,0.0,0.0,0.0,0.00773,0.0,0.68129
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Customer.TotalTime,30,1.5859033333333339,0.04520918798387028,0.01688138823102772,1.5690219451023062,1.6027847215643616,1.5871,0.07335000000000003,1.5084,1.6731,0.28571,5.4259
+Pooled Queue,weekendnormal,Weekend Non-Peak,Tally,Pooled Checkout.Queue.WaitingTime,29,0.0005524137931034482,0.0016567020923087226,0.0006301757734909657,-7.776198038751746e-05,0.001182589566594414,0.0,0.0,0.0,0.00773,0.0,0.68129
+Pooled Queue,weekendnormal,Weekend Non-Peak,Discrete-Change,Customer.WIP,29,0.5591962068965517,0.040585587291707484,0.015437931769914629,0.5437582751266371,0.5746341386664663,0.54576,0.04683999999999999,0.50375,0.66601,0.0,6.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Discrete-Change,server.NumberBusy,29,0.5589875862068966,0.0403831898067193,0.015360943884013363,0.5436266423228833,0.5743485300909099,0.54492,0.04410999999999998,0.50375,0.6645,0.0,4.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Discrete-Change,server.NumberScheduled,30,4.0,0.0,0.0,4.0,4.0,4.0,0.0,4.0,4.0,4.0,4.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Discrete-Change,server.Utilization,29,0.13974758620689656,0.010095168099913803,0.003839996578394499,0.13590758962850205,0.14358758278529107,0.13623,0.011030000000000012,0.12594,0.16612,0.0,1.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,28,0.0001925,0.0006091258156237177,0.00023619433384496495,-4.369433384496496e-05,0.00042869433384496494,0.0,0.0,0.0,0.00273,0.0,2.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Output,Customer.NumberIn,30,158.86666666666667,11.761225989734625,4.391713960365768,154.4749527063009,163.25838062703244,158.0,17.0,144.0,195.0,144.0,195.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Output,Customer.NumberOut,30,158.86666666666667,11.930064408108164,4.454759261906979,154.4119074047597,163.32142592857366,158.0,17.75,143.0,195.0,143.0,195.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Output,server.NumberSeized,30,158.86666666666667,11.761225989734625,4.391713960365768,154.4749527063009,163.25838062703244,158.0,17.0,144.0,195.0,144.0,195.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,Output,server.ScheduledUtilization,30,0.13981033333333331,0.00992553845784504,0.003706256970787867,0.13610407636254546,0.14351659030412117,0.13644,0.010545000000000027,0.12594,0.16612,0.12594,0.16612
+Pooled Queue,weekendnormal,Weekend Non-Peak,Output,System.NumberOut,30,158.86666666666667,11.930064408108164,4.454759261906979,154.4119074047597,163.32142592857366,158.0,17.75,143.0,195.0,143.0,195.0
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.VATime,30,1.5855466666666669,0.04741461096891267,0.017704906707789916,1.567841759958877,1.6032515733744568,1.58995,0.06982500000000003,1.4931,1.6809,0.28571,5.4259
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.NVATime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.WaitTime,28,0.015996785714285713,0.009679229022546138,0.003753213199102702,0.012243572515183012,0.019749998913388415,0.014280000000000001,0.013324999999999997,0.00337,0.04242,0.0,1.4246
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.TranTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.OtherTime,30,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Customer.TotalTime,30,1.6005,0.05207753503356714,0.01944607116876892,1.581053928831231,1.619946071168769,1.6054,0.07125000000000004,1.4934,1.7017,0.28571,5.4259
+Pooled Queue,weekendpeak,Weekend Peak,Tally,Pooled Checkout.Queue.WaitingTime,28,0.01623714285714286,0.009471264868065838,0.003672573118398178,0.012564569738744681,0.01990971597554104,0.014280000000000001,0.010825000000000001,0.00341,0.04242,0.0,1.4246
+Pooled Queue,weekendpeak,Weekend Peak,Discrete-Change,Customer.WIP,29,1.2060758620689656,0.09474778796955184,0.03604013108178289,1.1700357309871827,1.2421159931507484,1.1931,0.10729999999999995,1.0524,1.4317,0.0,8.0
+Pooled Queue,weekendpeak,Weekend Peak,Discrete-Change,server.NumberBusy,29,1.1942862068965516,0.09083975971903938,0.03455359663661946,1.1597326102599321,1.2288398035331711,1.1847,0.09800000000000009,1.0484,1.3983,0.0,4.0
+Pooled Queue,weekendpeak,Weekend Peak,Discrete-Change,server.NumberScheduled,30,4.0,0.0,0.0,4.0,4.0,4.0,0.0,4.0,4.0,4.0,4.0
+Pooled Queue,weekendpeak,Weekend Peak,Discrete-Change,server.Utilization,29,0.29858379310344835,0.022709398843051926,0.008638193340778543,0.2899455997626698,0.3072219864442269,0.29618,0.024510000000000032,0.26212,0.34959,0.0,1.0
+Pooled Queue,weekendpeak,Weekend Peak,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,28,0.012352857142857143,0.007717074314715129,0.0029923690315601477,0.009360488111296996,0.01534522617441729,0.010069999999999999,0.0090675,0.00258,0.0334,0.0,4.0
+Pooled Queue,weekendpeak,Weekend Peak,Output,Customer.NumberIn,30,158.46666666666667,12.153425324838953,4.538163598926171,153.9285030677405,163.00483026559283,158.0,18.0,140.0,192.0,140.0,192.0
+Pooled Queue,weekendpeak,Weekend Peak,Output,Customer.NumberOut,30,158.43333333333334,12.113495845923067,4.523253686461426,153.9100796468719,162.95658701979477,158.0,17.25,140.0,192.0,140.0,192.0
+Pooled Queue,weekendpeak,Weekend Peak,Output,server.NumberSeized,30,158.46666666666667,12.153425324838953,4.538163598926171,153.9285030677405,163.00483026559283,158.0,18.0,140.0,192.0,140.0,192.0
+Pooled Queue,weekendpeak,Weekend Peak,Output,server.ScheduledUtilization,30,0.2987496666666667,0.02233291022673495,0.008339245730330562,0.2904104209363361,0.30708891239699726,0.298555,0.02430500000000002,0.26212,0.34959,0.26212,0.34959
+Pooled Queue,weekendpeak,Weekend Peak,Output,System.NumberOut,30,158.43333333333334,12.113495845923067,4.523253686461426,153.9100796468719,162.95658701979477,158.0,17.25,140.0,192.0,140.0,192.0
