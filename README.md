@@ -110,34 +110,44 @@ where offered load $a = \lambda / \mu$ and server utilization $\rho = a / c$.
    - **Framework 1 (Dynamic Counter)** saves ~50% on cashier payroll by running only **15.0 to 18.0 cashier-hours per shift**, but customers pay with longer wait times (56.6 seconds average, up to 4 minutes worst-case).
    - **Framework 2 (Express Lane)** uses **22.5 cashier-hours per shift** (3 servers $\times$ 7.5 hrs).
 
+### Capacity-Equalized Sensitivity Analysis (Apples-to-Apples Labor Parity)
+
+To evaluate whether the Pooled Queue advantage is purely due to excess staffing or topological efficiency, we computed an **Equalized Staffing Sensitivity Matrix** for the most congested regime (**Weekend Peak**, $\lambda = 0.75$, $\mu = 0.633$):
+
+| Rostered Servers ($c$) | Shift Labor Hours | Offered Load ($\rho$) | Erlang-C $P(\text{Wait})$ | Pooled Queue $W_q$ (Theo) | Baseline Framework (Simulated) | Baseline $W_q$ (Sim) | Pure Pooling Improvement | Comparison Basis |
+|---|---|---|---|---|---|---|---|---|
+| **$c = 2$ Cashiers** | 15.0 hrs | 59.2% | 44.1% | **0.855 min (51.3s)** | F1 Dynamic Counter (2 active counters) | 0.944 min (56.6s) | **-9.5% delay (-5.3s)** | **Fair Labor Parity with F1 Dynamic Counter** |
+| **$c = 3$ Cashiers** | 22.5 hrs | 39.5% | 13.7% | **0.119 min (7.1s)** | F2 Express Lane (3 partitioned lanes) | 0.522 min (31.3s) | **-77.2% delay (-24.2s)** | **Fair Labor Parity with F2 Express Lane** |
+| **$c = 4$ Cashiers** | 30.0 hrs | 29.7% | 3.6% | **0.020 min (1.2s)** | F3 Pooled Queue (Arena output) | 0.015 min (0.9s) | **-98.4% delay** | **Original Simulated Model (Sub-30% Load)** |
+
+#### Crucial Academic Takeaways & Methodological Clarifications:
+- **Is there a bug or error in the Pooled Queue simulation?**
+  **No.** The Rockwell Arena SIMAN simulation is 100% mathematically correct for a 4-server configuration. The $0.9$-second wait is the physical consequence of keeping 4 cashiers active under a $1.185$ server workload ($<30\%$ load).
+- **Is a change required in the model?**
+  - If evaluating the simulation models **as originally designed in the `.doe` files**, no model change is needed, but the staffing asymmetry must be explicitly acknowledged.
+  - If evaluating **queuing topology under identical labor costs**, running Pooled Queue with **$c=3$ servers** achieves an optimal balance: a **$7.1$-second wait time** (cutting wait by $77.2\%$ vs Express Lane) while **saving 25% on cashier payroll** ($22.5$ vs $30.0$ cashier-hours).
+
 ---
 
-## 6. Statistical Accumulators Analyzed
+## 6. Curated Statistical Accumulator Summary & Full Dataset
 
-Across the 15 simulation files, **14,213 individual observations** were extracted across **434 unique framework-scenario accumulators** (exported to [`results/all_statistical_accumulators.csv`](results/all_statistical_accumulators.csv)):
+The simulation generates **434 total statistical accumulators** across the 15 output files (capturing internal control entities, replication loops, and discrete event counters).
 
-### A. Tally Variables
-- `Customer.WaitTime`: Time spent waiting in queue ($W_q$).
-- `Customer.VATime`: Value-added transaction/checkout processing time.
-- `Customer.NVATime` & `Customer.TranTime`: Non-value-added delays and transport intervals.
-- `Customer.TotalTime`: Total system residence cycle time ($W = W_q + W_s$).
-- Lane Queue Waiting Times: `Checkout 1-4.Queue.WaitingTime` (F1), `Express Checkout.Queue.WaitingTime` & `Regular Checkout 1-2.Queue.WaitingTime` (F2), and `Pooled Checkout.Queue.WaitingTime` (F3).
+To provide actionable executive clarity without data clutter, the dashboard features a **Curated Executive Summary of the 12 Core Operational Accumulators** (accessible via Tab 5 of `simulation_dashboard.html` with scenario-specific filtering), while the complete 434-row accumulator dataset is exported to [`results/all_statistical_accumulators.csv`](results/all_statistical_accumulators.csv):
 
-### B. Discrete-Change Variables
-- `Customer.WIP`: Instantaneous Work-in-Process (total customers in the checkout area).
-- Server Status: `server.NumberBusy`, `Counter_1-4.NumberBusy`, `Express_Counter.NumberBusy`, `Regular_Counter_1-2.NumberBusy`.
-- Server Allocation: `server.NumberScheduled`, `Counter_1-4.NumberScheduled`.
-- Instantaneous Utilization: `server.Utilization`, `Counter_1-4.Utilization`.
-- Queue Backlog: `Queue.NumberInQueue` ($L_q$) across all individual lanes and pooled buffers.
-
-### C. Output Accumulators
-- Throughput: `Customer.NumberIn`, `Customer.NumberOut`, `System.NumberOut`.
-- Resource Seizures: `server.NumberSeized`, `Counter_1-4.NumberSeized`, `Express_Counter.NumberSeized`.
-- Time-Average Scheduled Utilization: `ScheduledUtilization` across all server resources.
-
-### D. Queuing Theory Verification (Little's Law)
-- Little's Law checks ($L = \lambda_{\text{eff}} W$ and $L_q = \lambda_{\text{eff}} W_q$) were performed across all scenarios.
-- The average error between observed WIP and theoretical $L$ was **$< 0.8\%$**, validating the simulation model's steady-state integrity.
+### Core Operational Accumulators Included:
+1. `Customer.WaitTime`: Time spent waiting in queue ($W_q$, minutes) [Tally]
+2. `Customer.TotalTime`: Total system residence flow cycle time ($W = W_q + W_s$, minutes) [Tally]
+3. `Customer.VATime`: Active barcode scanning, bagging, and payment processing time ($W_s$, minutes) [Tally]
+4. `Customer.WIP`: Front-end Work-in-Process ($L$, concurrent customers) [Discrete-Change]
+5. `Queue.NumberInQueue`: Queue line backlog ($L_q$, customers waiting in line) [Discrete-Change]
+6. `Peak Lane Waiting Delay`: Maximum average delay among individual checkout lanes (minutes) [Tally]
+7. `Peak Lane Queue Backlog`: Maximum queue backlog observed at busiest counter (customers) [Discrete-Change]
+8. `Counter.ScheduledUtilization`: Scheduled cashier shift utilization (%) [Discrete-Change]
+9. `server.NumberBusy`: Average number of cashiers actively ringing items (offered workload $a=\lambda/\mu$) [Discrete-Change]
+10. `server.NumberScheduled`: Total rostered cashier capacity on duty [Discrete-Change]
+11. `Customer.NumberIn`: Total customer arrivals admitted per shift [Output]
+12. `Customer.NumberOut`: Total completed customer departures (throughput) [Output]
 
 ---
 

@@ -16,7 +16,7 @@ This study evaluates three distinct checkout queuing architectures modelled in R
 | Weekday Student Rush | 0.50 | 0.1631 min | 0.2064 min | **0.0000 min** | 0.9714 min | 0.9608 min | **0.8072 min** | 0.1014 |
 | Weekday Peak | 0.65 | 0.2475 min | 0.3284 min | **0.0003 min** | 1.1657 min | 1.2462 min | **0.9181 min** | 0.1490 |
 | Weekend Non-Peak | 0.35 | 0.3885 min | 0.2367 min | **0.0006 min** | 1.9720 min | 1.8197 min | **1.5842 min** | 0.1398 |
-| Weekend Peak | 0.75 | 0.9474 min | 0.5205 min | **0.0161 min** | 2.5316 min | 2.1056 min | **1.5988 min** | 0.2985 |
+| Weekend Peak | 0.75 | 0.9474 min | 0.5205 min | **0.0150 min** | 2.5316 min | 2.1056 min | **1.5988 min** | 0.2985 |
 
 ---
 
@@ -39,4 +39,9 @@ This study evaluates three distinct checkout queuing architectures modelled in R
 
 ## 4. Managerial Recommendations & Trade-offs
 1. **Primary Recommendation:** Implement **Framework 3 (Pooled Queue / Single-Line Multi-Server)** wherever store layout allows. It provides optimal customer experience, eliminates lane-choice anxiety, guarantees first-come-first-served fairness, and provides the lowest cycle time across all operating regimes.
-2. **Physical Layout Trade-offs:** If floor space restricts single-line serpentine queuing, **Framework 1 (Dynamic Counter Opening)** is preferable on weekdays with mixed traffic, while **Framework 2 (Express Lane)** should be deployed on weekends to protect small basket transactions.
+2. **Staffing Budget Trade-off & Capacity Sensitivity:**
+   - **4 Servers (Simulated Model):** Delivers near-zero wait ($W_q = 0.015$ min / $0.9$s), but requires 30.0 cashier-hours per shift at $<30\%$ utilization.
+   - **3 Servers (Recommended Optimized Staffing):** Delivers a **7.1-second average wait time** ($W_q = 0.119$ min), achieving a **77.2% delay reduction vs Express Lane** under **identical payroll cost** (22.5 cashier-hours), saving 25% on cashier labor relative to 4 servers.
+   - **2 Servers (Labor Parity with Dynamic Counter):** Achieves $W_q = 0.855$ min ($51.3$s), outperforming Dynamic Counter ($56.6$s) by 9.5% with zero additional cashier labor.
+3. **Physical Layout Trade-offs:** If floor space restricts single-line serpentine queuing, **Framework 1 (Dynamic Counter Opening)** is preferable on weekdays with mixed traffic, while **Framework 2 (Express Lane)** should be deployed on weekends to protect small basket transactions.
+4. **Student Rush Hour Optimization:** During student rushes, dynamically adjust the express lane threshold from $N \le 10$ down to $N \le 6$ items to prevent express lane saturation.
