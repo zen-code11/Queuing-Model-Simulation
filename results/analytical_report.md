@@ -1,96 +1,42 @@
-# Arena SIMAN Simulation — Analytical Report
+# Arena SIMAN Simulation — Analytical Report (3 Frameworks Comparison)
 
-## Overview
-Two checkout frameworks were simulated across 5 operating scenarios
-(30 replications each, 480-minute horizon, 30-minute warm-up).
-
-| Framework | Description |
-|-----------|-------------|
-| **F1 — Dynamic Counter** | Counters opened on-demand; shared queue routed dynamically. |
-| **F2 — Express Lane**    | Dedicated express lane (≤10 items) + regular lanes. |
+## 1. Executive Summary & Framework Architecture
+This study evaluates three distinct checkout queuing architectures modelled in Rockwell Arena:
+- **Framework 1 (Dynamic Counter Opening):** 4 available checkout lanes opened conditionally based on queue backlog.
+- **Framework 2 (Dedicated Express Lane):** Dedicated lane for customers with ≤10 items (`Express_Counter`) and up to 2 regular counters (`Regular_Counter_1/2`).
+- **Framework 3 (Pooled Queue / Single-Line Multi-Server):** Single unified serpentine queue feeding 4 parallel servers with FIFO routing (`server` capacity = 4).
 
 ---
 
-## Part 1 — Performance Under Heavy Congestion
-### Weekday Peak (λ = 0.65 arr/min) & Weekend Peak (λ = 0.75 arr/min)
+## 2. Comparative Performance Matrix
 
-#### Weekday Peak (λ = 0.65)
-| Metric | F1 Dynamic | F2 Express |
-|--------|-----------|-----------|
-| Avg Wq (min) | 0.2475 | 0.3284 |
-| Avg W  (min) | 1.1657 | 1.2462 |
-| Wq Max (min) | 0.3484 | 0.7384 |
-| Peak Util    | 0.5134 | 0.4785 |
-| ΔWq (F2−F1)  | 0.0810 min (24.66%) | ← Dynamic Counter (F1) wins |
-
-#### Weekend Peak (λ = 0.75)
-| Metric | F1 Dynamic | F2 Express |
-|--------|-----------|-----------|
-| Avg Wq (min) | 0.9474 | 0.5205 |
-| Avg W  (min) | 2.5316 | 2.1056 |
-| Wq Max (min) | 2.1713 | 0.6857 |
-| Peak Util    | 0.8057 | 0.6804 |
-| ΔWq (F2−F1)  | -0.4269 min (-82.02%) | ← Express Lane (F2) wins |
-
-> **Insight:** Under peak loads both frameworks approach saturation at the busiest
-> counter, but the Dynamic Counter's ability to activate additional lanes prevents
-> unbounded queue growth, reducing average Wq more effectively. The express lane
-> sees regular-lane overflow when big-basket customers dominate.
+| Scenario | Arrival Rate (λ) | F1 Dynamic Wq | F2 Express Wq | F3 Pooled Wq | F1 Total Time W | F2 Total Time W | F3 Total Time W | F3 Server Util |
+|---|---|---|---|---|---|---|---|---|
+| Weekday Daytime | 0.15 | 0.0653 min | 0.0530 min | **0.0000 min** | 0.9866 min | 0.9742 min | **0.9214 min** | 0.0339 |
+| Weekday Student Rush | 0.50 | 0.1631 min | 0.2064 min | **0.0000 min** | 0.9714 min | 0.9608 min | **0.8072 min** | 0.1014 |
+| Weekday Peak | 0.65 | 0.2475 min | 0.3284 min | **0.0003 min** | 1.1657 min | 1.2462 min | **0.9181 min** | 0.1490 |
+| Weekend Non-Peak | 0.35 | 0.3885 min | 0.2367 min | **0.0006 min** | 1.9720 min | 1.8197 min | **1.5842 min** | 0.1398 |
+| Weekend Peak | 0.75 | 0.9474 min | 0.5205 min | **0.0161 min** | 2.5316 min | 2.1056 min | **1.5988 min** | 0.2985 |
 
 ---
 
-## Part 2 — The Student Rush Bottleneck
-### Weekday Student Rush (λ = 0.50 arr/min, 70% small-basket mix)
+## 3. In-Depth Operational Insights
 
-| Metric | F1 Dynamic | F2 Express |
-|--------|-----------|-----------|
-| Avg Wq (min) | 0.1631 | 0.2064 |
-| Express Lane Wq  | —         | 0.2107 |
-| Regular Lane 1 Wq| —         | 0.0000 |
-| Regular Lane 2 Wq| —         | N/A |
-| Queue Disparity Index (Var)| 0.002380 | 0.011099 |
-| Express Counter Util | —    | 0.3411 |
+### A. The Pooled Queue Superiority Principle (M/M/c Pooling Effect)
+- **Near-Zero Waiting Times:** Framework 3 (Pooled Queue) virtually eliminates customer waiting in queue across almost all operating conditions (Wq = 0.0000 min for daytime and student rush, 0.0003 min for weekday peak, 0.0006 min for weekend non-peak, and only 0.0161 min during weekend peak).
+- **Mathematical Foundation:** By pooling queue capacity, servers never sit idle while a customer is waiting in another line. In dedicated or separated queues (Frameworks 1 and 2), stochastic variability in customer item processing times causes temporary lane starvation and line imbalances.
 
-> **Insight:** With 70% of customers carrying ≤10 items, the express lane funnels
-> the majority of traffic through a single server (Express_Counter), causing that
-> server to run hot while the regular lanes sit underutilised. The Queue Disparity
-> Index is notably higher for F2 during this scenario, confirming lane imbalance.
-> The fixed N=10 threshold does not adapt to the basket-mix shift — a dynamic
-> threshold (e.g., N=15 when student mix > 60%) would rebalance load.
+### B. Heavy Congestion Analysis (Weekend Peak, λ = 0.75 arr/min)
+- Under high arrival intensity with shifted Negative Binomial basket distributions, **Framework 1 suffered severe queue pileups** (Wq = 0.9474 min, peak utilization = 80.6%), because counters were delayed in opening or individual lines stalled behind large baskets.
+- **Framework 2 mitigated this partly** (Wq = 0.5205 min) by shielding small-basket shoppers in the express lane.
+- **Framework 3 completely dominated** (Wq = 0.0161 min, a **98.3% reduction vs. F1** and **96.9% reduction vs. F2**), while maintaining smooth aggregate server utilization of 29.9% across all 4 servers.
+
+### C. The Student Rush Evaluation (λ = 0.50 arr/min, 70% Small Basket Mix)
+- In Framework 2, the fixed N=10 threshold caused 70% of shoppers to crowd the single express server, creating a high Queue Disparity Index (Var = 0.0111 min²).
+- In Framework 3, customer traffic flows seamlessly through whatever server becomes free next, maintaining perfect fairness (FIFO) and zero queue disparity.
 
 ---
 
-## Part 3 — Managerial Recommendation
-
-### Summary Scorecard
-
-| Criterion | F1 Dynamic Counter | F2 Express Lane |
-|-----------|-------------------|-----------------|
-| Low-traffic performance | ✅ Comparable | ✅ Comparable |
-| Peak-hour Wq reduction | ✅ Better — fewer extreme tails | ⚠️ Regular lanes saturate |
-| Student-rush load balance | ✅ Distributes across all counters | ⚠️ Express bottleneck (high QDI) |
-| Staffing overhead | ⚠️ Requires monitoring + activation | ✅ Fixed assignment |
-| Fairness (basket mix) | ✅ Single queue — first come first served | ⚠️ Express customers prioritised |
-| Configuration simplicity | ⚠️ Control logic needed | ✅ Simple partitioning |
-
-### Recommendation
-
-**Preferred framework: F1 — Dynamic Counter Opening.**
-
-Across all five scenarios, F1 delivers lower or equivalent average Wq
-(mean ΔWq = F2 − F1 ≈ -0.0934 min), no lane-starvation under
-high student-basket mix, and better tail-delay control at peak loads.
-
-**Caveats and mitigations for F2:**
-- If F2 is retained, raise the express threshold to N=15 during hours
-  when student traffic exceeds 60% of arrivals to prevent express-counter
-  overload.
-- Add a second express server during Weekend Peak (λ=0.75) to bring
-  express-lane utilisation below 80%.
-- Monitor Queue Disparity Index in real-time; trigger a third regular
-  lane when QDI > 0.05 min².
-
-**Caveats for F1 (if adopted):**
-- Automate counter-activation triggers (e.g., queue length > 5 at any
-  active counter) to minimise manager intervention overhead.
-- Ensure cross-training so any staff member can operate any counter.
+## 4. Managerial Recommendations & Trade-offs
+1. **Primary Recommendation:** Implement **Framework 3 (Pooled Queue / Single-Line Multi-Server)** wherever store layout allows. It provides optimal customer experience, eliminates lane-choice anxiety, guarantees first-come-first-served fairness, and provides the lowest cycle time across all operating regimes.
+2. **Physical Layout Trade-offs:** If floor space restricts single-line serpentine queuing, **Framework 1 (Dynamic Counter Opening)** is preferable on weekdays with mixed traffic, while **Framework 2 (Express Lane)** should be deployed on weekends to protect small basket transactions.

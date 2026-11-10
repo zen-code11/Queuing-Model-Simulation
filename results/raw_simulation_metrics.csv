@@ -8101,3 +8101,1727 @@ Express Lane,weekendpeak,29,Express_Counter.Utilization,0.37597,,0.0,1.0,1.0
 Express Lane,weekendpeak,29,Regular Checkout 2.Queue.NumberInQueue,0.07303,,0.0,2.0,1.0
 Express Lane,weekendpeak,29,Regular Checkout 1.Queue.NumberInQueue,0.38265,,0.0,2.0,0.0
 Express Lane,weekendpeak,29,Express Checkout.Queue.NumberInQueue,0.10463,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,1,Customer.VATime,0.97576,,0.22357,2.8832,51.0
+Pooled Queue,weekdaydaytime,1,Customer.NVATime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaydaytime,1,Customer.WaitTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaydaytime,1,Customer.TranTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaydaytime,1,Customer.OtherTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaydaytime,1,Customer.TotalTime,0.97576,,0.22357,2.8832,51.0
+Pooled Queue,weekdaydaytime,1,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaydaytime,1,Customer.WIP,0.11059,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,1,server.NumberBusy,0.11059,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,1,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,1,server.Utilization,0.02765,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,1,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,2,Customer.VATime,0.93198,,0.40886,3.6125,70.0
+Pooled Queue,weekdaydaytime,2,Customer.NVATime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,2,Customer.WaitTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,2,Customer.TranTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,2,Customer.OtherTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,2,Customer.TotalTime,0.93198,,0.40886,3.6125,70.0
+Pooled Queue,weekdaydaytime,2,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,2,Customer.WIP,0.14497,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,2,server.NumberBusy,0.14497,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,2,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,2,server.Utilization,0.03624,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,2,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,3,Customer.VATime,0.89243,,0.31892,2.0162,75.0
+Pooled Queue,weekdaydaytime,3,Customer.NVATime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,3,Customer.WaitTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,3,Customer.TranTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,3,Customer.OtherTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,3,Customer.TotalTime,0.89243,,0.31892,2.0162,75.0
+Pooled Queue,weekdaydaytime,3,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,3,Customer.WIP,0.14874,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,3,server.NumberBusy,0.14874,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,3,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,3,server.Utilization,0.03718,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,3,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,4,Customer.VATime,0.88792,,0.45574,2.1181,70.0
+Pooled Queue,weekdaydaytime,4,Customer.NVATime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,4,Customer.WaitTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,4,Customer.TranTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,4,Customer.OtherTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,4,Customer.TotalTime,0.88792,,0.45574,2.1181,70.0
+Pooled Queue,weekdaydaytime,4,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaydaytime,4,Customer.WIP,0.13812,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,4,server.NumberBusy,0.13812,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,4,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,4,server.Utilization,0.03453,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,4,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,5,Customer.VATime,0.87021,,0.39685,2.3537,73.0
+Pooled Queue,weekdaydaytime,5,Customer.NVATime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,5,Customer.WaitTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,5,Customer.TranTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,5,Customer.OtherTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,5,Customer.TotalTime,0.87021,,0.39685,2.3537,73.0
+Pooled Queue,weekdaydaytime,5,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaydaytime,5,Customer.WIP,0.13988,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,5,server.NumberBusy,0.13988,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,5,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,5,server.Utilization,0.03497,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,5,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,6,Customer.VATime,0.93032,,0.40785,2.6219,63.0
+Pooled Queue,weekdaydaytime,6,Customer.NVATime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,6,Customer.WaitTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,6,Customer.TranTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,6,Customer.OtherTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,6,Customer.TotalTime,0.93032,,0.40785,2.6219,63.0
+Pooled Queue,weekdaydaytime,6,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,6,Customer.WIP,0.13024,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,6,server.NumberBusy,0.13024,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,6,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,6,server.Utilization,0.03256,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,6,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,7,Customer.VATime,0.9686,,0.34781,2.2849,75.0
+Pooled Queue,weekdaydaytime,7,Customer.NVATime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,7,Customer.WaitTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,7,Customer.TranTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,7,Customer.OtherTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,7,Customer.TotalTime,0.9686,,0.34781,2.2849,75.0
+Pooled Queue,weekdaydaytime,7,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,76.0
+Pooled Queue,weekdaydaytime,7,Customer.WIP,0.16286,,0.0,2.0,1.0
+Pooled Queue,weekdaydaytime,7,server.NumberBusy,0.16286,,0.0,2.0,1.0
+Pooled Queue,weekdaydaytime,7,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,7,server.Utilization,0.04071,,0.0,0.5,0.25
+Pooled Queue,weekdaydaytime,7,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,8,Customer.VATime,1.0012,,0.27894,2.6727,77.0
+Pooled Queue,weekdaydaytime,8,Customer.NVATime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,8,Customer.WaitTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,8,Customer.TranTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,8,Customer.OtherTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,8,Customer.TotalTime,1.0012,,0.27894,2.6727,77.0
+Pooled Queue,weekdaydaytime,8,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,8,Customer.WIP,0.17132,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,8,server.NumberBusy,0.17132,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,8,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,8,server.Utilization,0.04283,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,8,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,9,Customer.VATime,0.89143,,0.33818,2.2458,65.0
+Pooled Queue,weekdaydaytime,9,Customer.NVATime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,9,Customer.WaitTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,9,Customer.TranTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,9,Customer.OtherTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,9,Customer.TotalTime,0.89143,,0.33818,2.2458,65.0
+Pooled Queue,weekdaydaytime,9,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,9,Customer.WIP,0.12876,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,9,server.NumberBusy,0.12876,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,9,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,9,server.Utilization,0.03219,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,9,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,10,Customer.VATime,0.87563,,0.35438,2.1529,72.0
+Pooled Queue,weekdaydaytime,10,Customer.NVATime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaydaytime,10,Customer.WaitTime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaydaytime,10,Customer.TranTime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaydaytime,10,Customer.OtherTime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaydaytime,10,Customer.TotalTime,0.87563,,0.35438,2.1529,72.0
+Pooled Queue,weekdaydaytime,10,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,10,Customer.WIP,0.13749,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,10,server.NumberBusy,0.13749,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,10,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,10,server.Utilization,0.03437,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,10,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,11,Customer.VATime,0.85013,,0.25541,2.075,73.0
+Pooled Queue,weekdaydaytime,11,Customer.NVATime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,11,Customer.WaitTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,11,Customer.TranTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,11,Customer.OtherTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,11,Customer.TotalTime,0.85013,,0.25541,2.075,73.0
+Pooled Queue,weekdaydaytime,11,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,11,Customer.WIP,0.13791,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,11,server.NumberBusy,0.13791,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,11,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,11,server.Utilization,0.03448,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,11,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,12,Customer.VATime,0.95491,,0.45669,2.3259,60.0
+Pooled Queue,weekdaydaytime,12,Customer.NVATime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaydaytime,12,Customer.WaitTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaydaytime,12,Customer.TranTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaydaytime,12,Customer.OtherTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaydaytime,12,Customer.TotalTime,0.95491,,0.45669,2.3259,60.0
+Pooled Queue,weekdaydaytime,12,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaydaytime,12,Customer.WIP,0.12732,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,12,server.NumberBusy,0.12732,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,12,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,12,server.Utilization,0.03183,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,12,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,13,Customer.VATime,0.88239,,0.32776,1.8994,65.0
+Pooled Queue,weekdaydaytime,13,Customer.NVATime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,13,Customer.WaitTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,13,Customer.TranTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,13,Customer.OtherTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,13,Customer.TotalTime,0.88239,,0.32776,1.8994,65.0
+Pooled Queue,weekdaydaytime,13,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,13,Customer.WIP,0.12746,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,13,server.NumberBusy,0.12746,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,13,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,13,server.Utilization,0.03186,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,13,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,14,Customer.VATime,0.89218,,0.38074,2.0169,56.0
+Pooled Queue,weekdaydaytime,14,Customer.NVATime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,14,Customer.WaitTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,14,Customer.TranTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,14,Customer.OtherTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,14,Customer.TotalTime,0.89218,,0.38074,2.0169,56.0
+Pooled Queue,weekdaydaytime,14,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,14,Customer.WIP,0.11103,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,14,server.NumberBusy,0.11103,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,14,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,14,server.Utilization,0.02776,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,14,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,15,Customer.VATime,0.91124,,0.15594,2.5571,73.0
+Pooled Queue,weekdaydaytime,15,Customer.NVATime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,15,Customer.WaitTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,15,Customer.TranTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,15,Customer.OtherTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,15,Customer.TotalTime,0.91124,,0.15594,2.5571,73.0
+Pooled Queue,weekdaydaytime,15,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaydaytime,15,Customer.WIP,0.14782,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,15,server.NumberBusy,0.14782,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,15,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,15,server.Utilization,0.03696,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,15,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,16,Customer.VATime,0.93573,,0.35157,1.5373,56.0
+Pooled Queue,weekdaydaytime,16,Customer.NVATime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,16,Customer.WaitTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,16,Customer.TranTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,16,Customer.OtherTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,16,Customer.TotalTime,0.93573,,0.35157,1.5373,56.0
+Pooled Queue,weekdaydaytime,16,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaydaytime,16,Customer.WIP,0.11645,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,16,server.NumberBusy,0.11645,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,16,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,16,server.Utilization,0.02911,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,16,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,17,Customer.VATime,0.91001,,0.35661,2.2148,57.0
+Pooled Queue,weekdaydaytime,17,Customer.NVATime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaydaytime,17,Customer.WaitTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaydaytime,17,Customer.TranTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaydaytime,17,Customer.OtherTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaydaytime,17,Customer.TotalTime,0.91001,,0.35661,2.2148,57.0
+Pooled Queue,weekdaydaytime,17,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaydaytime,17,Customer.WIP,0.11527,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,17,server.NumberBusy,0.11527,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,17,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,17,server.Utilization,0.02882,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,17,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,18,Customer.VATime,0.94555,,0.40086,2.768,68.0
+Pooled Queue,weekdaydaytime,18,Customer.NVATime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaydaytime,18,Customer.WaitTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaydaytime,18,Customer.TranTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaydaytime,18,Customer.OtherTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaydaytime,18,Customer.TotalTime,0.94555,,0.40086,2.768,68.0
+Pooled Queue,weekdaydaytime,18,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaydaytime,18,Customer.WIP,0.14288,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,18,server.NumberBusy,0.14288,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,18,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,18,server.Utilization,0.03572,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,18,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,19,Customer.VATime,0.90591,,0.22915,2.0595,65.0
+Pooled Queue,weekdaydaytime,19,Customer.NVATime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,19,Customer.WaitTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,19,Customer.TranTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,19,Customer.OtherTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,19,Customer.TotalTime,0.90591,,0.22915,2.0595,65.0
+Pooled Queue,weekdaydaytime,19,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaydaytime,19,Customer.WIP,0.13085,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,19,server.NumberBusy,0.13085,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,19,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,19,server.Utilization,0.03271,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,19,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,20,Customer.VATime,0.90388,,0.30646,2.6361,52.0
+Pooled Queue,weekdaydaytime,20,Customer.NVATime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaydaytime,20,Customer.WaitTime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaydaytime,20,Customer.TranTime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaydaytime,20,Customer.OtherTime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaydaytime,20,Customer.TotalTime,0.90388,,0.30646,2.6361,52.0
+Pooled Queue,weekdaydaytime,20,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaydaytime,20,Customer.WIP,0.10445,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,20,server.NumberBusy,0.10445,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,20,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,20,server.Utilization,0.02611,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,20,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,21,Customer.VATime,0.84093,,0.35416,2.4888,67.0
+Pooled Queue,weekdaydaytime,21,Customer.NVATime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaydaytime,21,Customer.WaitTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaydaytime,21,Customer.TranTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaydaytime,21,Customer.OtherTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaydaytime,21,Customer.TotalTime,0.84093,,0.35416,2.4888,67.0
+Pooled Queue,weekdaydaytime,21,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaydaytime,21,Customer.WIP,0.12521,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,21,server.NumberBusy,0.12521,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,21,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,21,server.Utilization,0.0313,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,21,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,22,Customer.VATime,0.97169,,0.32607,2.0698,64.0
+Pooled Queue,weekdaydaytime,22,Customer.NVATime,0.0,,0.0,0.0,64.0
+Pooled Queue,weekdaydaytime,22,Customer.WaitTime,0.0,,0.0,0.0,64.0
+Pooled Queue,weekdaydaytime,22,Customer.TranTime,0.0,,0.0,0.0,64.0
+Pooled Queue,weekdaydaytime,22,Customer.OtherTime,0.0,,0.0,0.0,64.0
+Pooled Queue,weekdaydaytime,22,Customer.TotalTime,0.97169,,0.32607,2.0698,64.0
+Pooled Queue,weekdaydaytime,22,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,64.0
+Pooled Queue,weekdaydaytime,22,Customer.WIP,0.1382,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,22,server.NumberBusy,0.1382,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,22,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,22,server.Utilization,0.03455,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,22,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,23,Customer.VATime,0.89161,,0.39019,2.3952,58.0
+Pooled Queue,weekdaydaytime,23,Customer.NVATime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaydaytime,23,Customer.WaitTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaydaytime,23,Customer.TranTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaydaytime,23,Customer.OtherTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaydaytime,23,Customer.TotalTime,0.89161,,0.39019,2.3952,58.0
+Pooled Queue,weekdaydaytime,23,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaydaytime,23,Customer.WIP,0.11492,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,23,server.NumberBusy,0.11492,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,23,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,23,server.Utilization,0.02873,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,23,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,24,Customer.VATime,1.0009,,0.47403,2.143,53.0
+Pooled Queue,weekdaydaytime,24,Customer.NVATime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaydaytime,24,Customer.WaitTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaydaytime,24,Customer.TranTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaydaytime,24,Customer.OtherTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaydaytime,24,Customer.TotalTime,1.0009,,0.47403,2.143,53.0
+Pooled Queue,weekdaydaytime,24,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaydaytime,24,Customer.WIP,0.11871,,0.0,3.0,2.0
+Pooled Queue,weekdaydaytime,24,server.NumberBusy,0.11871,,0.0,3.0,2.0
+Pooled Queue,weekdaydaytime,24,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,24,server.Utilization,0.02968,,0.0,0.75,0.5
+Pooled Queue,weekdaydaytime,24,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,25,Customer.VATime,0.95866,,0.42997,2.274,87.0
+Pooled Queue,weekdaydaytime,25,Customer.NVATime,0.0,,0.0,0.0,87.0
+Pooled Queue,weekdaydaytime,25,Customer.WaitTime,0.0,,0.0,0.0,87.0
+Pooled Queue,weekdaydaytime,25,Customer.TranTime,0.0,,0.0,0.0,87.0
+Pooled Queue,weekdaydaytime,25,Customer.OtherTime,0.0,,0.0,0.0,87.0
+Pooled Queue,weekdaydaytime,25,Customer.TotalTime,0.95866,,0.42997,2.274,87.0
+Pooled Queue,weekdaydaytime,25,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,87.0
+Pooled Queue,weekdaydaytime,25,Customer.WIP,0.18534,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,25,server.NumberBusy,0.18534,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,25,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,25,server.Utilization,0.04634,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,25,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,26,Customer.VATime,0.91292,,0.35268,1.7514,63.0
+Pooled Queue,weekdaydaytime,26,Customer.NVATime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,26,Customer.WaitTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,26,Customer.TranTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,26,Customer.OtherTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,26,Customer.TotalTime,0.91292,,0.35268,1.7514,63.0
+Pooled Queue,weekdaydaytime,26,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,26,Customer.WIP,0.12781,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,26,server.NumberBusy,0.12781,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,26,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,26,server.Utilization,0.03195,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,26,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,27,Customer.VATime,0.95071,,0.31588,3.4985,63.0
+Pooled Queue,weekdaydaytime,27,Customer.NVATime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,27,Customer.WaitTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,27,Customer.TranTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,27,Customer.OtherTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,27,Customer.TotalTime,0.95071,,0.31588,3.4985,63.0
+Pooled Queue,weekdaydaytime,27,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaydaytime,27,Customer.WIP,0.1331,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,27,server.NumberBusy,0.1331,,0.0,2.0,0.0
+Pooled Queue,weekdaydaytime,27,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,27,server.Utilization,0.03327,,0.0,0.5,0.0
+Pooled Queue,weekdaydaytime,27,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,28,Customer.VATime,0.94664,,0.39507,2.2306,71.0
+Pooled Queue,weekdaydaytime,28,Customer.NVATime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,28,Customer.WaitTime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,28,Customer.TranTime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,28,Customer.OtherTime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,28,Customer.TotalTime,0.94664,,0.39507,2.2306,71.0
+Pooled Queue,weekdaydaytime,28,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,71.0
+Pooled Queue,weekdaydaytime,28,Customer.WIP,0.14936,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,28,server.NumberBusy,0.14936,,0.0,3.0,0.0
+Pooled Queue,weekdaydaytime,28,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,28,server.Utilization,0.03734,,0.0,0.75,0.0
+Pooled Queue,weekdaydaytime,28,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaydaytime,29,Customer.VATime,0.9299,,0.3305,3.0985,75.0
+Pooled Queue,weekdaydaytime,29,Customer.NVATime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,29,Customer.WaitTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,29,Customer.TranTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,29,Customer.OtherTime,0.0,,0.0,0.0,75.0
+Pooled Queue,weekdaydaytime,29,Customer.TotalTime,0.9299,,0.3305,3.0985,75.0
+Pooled Queue,weekdaydaytime,29,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaydaytime,29,Customer.WIP,0.16119,,0.0,2.0,2.0
+Pooled Queue,weekdaydaytime,29,server.NumberBusy,0.16119,,0.0,2.0,2.0
+Pooled Queue,weekdaydaytime,29,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaydaytime,29,server.Utilization,0.0403,,0.0,0.5,0.5
+Pooled Queue,weekdaydaytime,29,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,1,Customer.VATime,0.92353,,0.22357,2.2143,50.0
+Pooled Queue,weekdaypeak,1,Customer.NVATime,0.0,,0.0,0.0,50.0
+Pooled Queue,weekdaypeak,1,Customer.WaitTime,0.0,,0.0,0.0,50.0
+Pooled Queue,weekdaypeak,1,Customer.TranTime,0.0,,0.0,0.0,50.0
+Pooled Queue,weekdaypeak,1,Customer.OtherTime,0.0,,0.0,0.0,50.0
+Pooled Queue,weekdaypeak,1,Customer.TotalTime,0.92353,,0.22357,2.2143,50.0
+Pooled Queue,weekdaypeak,1,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,50.0
+Pooled Queue,weekdaypeak,1,Customer.WIP,0.46501,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,1,server.NumberBusy,0.46501,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,1,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,1,server.Utilization,0.11625,,0.0,0.75,0.25
+Pooled Queue,weekdaypeak,1,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,2,Customer.VATime,0.94534,,0.40886,3.6125,63.0
+Pooled Queue,weekdaypeak,2,Customer.NVATime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaypeak,2,Customer.WaitTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaypeak,2,Customer.TranTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaypeak,2,Customer.OtherTime,0.0,,0.0,0.0,63.0
+Pooled Queue,weekdaypeak,2,Customer.TotalTime,0.94534,,0.40886,3.6125,63.0
+Pooled Queue,weekdaypeak,2,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,2,Customer.WIP,0.60289,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,2,server.NumberBusy,0.60289,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,2,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,2,server.Utilization,0.15072,,0.0,0.75,0.5
+Pooled Queue,weekdaypeak,2,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,3,Customer.VATime,0.88456,,0.31892,2.0162,73.0
+Pooled Queue,weekdaypeak,3,Customer.NVATime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,3,Customer.WaitTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,3,Customer.TranTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,3,Customer.OtherTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,3,Customer.TotalTime,0.88456,,0.31892,2.0162,73.0
+Pooled Queue,weekdaypeak,3,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,72.0
+Pooled Queue,weekdaypeak,3,Customer.WIP,0.64234,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,3,server.NumberBusy,0.64234,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,3,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,3,server.Utilization,0.16058,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,3,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,4,Customer.VATime,0.87426,,0.45574,2.1181,67.0
+Pooled Queue,weekdaypeak,4,Customer.NVATime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,4,Customer.WaitTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,4,Customer.TranTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,4,Customer.OtherTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,4,Customer.TotalTime,0.87426,,0.45574,2.1181,67.0
+Pooled Queue,weekdaypeak,4,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,4,Customer.WIP,0.58598,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,4,server.NumberBusy,0.58598,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,4,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,4,server.Utilization,0.1465,,0.0,1.0,0.25
+Pooled Queue,weekdaypeak,4,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,5,Customer.VATime,0.86927,,0.39685,2.3537,70.0
+Pooled Queue,weekdaypeak,5,Customer.NVATime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,5,Customer.WaitTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,5,Customer.TranTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,5,Customer.OtherTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,5,Customer.TotalTime,0.86927,,0.39685,2.3537,70.0
+Pooled Queue,weekdaypeak,5,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,5,Customer.WIP,0.60241,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,5,server.NumberBusy,0.60241,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,5,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,5,server.Utilization,0.1506,,0.0,0.75,0.25
+Pooled Queue,weekdaypeak,5,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,6,Customer.VATime,0.91992,,0.40785,2.6219,62.0
+Pooled Queue,weekdaypeak,6,Customer.NVATime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,6,Customer.WaitTime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,6,Customer.TranTime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,6,Customer.OtherTime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,6,Customer.TotalTime,0.91992,,0.40785,2.6219,62.0
+Pooled Queue,weekdaypeak,6,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,6,Customer.WIP,0.55293,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,6,server.NumberBusy,0.55293,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,6,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,6,server.Utilization,0.13823,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,6,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,7,Customer.VATime,0.96875,,0.34781,2.2849,73.0
+Pooled Queue,weekdaypeak,7,Customer.NVATime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,7,Customer.WaitTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,7,Customer.TranTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,7,Customer.OtherTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,7,Customer.TotalTime,0.96875,,0.34781,2.2849,73.0
+Pooled Queue,weekdaypeak,7,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,7,Customer.WIP,0.71502,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,7,server.NumberBusy,0.71502,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,7,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,7,server.Utilization,0.17876,,0.0,1.0,0.25
+Pooled Queue,weekdaypeak,7,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,8,Customer.VATime,0.99111,,0.27894,2.6727,74.0
+Pooled Queue,weekdaypeak,8,Customer.NVATime,0.0,,0.0,0.0,74.0
+Pooled Queue,weekdaypeak,8,Customer.WaitTime,0.0,,0.0,0.0,74.0
+Pooled Queue,weekdaypeak,8,Customer.TranTime,0.0,,0.0,0.0,74.0
+Pooled Queue,weekdaypeak,8,Customer.OtherTime,0.0,,0.0,0.0,74.0
+Pooled Queue,weekdaypeak,8,Customer.TotalTime,0.99111,,0.27894,2.6727,74.0
+Pooled Queue,weekdaypeak,8,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,74.0
+Pooled Queue,weekdaypeak,8,Customer.WIP,0.73342,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,8,server.NumberBusy,0.73342,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,8,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,8,server.Utilization,0.18336,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,8,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,9,Customer.VATime,0.91303,,0.33818,2.2458,60.0
+Pooled Queue,weekdaypeak,9,Customer.NVATime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,9,Customer.WaitTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,9,Customer.TranTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,9,Customer.OtherTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,9,Customer.TotalTime,0.91303,,0.33818,2.2458,60.0
+Pooled Queue,weekdaypeak,9,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,59.0
+Pooled Queue,weekdaypeak,9,Customer.WIP,0.53458,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,9,server.NumberBusy,0.53458,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,9,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,9,server.Utilization,0.13365,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,9,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,10,Customer.VATime,0.87253,,0.35438,2.1529,77.0
+Pooled Queue,weekdaypeak,10,Customer.NVATime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaypeak,10,Customer.WaitTime,0.00671,,0.0,0.30969,77.0
+Pooled Queue,weekdaypeak,10,Customer.TranTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaypeak,10,Customer.OtherTime,0.0,,0.0,0.0,77.0
+Pooled Queue,weekdaypeak,10,Customer.TotalTime,0.87924,,0.35438,2.1529,77.0
+Pooled Queue,weekdaypeak,10,Pooled Checkout.Queue.WaitingTime,0.00654,,0.0,0.30969,79.0
+Pooled Queue,weekdaypeak,10,Customer.WIP,0.70062,,0.0,5.0,2.0
+Pooled Queue,weekdaypeak,10,server.NumberBusy,0.69545,,0.0,4.0,2.0
+Pooled Queue,weekdaypeak,10,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,10,server.Utilization,0.17386,,0.0,1.0,0.5
+Pooled Queue,weekdaypeak,10,Pooled Checkout.Queue.NumberInQueue,0.00517,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,11,Customer.VATime,0.90047,,0.3407,2.075,67.0
+Pooled Queue,weekdaypeak,11,Customer.NVATime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,11,Customer.WaitTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,11,Customer.TranTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,11,Customer.OtherTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,11,Customer.TotalTime,0.90047,,0.3407,2.075,67.0
+Pooled Queue,weekdaypeak,11,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,11,Customer.WIP,0.60331,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,11,server.NumberBusy,0.60331,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,11,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,11,server.Utilization,0.15083,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,11,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,12,Customer.VATime,0.94577,,0.45669,2.3259,58.0
+Pooled Queue,weekdaypeak,12,Customer.NVATime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,12,Customer.WaitTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,12,Customer.TranTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,12,Customer.OtherTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,12,Customer.TotalTime,0.94577,,0.45669,2.3259,58.0
+Pooled Queue,weekdaypeak,12,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,12,Customer.WIP,0.56268,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,12,server.NumberBusy,0.56268,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,12,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,12,server.Utilization,0.14067,,0.0,0.75,0.5
+Pooled Queue,weekdaypeak,12,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,13,Customer.VATime,0.85439,,0.32776,1.8994,65.0
+Pooled Queue,weekdaypeak,13,Customer.NVATime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,13,Customer.WaitTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,13,Customer.TranTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,13,Customer.OtherTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,13,Customer.TotalTime,0.85439,,0.32776,1.8994,65.0
+Pooled Queue,weekdaypeak,13,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,13,Customer.WIP,0.55535,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,13,server.NumberBusy,0.55535,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,13,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,13,server.Utilization,0.13884,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,13,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,14,Customer.VATime,0.88393,,0.38074,1.8299,53.0
+Pooled Queue,weekdaypeak,14,Customer.NVATime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaypeak,14,Customer.WaitTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaypeak,14,Customer.TranTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaypeak,14,Customer.OtherTime,0.0,,0.0,0.0,53.0
+Pooled Queue,weekdaypeak,14,Customer.TotalTime,0.88393,,0.38074,1.8299,53.0
+Pooled Queue,weekdaypeak,14,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,54.0
+Pooled Queue,weekdaypeak,14,Customer.WIP,0.47209,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,14,server.NumberBusy,0.47209,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,14,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,14,server.Utilization,0.11802,,0.0,0.75,0.5
+Pooled Queue,weekdaypeak,14,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,15,Customer.VATime,0.92131,,0.15594,2.5571,67.0
+Pooled Queue,weekdaypeak,15,Customer.NVATime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,15,Customer.WaitTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,15,Customer.TranTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,15,Customer.OtherTime,0.0,,0.0,0.0,67.0
+Pooled Queue,weekdaypeak,15,Customer.TotalTime,0.92131,,0.15594,2.5571,67.0
+Pooled Queue,weekdaypeak,15,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,15,Customer.WIP,0.61107,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,15,server.NumberBusy,0.61107,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,15,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,15,server.Utilization,0.15277,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,15,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,16,Customer.VATime,0.95543,,0.35157,1.5574,59.0
+Pooled Queue,weekdaypeak,16,Customer.NVATime,0.0,,0.0,0.0,59.0
+Pooled Queue,weekdaypeak,16,Customer.WaitTime,0.0,,0.0,0.0,59.0
+Pooled Queue,weekdaypeak,16,Customer.TranTime,0.0,,0.0,0.0,59.0
+Pooled Queue,weekdaypeak,16,Customer.OtherTime,0.0,,0.0,0.0,59.0
+Pooled Queue,weekdaypeak,16,Customer.TotalTime,0.95543,,0.35157,1.5574,59.0
+Pooled Queue,weekdaypeak,16,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaypeak,16,Customer.WIP,0.55994,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,16,server.NumberBusy,0.55994,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,16,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,16,server.Utilization,0.13998,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,16,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,17,Customer.VATime,0.88451,,0.35661,2.2148,55.0
+Pooled Queue,weekdaypeak,17,Customer.NVATime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaypeak,17,Customer.WaitTime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaypeak,17,Customer.TranTime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaypeak,17,Customer.OtherTime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaypeak,17,Customer.TotalTime,0.88451,,0.35661,2.2148,55.0
+Pooled Queue,weekdaypeak,17,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,55.0
+Pooled Queue,weekdaypeak,17,Customer.WIP,0.48648,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,17,server.NumberBusy,0.48648,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,17,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,17,server.Utilization,0.12162,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,17,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,18,Customer.VATime,0.92611,,0.40086,2.768,68.0
+Pooled Queue,weekdaypeak,18,Customer.NVATime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaypeak,18,Customer.WaitTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaypeak,18,Customer.TranTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaypeak,18,Customer.OtherTime,0.0,,0.0,0.0,68.0
+Pooled Queue,weekdaypeak,18,Customer.TotalTime,0.92611,,0.40086,2.768,68.0
+Pooled Queue,weekdaypeak,18,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,18,Customer.WIP,0.61467,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,18,server.NumberBusy,0.61467,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,18,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,18,server.Utilization,0.15367,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,18,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,19,Customer.VATime,0.88184,,0.22915,2.0595,70.0
+Pooled Queue,weekdaypeak,19,Customer.NVATime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,19,Customer.WaitTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,19,Customer.TranTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,19,Customer.OtherTime,0.0,,0.0,0.0,70.0
+Pooled Queue,weekdaypeak,19,Customer.TotalTime,0.88184,,0.22915,2.0595,70.0
+Pooled Queue,weekdaypeak,19,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,69.0
+Pooled Queue,weekdaypeak,19,Customer.WIP,0.6144,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,19,server.NumberBusy,0.6144,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,19,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,19,server.Utilization,0.1536,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,19,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,20,Customer.VATime,0.94987,,0.30646,2.6361,51.0
+Pooled Queue,weekdaypeak,20,Customer.NVATime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaypeak,20,Customer.WaitTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaypeak,20,Customer.TranTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaypeak,20,Customer.OtherTime,0.0,,0.0,0.0,51.0
+Pooled Queue,weekdaypeak,20,Customer.TotalTime,0.94987,,0.30646,2.6361,51.0
+Pooled Queue,weekdaypeak,20,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,52.0
+Pooled Queue,weekdaypeak,20,Customer.WIP,0.48694,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,20,server.NumberBusy,0.48694,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,20,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,20,server.Utilization,0.12174,,0.0,0.75,0.25
+Pooled Queue,weekdaypeak,20,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,21,Customer.VATime,0.83634,,0.35416,2.4888,66.0
+Pooled Queue,weekdaypeak,21,Customer.NVATime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,21,Customer.WaitTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,21,Customer.TranTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,21,Customer.OtherTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,21,Customer.TotalTime,0.83634,,0.35416,2.4888,66.0
+Pooled Queue,weekdaypeak,21,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,21,Customer.WIP,0.55198,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,21,server.NumberBusy,0.55198,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,21,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,21,server.Utilization,0.138,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,21,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,22,Customer.VATime,0.96194,,0.32607,2.0698,58.0
+Pooled Queue,weekdaypeak,22,Customer.NVATime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,22,Customer.WaitTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,22,Customer.TranTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,22,Customer.OtherTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,22,Customer.TotalTime,0.96194,,0.32607,2.0698,58.0
+Pooled Queue,weekdaypeak,22,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,57.0
+Pooled Queue,weekdaypeak,22,Customer.WIP,0.55172,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,22,server.NumberBusy,0.55172,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,22,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,22,server.Utilization,0.13793,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,22,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,23,Customer.VATime,0.87315,,0.38813,2.3952,60.0
+Pooled Queue,weekdaypeak,23,Customer.NVATime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,23,Customer.WaitTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,23,Customer.TranTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,23,Customer.OtherTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,23,Customer.TotalTime,0.87315,,0.38813,2.3952,60.0
+Pooled Queue,weekdaypeak,23,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,60.0
+Pooled Queue,weekdaypeak,23,Customer.WIP,0.52389,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,23,server.NumberBusy,0.52389,,0.0,3.0,0.0
+Pooled Queue,weekdaypeak,23,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,23,server.Utilization,0.13097,,0.0,0.75,0.0
+Pooled Queue,weekdaypeak,23,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,24,Customer.VATime,1.0103,,0.47403,2.143,62.0
+Pooled Queue,weekdaypeak,24,Customer.NVATime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,24,Customer.WaitTime,0.0028,,0.0,0.17335,62.0
+Pooled Queue,weekdaypeak,24,Customer.TranTime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,24,Customer.OtherTime,0.0,,0.0,0.0,62.0
+Pooled Queue,weekdaypeak,24,Customer.TotalTime,1.0131,,0.47403,2.143,62.0
+Pooled Queue,weekdaypeak,24,Pooled Checkout.Queue.WaitingTime,0.0028,,0.0,0.17335,62.0
+Pooled Queue,weekdaypeak,24,Customer.WIP,0.62817,,0.0,5.0,0.0
+Pooled Queue,weekdaypeak,24,server.NumberBusy,0.62644,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,24,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,24,server.Utilization,0.15661,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,24,Pooled Checkout.Queue.NumberInQueue,0.00173,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,25,Customer.VATime,0.95669,,0.42997,2.274,81.0
+Pooled Queue,weekdaypeak,25,Customer.NVATime,0.0,,0.0,0.0,81.0
+Pooled Queue,weekdaypeak,25,Customer.WaitTime,0.0,,0.0,0.0,81.0
+Pooled Queue,weekdaypeak,25,Customer.TranTime,0.0,,0.0,0.0,81.0
+Pooled Queue,weekdaypeak,25,Customer.OtherTime,0.0,,0.0,0.0,81.0
+Pooled Queue,weekdaypeak,25,Customer.TotalTime,0.95669,,0.42997,2.274,81.0
+Pooled Queue,weekdaypeak,25,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,82.0
+Pooled Queue,weekdaypeak,25,Customer.WIP,0.77791,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,25,server.NumberBusy,0.77791,,0.0,3.0,1.0
+Pooled Queue,weekdaypeak,25,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,25,server.Utilization,0.19448,,0.0,0.75,0.25
+Pooled Queue,weekdaypeak,25,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,26,Customer.VATime,0.90519,,0.35268,1.7514,56.0
+Pooled Queue,weekdaypeak,26,Customer.NVATime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaypeak,26,Customer.WaitTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaypeak,26,Customer.TranTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaypeak,26,Customer.OtherTime,0.0,,0.0,0.0,56.0
+Pooled Queue,weekdaypeak,26,Customer.TotalTime,0.90519,,0.35268,1.7514,56.0
+Pooled Queue,weekdaypeak,26,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,58.0
+Pooled Queue,weekdaypeak,26,Customer.WIP,0.522,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,26,server.NumberBusy,0.522,,0.0,3.0,2.0
+Pooled Queue,weekdaypeak,26,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,26,server.Utilization,0.1305,,0.0,0.75,0.5
+Pooled Queue,weekdaypeak,26,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,27,Customer.VATime,0.93117,,0.31588,3.4985,65.0
+Pooled Queue,weekdaypeak,27,Customer.NVATime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,27,Customer.WaitTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,27,Customer.TranTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,27,Customer.OtherTime,0.0,,0.0,0.0,65.0
+Pooled Queue,weekdaypeak,27,Customer.TotalTime,0.93117,,0.31588,3.4985,65.0
+Pooled Queue,weekdaypeak,27,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,66.0
+Pooled Queue,weekdaypeak,27,Customer.WIP,0.60866,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,27,server.NumberBusy,0.60866,,0.0,4.0,1.0
+Pooled Queue,weekdaypeak,27,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,27,server.Utilization,0.15216,,0.0,1.0,0.25
+Pooled Queue,weekdaypeak,27,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,28,Customer.VATime,0.92282,,0.39507,2.2306,69.0
+Pooled Queue,weekdaypeak,28,Customer.NVATime,0.0,,0.0,0.0,69.0
+Pooled Queue,weekdaypeak,28,Customer.WaitTime,0.0,,0.0,0.0,69.0
+Pooled Queue,weekdaypeak,28,Customer.TranTime,0.0,,0.0,0.0,69.0
+Pooled Queue,weekdaypeak,28,Customer.OtherTime,0.0,,0.0,0.0,69.0
+Pooled Queue,weekdaypeak,28,Customer.TotalTime,0.92282,,0.39507,2.2306,69.0
+Pooled Queue,weekdaypeak,28,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,73.0
+Pooled Queue,weekdaypeak,28,Customer.WIP,0.66372,,0.0,4.0,4.0
+Pooled Queue,weekdaypeak,28,server.NumberBusy,0.66372,,0.0,4.0,4.0
+Pooled Queue,weekdaypeak,28,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,28,server.Utilization,0.16593,,0.0,1.0,1.0
+Pooled Queue,weekdaypeak,28,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaypeak,29,Customer.VATime,0.95311,,0.44018,3.0985,80.0
+Pooled Queue,weekdaypeak,29,Customer.NVATime,0.0,,0.0,0.0,80.0
+Pooled Queue,weekdaypeak,29,Customer.WaitTime,0.0,,0.0,0.0,80.0
+Pooled Queue,weekdaypeak,29,Customer.TranTime,0.0,,0.0,0.0,80.0
+Pooled Queue,weekdaypeak,29,Customer.OtherTime,0.0,,0.0,0.0,80.0
+Pooled Queue,weekdaypeak,29,Customer.TotalTime,0.95311,,0.44018,3.0985,80.0
+Pooled Queue,weekdaypeak,29,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,80.0
+Pooled Queue,weekdaypeak,29,Customer.WIP,0.76249,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,29,server.NumberBusy,0.76249,,0.0,4.0,0.0
+Pooled Queue,weekdaypeak,29,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaypeak,29,server.Utilization,0.19062,,0.0,1.0,0.0
+Pooled Queue,weekdaypeak,29,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,1,Customer.VATime,0.89865,,0.38223,2.8832,19.0
+Pooled Queue,weekdaystudent,1,Customer.NVATime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,1,Customer.WaitTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,1,Customer.TranTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,1,Customer.OtherTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,1,Customer.TotalTime,0.89865,,0.38223,2.8832,19.0
+Pooled Queue,weekdaystudent,1,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,1,Customer.WIP,0.34149,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,1,server.NumberBusy,0.34149,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,1,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,1,server.Utilization,0.08537,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,1,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,2,Customer.VATime,0.81816,,0.26357,2.1657,29.0
+Pooled Queue,weekdaystudent,2,Customer.NVATime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,2,Customer.WaitTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,2,Customer.TranTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,2,Customer.OtherTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,2,Customer.TotalTime,0.81816,,0.26357,2.1657,29.0
+Pooled Queue,weekdaystudent,2,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,2,Customer.WIP,0.47453,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,2,server.NumberBusy,0.47453,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,2,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,2,server.Utilization,0.11863,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,2,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,3,Customer.VATime,0.7748,,0.34167,2.0995,32.0
+Pooled Queue,weekdaystudent,3,Customer.NVATime,0.0,,0.0,0.0,32.0
+Pooled Queue,weekdaystudent,3,Customer.WaitTime,0.0,,0.0,0.0,32.0
+Pooled Queue,weekdaystudent,3,Customer.TranTime,0.0,,0.0,0.0,32.0
+Pooled Queue,weekdaystudent,3,Customer.OtherTime,0.0,,0.0,0.0,32.0
+Pooled Queue,weekdaystudent,3,Customer.TotalTime,0.7748,,0.34167,2.0995,32.0
+Pooled Queue,weekdaystudent,3,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,32.0
+Pooled Queue,weekdaystudent,3,Customer.WIP,0.49587,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,3,server.NumberBusy,0.49587,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,3,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,3,server.Utilization,0.12397,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,3,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,4,Customer.VATime,0.77931,,0.36313,1.9754,26.0
+Pooled Queue,weekdaystudent,4,Customer.NVATime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,4,Customer.WaitTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,4,Customer.TranTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,4,Customer.OtherTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,4,Customer.TotalTime,0.77931,,0.36313,1.9754,26.0
+Pooled Queue,weekdaystudent,4,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,4,Customer.WIP,0.40524,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,4,server.NumberBusy,0.40524,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,4,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,4,server.Utilization,0.10131,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,4,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,5,Customer.VATime,0.80193,,0.4674,1.5971,31.0
+Pooled Queue,weekdaystudent,5,Customer.NVATime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,5,Customer.WaitTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,5,Customer.TranTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,5,Customer.OtherTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,5,Customer.TotalTime,0.80193,,0.4674,1.5971,31.0
+Pooled Queue,weekdaystudent,5,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,5,Customer.WIP,0.4972,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,5,server.NumberBusy,0.4972,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,5,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,5,server.Utilization,0.1243,,0.0,1.0,0.0
+Pooled Queue,weekdaystudent,5,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,6,Customer.VATime,0.68591,,0.20907,1.0523,20.0
+Pooled Queue,weekdaystudent,6,Customer.NVATime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,6,Customer.WaitTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,6,Customer.TranTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,6,Customer.OtherTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,6,Customer.TotalTime,0.68591,,0.20907,1.0523,20.0
+Pooled Queue,weekdaystudent,6,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,6,Customer.WIP,0.27436,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,6,server.NumberBusy,0.27436,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,6,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,6,server.Utilization,0.06859,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,6,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,7,Customer.VATime,0.73092,,0.34857,1.4303,33.0
+Pooled Queue,weekdaystudent,7,Customer.NVATime,0.0,,0.0,0.0,33.0
+Pooled Queue,weekdaystudent,7,Customer.WaitTime,0.0,,0.0,0.0,33.0
+Pooled Queue,weekdaystudent,7,Customer.TranTime,0.0,,0.0,0.0,33.0
+Pooled Queue,weekdaystudent,7,Customer.OtherTime,0.0,,0.0,0.0,33.0
+Pooled Queue,weekdaystudent,7,Customer.TotalTime,0.73092,,0.34857,1.4303,33.0
+Pooled Queue,weekdaystudent,7,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,7,Customer.WIP,0.48377,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,7,server.NumberBusy,0.48377,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,7,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,7,server.Utilization,0.12094,,0.0,0.75,0.25
+Pooled Queue,weekdaystudent,7,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,8,Customer.VATime,0.97789,,0.35566,2.6727,36.0
+Pooled Queue,weekdaystudent,8,Customer.NVATime,0.0,,0.0,0.0,36.0
+Pooled Queue,weekdaystudent,8,Customer.WaitTime,0.0,,0.0,0.0,36.0
+Pooled Queue,weekdaystudent,8,Customer.TranTime,0.0,,0.0,0.0,36.0
+Pooled Queue,weekdaystudent,8,Customer.OtherTime,0.0,,0.0,0.0,36.0
+Pooled Queue,weekdaystudent,8,Customer.TotalTime,0.97789,,0.35566,2.6727,36.0
+Pooled Queue,weekdaystudent,8,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,36.0
+Pooled Queue,weekdaystudent,8,Customer.WIP,0.69031,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,8,server.NumberBusy,0.69031,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,8,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,8,server.Utilization,0.17258,,0.0,0.75,0.25
+Pooled Queue,weekdaystudent,8,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,9,Customer.VATime,0.87073,,0.28114,1.5789,23.0
+Pooled Queue,weekdaystudent,9,Customer.NVATime,0.0,,0.0,0.0,23.0
+Pooled Queue,weekdaystudent,9,Customer.WaitTime,0.0,,0.0,0.0,23.0
+Pooled Queue,weekdaystudent,9,Customer.TranTime,0.0,,0.0,0.0,23.0
+Pooled Queue,weekdaystudent,9,Customer.OtherTime,0.0,,0.0,0.0,23.0
+Pooled Queue,weekdaystudent,9,Customer.TotalTime,0.87073,,0.28114,1.5789,23.0
+Pooled Queue,weekdaystudent,9,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,24.0
+Pooled Queue,weekdaystudent,9,Customer.WIP,0.40806,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,9,server.NumberBusy,0.40806,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,9,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,9,server.Utilization,0.10201,,0.0,0.75,0.25
+Pooled Queue,weekdaystudent,9,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,10,Customer.VATime,0.90457,,0.42342,1.938,31.0
+Pooled Queue,weekdaystudent,10,Customer.NVATime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,10,Customer.WaitTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,10,Customer.TranTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,10,Customer.OtherTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,10,Customer.TotalTime,0.90457,,0.42342,1.938,31.0
+Pooled Queue,weekdaystudent,10,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,10,Customer.WIP,0.56083,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,10,server.NumberBusy,0.56083,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,10,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,10,server.Utilization,0.14021,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,10,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,11,Customer.VATime,0.77519,,0.32873,1.608,25.0
+Pooled Queue,weekdaystudent,11,Customer.NVATime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,11,Customer.WaitTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,11,Customer.TranTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,11,Customer.OtherTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,11,Customer.TotalTime,0.77519,,0.32873,1.608,25.0
+Pooled Queue,weekdaystudent,11,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,11,Customer.WIP,0.3876,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,11,server.NumberBusy,0.3876,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,11,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,11,server.Utilization,0.0969,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,11,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,12,Customer.VATime,0.77004,,0.34061,1.3956,20.0
+Pooled Queue,weekdaystudent,12,Customer.NVATime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,12,Customer.WaitTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,12,Customer.TranTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,12,Customer.OtherTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,12,Customer.TotalTime,0.77004,,0.34061,1.3956,20.0
+Pooled Queue,weekdaystudent,12,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,12,Customer.WIP,0.30801,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,12,server.NumberBusy,0.30801,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,12,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,12,server.Utilization,0.077,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,12,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,13,Customer.VATime,0.76157,,0.45012,1.6321,25.0
+Pooled Queue,weekdaystudent,13,Customer.NVATime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,13,Customer.WaitTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,13,Customer.TranTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,13,Customer.OtherTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,13,Customer.TotalTime,0.76157,,0.45012,1.6321,25.0
+Pooled Queue,weekdaystudent,13,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,25.0
+Pooled Queue,weekdaystudent,13,Customer.WIP,0.38078,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,13,server.NumberBusy,0.38078,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,13,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,13,server.Utilization,0.0952,,0.0,1.0,0.0
+Pooled Queue,weekdaystudent,13,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,14,Customer.VATime,0.76936,,0.31802,2.0876,22.0
+Pooled Queue,weekdaystudent,14,Customer.NVATime,0.0,,0.0,0.0,22.0
+Pooled Queue,weekdaystudent,14,Customer.WaitTime,0.0,,0.0,0.0,22.0
+Pooled Queue,weekdaystudent,14,Customer.TranTime,0.0,,0.0,0.0,22.0
+Pooled Queue,weekdaystudent,14,Customer.OtherTime,0.0,,0.0,0.0,22.0
+Pooled Queue,weekdaystudent,14,Customer.TotalTime,0.76936,,0.31802,2.0876,22.0
+Pooled Queue,weekdaystudent,14,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,23.0
+Pooled Queue,weekdaystudent,14,Customer.WIP,0.33316,,0.0,4.0,2.0
+Pooled Queue,weekdaystudent,14,server.NumberBusy,0.33316,,0.0,4.0,2.0
+Pooled Queue,weekdaystudent,14,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,14,server.Utilization,0.08329,,0.0,1.0,0.5
+Pooled Queue,weekdaystudent,14,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,15,Customer.VATime,0.89895,,0.36804,1.6974,26.0
+Pooled Queue,weekdaystudent,15,Customer.NVATime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,15,Customer.WaitTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,15,Customer.TranTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,15,Customer.OtherTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,15,Customer.TotalTime,0.89895,,0.36804,1.6974,26.0
+Pooled Queue,weekdaystudent,15,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,15,Customer.WIP,0.46745,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,15,server.NumberBusy,0.46745,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,15,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,15,server.Utilization,0.11686,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,15,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,16,Customer.VATime,0.8077,,0.40921,1.4062,19.0
+Pooled Queue,weekdaystudent,16,Customer.NVATime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,16,Customer.WaitTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,16,Customer.TranTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,16,Customer.OtherTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,16,Customer.TotalTime,0.8077,,0.40921,1.4062,19.0
+Pooled Queue,weekdaystudent,16,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,19.0
+Pooled Queue,weekdaystudent,16,Customer.WIP,0.30692,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,16,server.NumberBusy,0.30692,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,16,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,16,server.Utilization,0.07673,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,16,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,17,Customer.VATime,0.82206,,0.41411,1.7682,15.0
+Pooled Queue,weekdaystudent,17,Customer.NVATime,0.0,,0.0,0.0,15.0
+Pooled Queue,weekdaystudent,17,Customer.WaitTime,0.0,,0.0,0.0,15.0
+Pooled Queue,weekdaystudent,17,Customer.TranTime,0.0,,0.0,0.0,15.0
+Pooled Queue,weekdaystudent,17,Customer.OtherTime,0.0,,0.0,0.0,15.0
+Pooled Queue,weekdaystudent,17,Customer.TotalTime,0.82206,,0.41411,1.7682,15.0
+Pooled Queue,weekdaystudent,17,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,16.0
+Pooled Queue,weekdaystudent,17,Customer.WIP,0.25963,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,17,server.NumberBusy,0.25963,,0.0,3.0,1.0
+Pooled Queue,weekdaystudent,17,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,17,server.Utilization,0.06491,,0.0,0.75,0.25
+Pooled Queue,weekdaystudent,17,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,18,Customer.VATime,0.83695,,0.2508,2.768,34.0
+Pooled Queue,weekdaystudent,18,Customer.NVATime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,18,Customer.WaitTime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,18,Customer.TranTime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,18,Customer.OtherTime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,18,Customer.TotalTime,0.83695,,0.2508,2.768,34.0
+Pooled Queue,weekdaystudent,18,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,34.0
+Pooled Queue,weekdaystudent,18,Customer.WIP,0.56913,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,18,server.NumberBusy,0.56913,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,18,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,18,server.Utilization,0.14228,,0.0,1.0,0.0
+Pooled Queue,weekdaystudent,18,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,19,Customer.VATime,0.75396,,0.29074,1.3001,20.0
+Pooled Queue,weekdaystudent,19,Customer.NVATime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,19,Customer.WaitTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,19,Customer.TranTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,19,Customer.OtherTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,19,Customer.TotalTime,0.75396,,0.29074,1.3001,20.0
+Pooled Queue,weekdaystudent,19,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,19,Customer.WIP,0.31062,,0.0,3.0,2.0
+Pooled Queue,weekdaystudent,19,server.NumberBusy,0.31062,,0.0,3.0,2.0
+Pooled Queue,weekdaystudent,19,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,19,server.Utilization,0.07765,,0.0,0.75,0.5
+Pooled Queue,weekdaystudent,19,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,20,Customer.VATime,0.80156,,0.24014,1.9568,18.0
+Pooled Queue,weekdaystudent,20,Customer.NVATime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,20,Customer.WaitTime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,20,Customer.TranTime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,20,Customer.OtherTime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,20,Customer.TotalTime,0.80156,,0.24014,1.9568,18.0
+Pooled Queue,weekdaystudent,20,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,20,Customer.WIP,0.28856,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,20,server.NumberBusy,0.28856,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,20,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,20,server.Utilization,0.07214,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,20,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,21,Customer.VATime,0.67517,,0.29949,1.4731,17.0
+Pooled Queue,weekdaystudent,21,Customer.NVATime,0.0,,0.0,0.0,17.0
+Pooled Queue,weekdaystudent,21,Customer.WaitTime,0.0,,0.0,0.0,17.0
+Pooled Queue,weekdaystudent,21,Customer.TranTime,0.0,,0.0,0.0,17.0
+Pooled Queue,weekdaystudent,21,Customer.OtherTime,0.0,,0.0,0.0,17.0
+Pooled Queue,weekdaystudent,21,Customer.TotalTime,0.67517,,0.29949,1.4731,17.0
+Pooled Queue,weekdaystudent,21,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,18.0
+Pooled Queue,weekdaystudent,21,Customer.WIP,0.24808,,0.0,2.0,1.0
+Pooled Queue,weekdaystudent,21,server.NumberBusy,0.24808,,0.0,2.0,1.0
+Pooled Queue,weekdaystudent,21,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,21,server.Utilization,0.06202,,0.0,0.5,0.25
+Pooled Queue,weekdaystudent,21,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,22,Customer.VATime,0.94635,,0.40584,1.7501,27.0
+Pooled Queue,weekdaystudent,22,Customer.NVATime,0.0,,0.0,0.0,27.0
+Pooled Queue,weekdaystudent,22,Customer.WaitTime,0.0,,0.0,0.0,27.0
+Pooled Queue,weekdaystudent,22,Customer.TranTime,0.0,,0.0,0.0,27.0
+Pooled Queue,weekdaystudent,22,Customer.OtherTime,0.0,,0.0,0.0,27.0
+Pooled Queue,weekdaystudent,22,Customer.TotalTime,0.94635,,0.40584,1.7501,27.0
+Pooled Queue,weekdaystudent,22,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,22,Customer.WIP,0.49121,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,22,server.NumberBusy,0.49121,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,22,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,22,server.Utilization,0.1228,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,22,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,23,Customer.VATime,0.63474,,0.36883,1.1667,20.0
+Pooled Queue,weekdaystudent,23,Customer.NVATime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,23,Customer.WaitTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,23,Customer.TranTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,23,Customer.OtherTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,23,Customer.TotalTime,0.63474,,0.36883,1.1667,20.0
+Pooled Queue,weekdaystudent,23,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,23,Customer.WIP,0.2539,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,23,server.NumberBusy,0.2539,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,23,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,23,server.Utilization,0.06347,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,23,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,24,Customer.VATime,0.8861,,0.28789,2.4763,21.0
+Pooled Queue,weekdaystudent,24,Customer.NVATime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,24,Customer.WaitTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,24,Customer.TranTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,24,Customer.OtherTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,24,Customer.TotalTime,0.8861,,0.28789,2.4763,21.0
+Pooled Queue,weekdaystudent,24,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,24,Customer.WIP,0.37216,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,24,server.NumberBusy,0.37216,,0.0,4.0,0.0
+Pooled Queue,weekdaystudent,24,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,24,server.Utilization,0.09304,,0.0,1.0,0.0
+Pooled Queue,weekdaystudent,24,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,25,Customer.VATime,0.81119,,0.33488,2.274,31.0
+Pooled Queue,weekdaystudent,25,Customer.NVATime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,25,Customer.WaitTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,25,Customer.TranTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,25,Customer.OtherTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,25,Customer.TotalTime,0.81119,,0.33488,2.274,31.0
+Pooled Queue,weekdaystudent,25,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,25,Customer.WIP,0.50294,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,25,server.NumberBusy,0.50294,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,25,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,25,server.Utilization,0.12573,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,25,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,26,Customer.VATime,0.95379,,0.54287,1.478,21.0
+Pooled Queue,weekdaystudent,26,Customer.NVATime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,26,Customer.WaitTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,26,Customer.TranTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,26,Customer.OtherTime,0.0,,0.0,0.0,21.0
+Pooled Queue,weekdaystudent,26,Customer.TotalTime,0.95379,,0.54287,1.478,21.0
+Pooled Queue,weekdaystudent,26,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,20.0
+Pooled Queue,weekdaystudent,26,Customer.WIP,0.37702,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,26,server.NumberBusy,0.37702,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,26,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,26,server.Utilization,0.09426,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,26,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,27,Customer.VATime,0.75677,,0.32494,1.4415,26.0
+Pooled Queue,weekdaystudent,27,Customer.NVATime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,27,Customer.WaitTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,27,Customer.TranTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,27,Customer.OtherTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,27,Customer.TotalTime,0.75677,,0.32494,1.4415,26.0
+Pooled Queue,weekdaystudent,27,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,26.0
+Pooled Queue,weekdaystudent,27,Customer.WIP,0.39352,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,27,server.NumberBusy,0.39352,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,27,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,27,server.Utilization,0.09838,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,27,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,28,Customer.VATime,0.70929,,0.31238,1.8036,31.0
+Pooled Queue,weekdaystudent,28,Customer.NVATime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,28,Customer.WaitTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,28,Customer.TranTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,28,Customer.OtherTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,28,Customer.TotalTime,0.70929,,0.31238,1.8036,31.0
+Pooled Queue,weekdaystudent,28,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,31.0
+Pooled Queue,weekdaystudent,28,Customer.WIP,0.43976,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,28,server.NumberBusy,0.43976,,0.0,2.0,0.0
+Pooled Queue,weekdaystudent,28,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,28,server.Utilization,0.10994,,0.0,0.5,0.0
+Pooled Queue,weekdaystudent,28,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekdaystudent,29,Customer.VATime,0.79422,,0.15205,1.8944,29.0
+Pooled Queue,weekdaystudent,29,Customer.NVATime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,29,Customer.WaitTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,29,Customer.TranTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,29,Customer.OtherTime,0.0,,0.0,0.0,29.0
+Pooled Queue,weekdaystudent,29,Customer.TotalTime,0.79422,,0.15205,1.8944,29.0
+Pooled Queue,weekdaystudent,29,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,27.0
+Pooled Queue,weekdaystudent,29,Customer.WIP,0.43904,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,29,server.NumberBusy,0.43904,,0.0,3.0,0.0
+Pooled Queue,weekdaystudent,29,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekdaystudent,29,server.Utilization,0.10976,,0.0,0.75,0.0
+Pooled Queue,weekdaystudent,29,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,1,Customer.VATime,1.5771,,0.50376,4.1606,145.0
+Pooled Queue,weekendnormal,1,Customer.NVATime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,1,Customer.WaitTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,1,Customer.TranTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,1,Customer.OtherTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,1,Customer.TotalTime,1.5771,,0.50376,4.1606,145.0
+Pooled Queue,weekendnormal,1,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,1,Customer.WIP,0.50818,,0.0,3.0,0.0
+Pooled Queue,weekendnormal,1,server.NumberBusy,0.50818,,0.0,3.0,0.0
+Pooled Queue,weekendnormal,1,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,1,server.Utilization,0.12705,,0.0,0.75,0.0
+Pooled Queue,weekendnormal,1,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,2,Customer.VATime,1.5694,,0.39361,4.422,155.0
+Pooled Queue,weekendnormal,2,Customer.NVATime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,2,Customer.WaitTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,2,Customer.TranTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,2,Customer.OtherTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,2,Customer.TotalTime,1.5694,,0.39361,4.422,155.0
+Pooled Queue,weekendnormal,2,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,2,Customer.WIP,0.54059,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,2,server.NumberBusy,0.54059,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,2,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,2,server.Utilization,0.13515,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,2,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,3,Customer.VATime,1.521,,0.51657,3.4528,159.0
+Pooled Queue,weekendnormal,3,Customer.NVATime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,3,Customer.WaitTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,3,Customer.TranTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,3,Customer.OtherTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,3,Customer.TotalTime,1.521,,0.51657,3.4528,159.0
+Pooled Queue,weekendnormal,3,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,3,Customer.WIP,0.53657,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,3,server.NumberBusy,0.53657,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,3,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,3,server.Utilization,0.13414,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,3,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,4,Customer.VATime,1.5097,,0.5827,3.3463,169.0
+Pooled Queue,weekendnormal,4,Customer.NVATime,0.0,,0.0,0.0,169.0
+Pooled Queue,weekendnormal,4,Customer.WaitTime,0.0,,0.0,0.0,169.0
+Pooled Queue,weekendnormal,4,Customer.TranTime,0.0,,0.0,0.0,169.0
+Pooled Queue,weekendnormal,4,Customer.OtherTime,0.0,,0.0,0.0,169.0
+Pooled Queue,weekendnormal,4,Customer.TotalTime,1.5097,,0.5827,3.3463,169.0
+Pooled Queue,weekendnormal,4,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,4,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,4,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,5,Customer.VATime,1.5473,,0.57251,3.8895,149.0
+Pooled Queue,weekendnormal,5,Customer.NVATime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,5,Customer.WaitTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,5,Customer.TranTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,5,Customer.OtherTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,5,Customer.TotalTime,1.5473,,0.57251,3.8895,149.0
+Pooled Queue,weekendnormal,5,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,148.0
+Pooled Queue,weekendnormal,5,Customer.WIP,0.51176,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,5,server.NumberBusy,0.51176,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,5,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,5,server.Utilization,0.12794,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,5,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,6,Customer.VATime,1.5334,,0.45214,3.6492,195.0
+Pooled Queue,weekendnormal,6,Customer.NVATime,0.0,,0.0,0.0,195.0
+Pooled Queue,weekendnormal,6,Customer.WaitTime,0.00349,,0.0,0.68129,195.0
+Pooled Queue,weekendnormal,6,Customer.TranTime,0.0,,0.0,0.0,195.0
+Pooled Queue,weekendnormal,6,Customer.OtherTime,0.0,,0.0,0.0,195.0
+Pooled Queue,weekendnormal,6,Customer.TotalTime,1.5369,,0.45214,3.6492,195.0
+Pooled Queue,weekendnormal,6,Pooled Checkout.Queue.WaitingTime,0.00349,,0.0,0.68129,195.0
+Pooled Queue,weekendnormal,6,Customer.WIP,0.66601,0.10817,0.0,5.0,0.0
+Pooled Queue,weekendnormal,6,server.NumberBusy,0.6645,0.10751,0.0,4.0,0.0
+Pooled Queue,weekendnormal,6,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,6,server.Utilization,0.16612,0.02688,0.0,1.0,0.0
+Pooled Queue,weekendnormal,6,Pooled Checkout.Queue.NumberInQueue,0.00151,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,7,Customer.VATime,1.5893,,0.44614,4.0055,154.0
+Pooled Queue,weekendnormal,7,Customer.NVATime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendnormal,7,Customer.WaitTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendnormal,7,Customer.TranTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendnormal,7,Customer.OtherTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendnormal,7,Customer.TotalTime,1.5893,,0.44614,4.0055,154.0
+Pooled Queue,weekendnormal,7,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,7,Customer.WIP,0.54659,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,7,server.NumberBusy,0.54659,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,7,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,7,server.Utilization,0.13665,,0.0,1.0,0.25
+Pooled Queue,weekendnormal,7,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,8,Customer.VATime,1.6224,,0.658,4.756,163.0
+Pooled Queue,weekendnormal,8,Customer.NVATime,0.0,,0.0,0.0,163.0
+Pooled Queue,weekendnormal,8,Customer.WaitTime,0.0,,0.0,0.0,163.0
+Pooled Queue,weekendnormal,8,Customer.TranTime,0.0,,0.0,0.0,163.0
+Pooled Queue,weekendnormal,8,Customer.OtherTime,0.0,,0.0,0.0,163.0
+Pooled Queue,weekendnormal,8,Customer.TotalTime,1.6224,,0.658,4.756,163.0
+Pooled Queue,weekendnormal,8,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,8,Customer.WIP,0.5856,0.10477,0.0,4.0,1.0
+Pooled Queue,weekendnormal,8,server.NumberBusy,0.5856,0.10477,0.0,4.0,1.0
+Pooled Queue,weekendnormal,8,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,8,server.Utilization,0.1464,0.02619,0.0,1.0,0.25
+Pooled Queue,weekendnormal,8,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,9,Customer.VATime,1.524,,0.5578,3.5062,158.0
+Pooled Queue,weekendnormal,9,Customer.NVATime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,9,Customer.WaitTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,9,Customer.TranTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,9,Customer.OtherTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,9,Customer.TotalTime,1.524,,0.5578,3.5062,158.0
+Pooled Queue,weekendnormal,9,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,9,Customer.WIP,0.53511,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,9,server.NumberBusy,0.53511,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,9,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,9,server.Utilization,0.13378,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,9,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,10,Customer.VATime,1.5906,,0.39629,3.2443,171.0
+Pooled Queue,weekendnormal,10,Customer.NVATime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendnormal,10,Customer.WaitTime,0.00134,,0.0,0.22986,171.0
+Pooled Queue,weekendnormal,10,Customer.TranTime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendnormal,10,Customer.OtherTime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendnormal,10,Customer.TotalTime,1.5919,,0.39629,3.2443,171.0
+Pooled Queue,weekendnormal,10,Pooled Checkout.Queue.WaitingTime,0.00134,,0.0,0.22986,171.0
+Pooled Queue,weekendnormal,10,Customer.WIP,0.60495,0.1201,0.0,5.0,0.0
+Pooled Queue,weekendnormal,10,server.NumberBusy,0.60444,0.11982,0.0,4.0,0.0
+Pooled Queue,weekendnormal,10,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,10,server.Utilization,0.15111,0.02995,0.0,1.0,0.0
+Pooled Queue,weekendnormal,11,Customer.VATime,1.5877,,0.51332,3.8687,143.0
+Pooled Queue,weekendnormal,11,Customer.NVATime,0.0,,0.0,0.0,143.0
+Pooled Queue,weekendnormal,11,Customer.WaitTime,0.0,,0.0,0.0,143.0
+Pooled Queue,weekendnormal,11,Customer.TranTime,0.0,,0.0,0.0,143.0
+Pooled Queue,weekendnormal,11,Customer.OtherTime,0.0,,0.0,0.0,143.0
+Pooled Queue,weekendnormal,11,Customer.TotalTime,1.5877,,0.51332,3.8687,143.0
+Pooled Queue,weekendnormal,11,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,11,Customer.WIP,0.50375,,0.0,4.0,2.0
+Pooled Queue,weekendnormal,11,server.NumberBusy,0.50375,,0.0,4.0,2.0
+Pooled Queue,weekendnormal,11,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,11,server.Utilization,0.12594,,0.0,1.0,0.5
+Pooled Queue,weekendnormal,11,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,12,Customer.VATime,1.5084,,0.50998,3.9426,162.0
+Pooled Queue,weekendnormal,12,Customer.NVATime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,12,Customer.WaitTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,12,Customer.TranTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,12,Customer.OtherTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,12,Customer.TotalTime,1.5084,,0.50998,3.9426,162.0
+Pooled Queue,weekendnormal,12,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendnormal,12,Customer.WIP,0.54492,0.06877,0.0,3.0,1.0
+Pooled Queue,weekendnormal,12,server.NumberBusy,0.54492,0.06877,0.0,3.0,1.0
+Pooled Queue,weekendnormal,12,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,12,server.Utilization,0.13623,0.01719,0.0,0.75,0.25
+Pooled Queue,weekendnormal,12,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,13,Customer.VATime,1.5416,,0.28571,3.6581,155.0
+Pooled Queue,weekendnormal,13,Customer.NVATime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,13,Customer.WaitTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,13,Customer.TranTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,13,Customer.OtherTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,13,Customer.TotalTime,1.5416,,0.28571,3.6581,155.0
+Pooled Queue,weekendnormal,13,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,155.0
+Pooled Queue,weekendnormal,13,Customer.WIP,0.53102,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,13,server.NumberBusy,0.53102,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,13,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,13,server.Utilization,0.13276,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,13,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,14,Customer.VATime,1.604,,0.42232,5.1009,144.0
+Pooled Queue,weekendnormal,14,Customer.NVATime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,14,Customer.WaitTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,14,Customer.TranTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,14,Customer.OtherTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,14,Customer.TotalTime,1.604,,0.42232,5.1009,144.0
+Pooled Queue,weekendnormal,14,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,14,Customer.WIP,0.51328,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,14,server.NumberBusy,0.51328,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,14,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,14,server.Utilization,0.12832,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,14,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,15,Customer.VATime,1.5815,,0.51937,3.7656,174.0
+Pooled Queue,weekendnormal,15,Customer.NVATime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,15,Customer.TranTime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,15,Customer.OtherTime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,15,Customer.TotalTime,1.5819,,0.51937,3.7656,174.0
+Pooled Queue,weekendnormal,15,Customer.WIP,0.60969,0.10137,0.0,5.0,2.0
+Pooled Queue,weekendnormal,15,server.NumberBusy,0.60954,0.10121,0.0,4.0,2.0
+Pooled Queue,weekendnormal,15,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,15,server.Utilization,0.15239,0.0253,0.0,1.0,0.5
+Pooled Queue,weekendnormal,16,Customer.VATime,1.5511,,0.50549,5.4259,164.0
+Pooled Queue,weekendnormal,16,Customer.NVATime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendnormal,16,Customer.WaitTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendnormal,16,Customer.TranTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendnormal,16,Customer.OtherTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendnormal,16,Customer.TotalTime,1.5511,,0.50549,5.4259,164.0
+Pooled Queue,weekendnormal,16,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendnormal,16,Customer.WIP,0.56531,0.08231,0.0,4.0,0.0
+Pooled Queue,weekendnormal,16,server.NumberBusy,0.56531,0.08231,0.0,4.0,0.0
+Pooled Queue,weekendnormal,16,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,16,server.Utilization,0.14133,0.02058,0.0,1.0,0.0
+Pooled Queue,weekendnormal,16,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,17,Customer.VATime,1.5957,,0.53842,4.1369,172.0
+Pooled Queue,weekendnormal,17,Customer.NVATime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,17,Customer.WaitTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,17,Customer.TranTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,17,Customer.OtherTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,17,Customer.TotalTime,1.5957,,0.53842,4.1369,172.0
+Pooled Queue,weekendnormal,17,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendnormal,17,Customer.WIP,0.60807,0.10089,0.0,4.0,0.0
+Pooled Queue,weekendnormal,17,server.NumberBusy,0.60807,0.10089,0.0,4.0,0.0
+Pooled Queue,weekendnormal,17,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,17,server.Utilization,0.15202,0.02522,0.0,1.0,0.0
+Pooled Queue,weekendnormal,17,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,18,Customer.VATime,1.6223,,0.36287,3.6495,158.0
+Pooled Queue,weekendnormal,18,Customer.NVATime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,18,Customer.WaitTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,18,Customer.TranTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,18,Customer.OtherTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,18,Customer.TotalTime,1.6223,,0.36287,3.6495,158.0
+Pooled Queue,weekendnormal,18,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendnormal,18,Customer.WIP,0.56707,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,18,server.NumberBusy,0.56707,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,18,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,18,server.Utilization,0.14177,,0.0,1.0,0.25
+Pooled Queue,weekendnormal,18,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,19,Customer.VATime,1.6329,,0.66902,3.5852,159.0
+Pooled Queue,weekendnormal,19,Customer.NVATime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,19,Customer.WaitTime,0.00773,,0.0,0.66637,159.0
+Pooled Queue,weekendnormal,19,Customer.TranTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,19,Customer.OtherTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendnormal,19,Customer.TotalTime,1.6406,,0.66902,3.5852,159.0
+Pooled Queue,weekendnormal,19,Pooled Checkout.Queue.WaitingTime,0.00773,,0.0,0.66637,159.0
+Pooled Queue,weekendnormal,19,Customer.WIP,0.58034,,0.0,6.0,1.0
+Pooled Queue,weekendnormal,19,server.NumberBusy,0.57761,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,19,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,19,server.Utilization,0.1444,,0.0,1.0,0.25
+Pooled Queue,weekendnormal,19,Pooled Checkout.Queue.NumberInQueue,0.00273,,0.0,2.0,0.0
+Pooled Queue,weekendnormal,20,Customer.VATime,1.642,,0.5103,4.284,149.0
+Pooled Queue,weekendnormal,20,Customer.NVATime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,20,Customer.WaitTime,0.00349,,0.0,0.51951,149.0
+Pooled Queue,weekendnormal,20,Customer.TranTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,20,Customer.OtherTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendnormal,20,Customer.TotalTime,1.6455,,0.5103,4.284,149.0
+Pooled Queue,weekendnormal,20,Pooled Checkout.Queue.WaitingTime,0.00346,,0.0,0.51951,150.0
+Pooled Queue,weekendnormal,20,Customer.WIP,0.54576,,0.0,5.0,2.0
+Pooled Queue,weekendnormal,20,server.NumberBusy,0.54461,,0.0,4.0,2.0
+Pooled Queue,weekendnormal,20,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,20,server.Utilization,0.13615,,0.0,1.0,0.5
+Pooled Queue,weekendnormal,20,Pooled Checkout.Queue.NumberInQueue,0.00115,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,21,Customer.VATime,1.581,,0.54949,3.2891,150.0
+Pooled Queue,weekendnormal,21,Customer.NVATime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendnormal,21,Customer.WaitTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendnormal,21,Customer.TranTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendnormal,21,Customer.OtherTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendnormal,21,Customer.TotalTime,1.581,,0.54949,3.2891,150.0
+Pooled Queue,weekendnormal,21,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendnormal,21,Customer.WIP,0.52702,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,21,server.NumberBusy,0.52702,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,21,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,21,server.Utilization,0.13176,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,21,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,22,Customer.VATime,1.6138,,0.59274,3.9744,144.0
+Pooled Queue,weekendnormal,22,Customer.NVATime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,22,Customer.WaitTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,22,Customer.TranTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,22,Customer.OtherTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,22,Customer.TotalTime,1.6138,,0.59274,3.9744,144.0
+Pooled Queue,weekendnormal,22,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,144.0
+Pooled Queue,weekendnormal,22,Customer.WIP,0.51643,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,22,server.NumberBusy,0.51643,,0.0,4.0,0.0
+Pooled Queue,weekendnormal,22,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,22,server.Utilization,0.12911,,0.0,1.0,0.0
+Pooled Queue,weekendnormal,22,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,23,Customer.VATime,1.6576,,0.59684,4.4021,145.0
+Pooled Queue,weekendnormal,23,Customer.NVATime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,23,Customer.WaitTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,23,Customer.TranTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,23,Customer.OtherTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,23,Customer.TotalTime,1.6576,,0.59684,4.4021,145.0
+Pooled Queue,weekendnormal,23,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendnormal,23,Customer.WIP,0.5335,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,23,server.NumberBusy,0.5335,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,23,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,23,server.Utilization,0.13337,,0.0,1.0,0.25
+Pooled Queue,weekendnormal,23,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,24,Customer.VATime,1.6731,,0.63093,4.1268,146.0
+Pooled Queue,weekendnormal,24,Customer.NVATime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendnormal,24,Customer.WaitTime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendnormal,24,Customer.TranTime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendnormal,24,Customer.OtherTime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendnormal,24,Customer.TotalTime,1.6731,,0.63093,4.1268,146.0
+Pooled Queue,weekendnormal,24,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,147.0
+Pooled Queue,weekendnormal,24,Customer.WIP,0.54341,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,24,server.NumberBusy,0.54341,,0.0,4.0,1.0
+Pooled Queue,weekendnormal,24,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,24,server.Utilization,0.13585,,0.0,1.0,0.25
+Pooled Queue,weekendnormal,24,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,25,Customer.VATime,1.5306,,0.44673,3.6016,168.0
+Pooled Queue,weekendnormal,25,Customer.NVATime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,25,Customer.WaitTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,25,Customer.TranTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,25,Customer.OtherTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,25,Customer.TotalTime,1.5306,,0.44673,3.6016,168.0
+Pooled Queue,weekendnormal,25,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendnormal,25,Customer.WIP,0.57143,0.10629,0.0,4.0,0.0
+Pooled Queue,weekendnormal,25,server.NumberBusy,0.57143,0.10629,0.0,4.0,0.0
+Pooled Queue,weekendnormal,25,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,25,server.Utilization,0.14286,0.02657,0.0,1.0,0.0
+Pooled Queue,weekendnormal,25,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,26,Customer.VATime,1.5801,,0.53146,3.6521,152.0
+Pooled Queue,weekendnormal,26,Customer.NVATime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendnormal,26,Customer.WaitTime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendnormal,26,Customer.TranTime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendnormal,26,Customer.OtherTime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendnormal,26,Customer.TotalTime,1.5801,,0.53146,3.6521,152.0
+Pooled Queue,weekendnormal,26,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendnormal,26,Customer.WIP,0.53509,,0.0,4.0,2.0
+Pooled Queue,weekendnormal,26,server.NumberBusy,0.53509,,0.0,4.0,2.0
+Pooled Queue,weekendnormal,26,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,26,server.Utilization,0.13377,,0.0,1.0,0.5
+Pooled Queue,weekendnormal,26,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,27,Customer.VATime,1.5865,,0.46783,3.5974,161.0
+Pooled Queue,weekendnormal,27,Customer.NVATime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendnormal,27,Customer.WaitTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendnormal,27,Customer.TranTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendnormal,27,Customer.OtherTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendnormal,27,Customer.TotalTime,1.5865,,0.46783,3.5974,161.0
+Pooled Queue,weekendnormal,27,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendnormal,27,Customer.WIP,0.56953,0.08199,0.0,4.0,1.0
+Pooled Queue,weekendnormal,27,server.NumberBusy,0.56953,0.08199,0.0,4.0,1.0
+Pooled Queue,weekendnormal,27,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,27,server.Utilization,0.14238,0.0205,0.0,1.0,0.25
+Pooled Queue,weekendnormal,27,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,28,Customer.VATime,1.633,,0.42942,3.6174,174.0
+Pooled Queue,weekendnormal,28,Customer.NVATime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,28,Customer.WaitTime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,28,Customer.TranTime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,28,Customer.OtherTime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,28,Customer.TotalTime,1.633,,0.42942,3.6174,174.0
+Pooled Queue,weekendnormal,28,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,175.0
+Pooled Queue,weekendnormal,28,Customer.WIP,0.63519,0.09182,0.0,4.0,1.0
+Pooled Queue,weekendnormal,28,server.NumberBusy,0.63519,0.09182,0.0,4.0,1.0
+Pooled Queue,weekendnormal,28,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,28,server.Utilization,0.1588,0.02295,0.0,1.0,0.25
+Pooled Queue,weekendnormal,28,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendnormal,29,Customer.VATime,1.6195,,0.53933,3.9941,172.0
+Pooled Queue,weekendnormal,29,Customer.NVATime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,29,Customer.WaitTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,29,Customer.TranTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,29,Customer.OtherTime,0.0,,0.0,0.0,172.0
+Pooled Queue,weekendnormal,29,Customer.TotalTime,1.6195,,0.53933,3.9941,172.0
+Pooled Queue,weekendnormal,29,Pooled Checkout.Queue.WaitingTime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendnormal,29,Customer.WIP,0.61585,0.10888,0.0,4.0,0.0
+Pooled Queue,weekendnormal,29,server.NumberBusy,0.61585,0.10888,0.0,4.0,0.0
+Pooled Queue,weekendnormal,29,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendnormal,29,server.Utilization,0.15396,0.02722,0.0,1.0,0.0
+Pooled Queue,weekendnormal,29,Pooled Checkout.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Pooled Queue,weekendpeak,1,Customer.VATime,1.5768,,0.50376,4.1606,151.0
+Pooled Queue,weekendpeak,1,Customer.NVATime,0.0,,0.0,0.0,151.0
+Pooled Queue,weekendpeak,1,Customer.WaitTime,0.02175,,0.0,0.64627,151.0
+Pooled Queue,weekendpeak,1,Customer.TranTime,0.0,,0.0,0.0,151.0
+Pooled Queue,weekendpeak,1,Customer.OtherTime,0.0,,0.0,0.0,151.0
+Pooled Queue,weekendpeak,1,Customer.TotalTime,1.5985,,0.50376,4.1606,151.0
+Pooled Queue,weekendpeak,1,Pooled Checkout.Queue.WaitingTime,0.02146,,0.0,0.64627,153.0
+Pooled Queue,weekendpeak,1,Customer.WIP,1.1529,,0.0,6.0,2.0
+Pooled Queue,weekendpeak,1,server.NumberBusy,1.1372,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,1,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,1,server.Utilization,0.28432,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,1,Pooled Checkout.Queue.NumberInQueue,0.01564,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,2,Customer.VATime,1.5636,,0.39361,4.422,158.0
+Pooled Queue,weekendpeak,2,Customer.NVATime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendpeak,2,Customer.WaitTime,0.00606,,0.0,0.6574,158.0
+Pooled Queue,weekendpeak,2,Customer.TranTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendpeak,2,Customer.OtherTime,0.0,,0.0,0.0,158.0
+Pooled Queue,weekendpeak,2,Customer.TotalTime,1.5697,,0.39361,4.422,158.0
+Pooled Queue,weekendpeak,2,Pooled Checkout.Queue.WaitingTime,0.01151,,0.0,0.86097,158.0
+Pooled Queue,weekendpeak,2,Customer.WIP,1.1823,,0.0,5.0,1.0
+Pooled Queue,weekendpeak,2,server.NumberBusy,1.1736,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,2,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,2,server.Utilization,0.29341,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,2,Pooled Checkout.Queue.NumberInQueue,0.00866,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,3,Customer.VATime,1.5232,,0.51657,3.4528,154.0
+Pooled Queue,weekendpeak,3,Customer.NVATime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,3,Customer.WaitTime,0.00742,,0.0,0.58619,154.0
+Pooled Queue,weekendpeak,3,Customer.TranTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,3,Customer.OtherTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,3,Customer.TotalTime,1.5306,,0.51657,3.4528,154.0
+Pooled Queue,weekendpeak,3,Pooled Checkout.Queue.WaitingTime,0.00732,,0.0,0.58619,156.0
+Pooled Queue,weekendpeak,3,Customer.WIP,1.1279,,0.0,6.0,3.0
+Pooled Queue,weekendpeak,3,server.NumberBusy,1.1225,,0.0,4.0,3.0
+Pooled Queue,weekendpeak,3,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,3,server.Utilization,0.28064,,0.0,1.0,0.75
+Pooled Queue,weekendpeak,3,Pooled Checkout.Queue.NumberInQueue,0.00544,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,4,Customer.VATime,1.5186,,0.5827,3.3463,170.0
+Pooled Queue,weekendpeak,4,Customer.NVATime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,4,Customer.WaitTime,0.00559,,0.0,0.25039,170.0
+Pooled Queue,weekendpeak,4,Customer.TranTime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,4,Customer.OtherTime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,4,Customer.TotalTime,1.5242,,0.5827,3.3463,170.0
+Pooled Queue,weekendpeak,4,Pooled Checkout.Queue.WaitingTime,0.00569,,0.0,0.25039,167.0
+Pooled Queue,weekendpeak,4,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,4,Pooled Checkout.Queue.NumberInQueue,0.00452,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,5,Customer.VATime,1.5894,,0.57251,3.8895,149.0
+Pooled Queue,weekendpeak,5,Customer.NVATime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,5,Customer.WaitTime,0.01506,,0.0,0.60826,149.0
+Pooled Queue,weekendpeak,5,Customer.TranTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,5,Customer.OtherTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,5,Customer.TotalTime,1.6044,,0.57251,3.8895,149.0
+Pooled Queue,weekendpeak,5,Pooled Checkout.Queue.WaitingTime,0.01547,,0.0,0.60826,145.0
+Pooled Queue,weekendpeak,5,Customer.WIP,1.1292,,0.0,6.0,0.0
+Pooled Queue,weekendpeak,5,server.NumberBusy,1.1185,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,5,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,5,server.Utilization,0.27963,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,5,Pooled Checkout.Queue.NumberInQueue,0.01068,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,6,Customer.VATime,1.5311,,0.45214,3.6492,192.0
+Pooled Queue,weekendpeak,6,Customer.NVATime,0.0,,0.0,0.0,192.0
+Pooled Queue,weekendpeak,6,Customer.WaitTime,0.03653,,0.0,1.3468,192.0
+Pooled Queue,weekendpeak,6,Customer.TranTime,0.0,,0.0,0.0,192.0
+Pooled Queue,weekendpeak,6,Customer.OtherTime,0.0,,0.0,0.0,192.0
+Pooled Queue,weekendpeak,6,Customer.TotalTime,1.5677,,0.48876,3.6492,192.0
+Pooled Queue,weekendpeak,6,Pooled Checkout.Queue.WaitingTime,0.03653,,0.0,1.3468,192.0
+Pooled Queue,weekendpeak,6,Customer.WIP,1.4317,0.23235,0.0,6.0,1.0
+Pooled Queue,weekendpeak,6,server.NumberBusy,1.3983,0.20781,0.0,4.0,1.0
+Pooled Queue,weekendpeak,6,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,6,server.Utilization,0.34959,0.05195,0.0,1.0,0.25
+Pooled Queue,weekendpeak,6,Pooled Checkout.Queue.NumberInQueue,0.0334,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,7,Customer.VATime,1.6039,,0.44614,4.0055,148.0
+Pooled Queue,weekendpeak,7,Customer.NVATime,0.0,,0.0,0.0,148.0
+Pooled Queue,weekendpeak,7,Customer.WaitTime,0.00782,,0.0,0.77501,148.0
+Pooled Queue,weekendpeak,7,Customer.TranTime,0.0,,0.0,0.0,148.0
+Pooled Queue,weekendpeak,7,Customer.OtherTime,0.0,,0.0,0.0,148.0
+Pooled Queue,weekendpeak,7,Customer.TotalTime,1.6117,,0.44614,4.0055,148.0
+Pooled Queue,weekendpeak,7,Pooled Checkout.Queue.WaitingTime,0.00879,,0.0,0.77501,148.0
+Pooled Queue,weekendpeak,7,Customer.WIP,1.1387,,0.0,5.0,2.0
+Pooled Queue,weekendpeak,7,server.NumberBusy,1.1325,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,7,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,7,server.Utilization,0.28314,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,7,Pooled Checkout.Queue.NumberInQueue,0.0062,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,8,Customer.VATime,1.5857,,0.658,3.1778,164.0
+Pooled Queue,weekendpeak,8,Customer.NVATime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendpeak,8,Customer.WaitTime,0.02181,,0.0,0.91491,164.0
+Pooled Queue,weekendpeak,8,Customer.TranTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendpeak,8,Customer.OtherTime,0.0,,0.0,0.0,164.0
+Pooled Queue,weekendpeak,8,Customer.TotalTime,1.6075,,0.658,3.1778,164.0
+Pooled Queue,weekendpeak,8,Pooled Checkout.Queue.WaitingTime,0.02194,,0.0,0.91491,163.0
+Pooled Queue,weekendpeak,8,Customer.WIP,1.246,0.22069,0.0,7.0,1.0
+Pooled Queue,weekendpeak,8,server.NumberBusy,1.2289,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,8,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,8,server.Utilization,0.30724,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,8,Pooled Checkout.Queue.NumberInQueue,0.01703,,0.0,3.0,0.0
+Pooled Queue,weekendpeak,9,Customer.VATime,1.5194,,0.5578,3.5062,159.0
+Pooled Queue,weekendpeak,9,Customer.NVATime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendpeak,9,Customer.WaitTime,0.0244,,0.0,0.77168,159.0
+Pooled Queue,weekendpeak,9,Customer.TranTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendpeak,9,Customer.OtherTime,0.0,,0.0,0.0,159.0
+Pooled Queue,weekendpeak,9,Customer.TotalTime,1.5438,,0.5578,3.5062,159.0
+Pooled Queue,weekendpeak,9,Pooled Checkout.Queue.WaitingTime,0.02425,,0.0,0.77168,160.0
+Pooled Queue,weekendpeak,9,Customer.WIP,1.1715,0.18938,0.0,7.0,1.0
+Pooled Queue,weekendpeak,9,server.NumberBusy,1.153,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,9,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,9,server.Utilization,0.28827,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,9,Pooled Checkout.Queue.NumberInQueue,0.01847,,0.0,3.0,0.0
+Pooled Queue,weekendpeak,10,Customer.VATime,1.5905,,0.39629,3.2443,165.0
+Pooled Queue,weekendpeak,10,Customer.NVATime,0.0,,0.0,0.0,165.0
+Pooled Queue,weekendpeak,10,Customer.WaitTime,0.01585,,0.0,0.65926,165.0
+Pooled Queue,weekendpeak,10,Customer.TranTime,0.0,,0.0,0.0,165.0
+Pooled Queue,weekendpeak,10,Customer.OtherTime,0.0,,0.0,0.0,165.0
+Pooled Queue,weekendpeak,10,Customer.TotalTime,1.6064,,0.39629,3.2443,165.0
+Pooled Queue,weekendpeak,10,Pooled Checkout.Queue.WaitingTime,0.01798,,0.0,0.65926,166.0
+Pooled Queue,weekendpeak,10,Customer.WIP,1.2676,0.23263,0.0,5.0,2.0
+Pooled Queue,weekendpeak,10,server.NumberBusy,1.2534,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,10,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,10,server.Utilization,0.31336,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,10,Pooled Checkout.Queue.NumberInQueue,0.01422,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,11,Customer.VATime,1.5584,,0.51332,3.119,140.0
+Pooled Queue,weekendpeak,11,Customer.NVATime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,11,Customer.WaitTime,0.00592,,0.0,0.41023,140.0
+Pooled Queue,weekendpeak,11,Customer.TranTime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,11,Customer.OtherTime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,11,Customer.TotalTime,1.5644,,0.51332,3.119,140.0
+Pooled Queue,weekendpeak,11,Pooled Checkout.Queue.WaitingTime,0.00588,,0.0,0.41023,141.0
+Pooled Queue,weekendpeak,11,Customer.WIP,1.0524,,0.0,5.0,2.0
+Pooled Queue,weekendpeak,11,server.NumberBusy,1.0484,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,11,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,11,server.Utilization,0.26212,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,11,Pooled Checkout.Queue.NumberInQueue,0.00395,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,12,Customer.VATime,1.4931,,0.50998,3.9426,168.0
+Pooled Queue,weekendpeak,12,Customer.NVATime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendpeak,12,Customer.TranTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendpeak,12,Customer.OtherTime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendpeak,12,Customer.TotalTime,1.4934,,0.50998,3.9426,168.0
+Pooled Queue,weekendpeak,12,Customer.WIP,1.2079,0.14138,0.0,5.0,2.0
+Pooled Queue,weekendpeak,12,server.NumberBusy,1.2077,0.14127,0.0,4.0,2.0
+Pooled Queue,weekendpeak,12,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,12,server.Utilization,0.30194,0.03532,0.0,1.0,0.5
+Pooled Queue,weekendpeak,13,Customer.VATime,1.5323,,0.28571,3.6581,152.0
+Pooled Queue,weekendpeak,13,Customer.NVATime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendpeak,13,Customer.WaitTime,0.01396,,0.0,0.40129,152.0
+Pooled Queue,weekendpeak,13,Customer.TranTime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendpeak,13,Customer.OtherTime,0.0,,0.0,0.0,152.0
+Pooled Queue,weekendpeak,13,Customer.TotalTime,1.5462,,0.28571,3.6581,152.0
+Pooled Queue,weekendpeak,13,Pooled Checkout.Queue.WaitingTime,0.01396,,0.0,0.40129,152.0
+Pooled Queue,weekendpeak,13,Customer.WIP,1.1192,,0.0,5.0,0.0
+Pooled Queue,weekendpeak,13,server.NumberBusy,1.1091,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,13,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,13,server.Utilization,0.27728,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,13,Pooled Checkout.Queue.NumberInQueue,0.0101,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,14,Customer.VATime,1.5968,,0.42232,5.1009,141.0
+Pooled Queue,weekendpeak,14,Customer.NVATime,0.0,,0.0,0.0,141.0
+Pooled Queue,weekendpeak,14,Customer.WaitTime,0.01053,,0.0,0.65811,141.0
+Pooled Queue,weekendpeak,14,Customer.TranTime,0.0,,0.0,0.0,141.0
+Pooled Queue,weekendpeak,14,Customer.OtherTime,0.0,,0.0,0.0,141.0
+Pooled Queue,weekendpeak,14,Customer.TotalTime,1.6073,,0.42232,5.1009,141.0
+Pooled Queue,weekendpeak,14,Pooled Checkout.Queue.WaitingTime,0.01046,,0.0,0.65811,142.0
+Pooled Queue,weekendpeak,14,Customer.WIP,1.0813,,0.0,6.0,1.0
+Pooled Queue,weekendpeak,14,server.NumberBusy,1.0743,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,14,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,14,server.Utilization,0.26858,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,14,Pooled Checkout.Queue.NumberInQueue,0.00707,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,15,Customer.VATime,1.594,,0.51937,3.7656,177.0
+Pooled Queue,weekendpeak,15,Customer.NVATime,0.0,,0.0,0.0,177.0
+Pooled Queue,weekendpeak,15,Customer.WaitTime,0.01928,,0.0,1.389,177.0
+Pooled Queue,weekendpeak,15,Customer.TranTime,0.0,,0.0,0.0,177.0
+Pooled Queue,weekendpeak,15,Customer.OtherTime,0.0,,0.0,0.0,177.0
+Pooled Queue,weekendpeak,15,Customer.TotalTime,1.6132,,0.51937,3.7656,177.0
+Pooled Queue,weekendpeak,15,Pooled Checkout.Queue.WaitingTime,0.01768,,0.0,1.389,175.0
+Pooled Queue,weekendpeak,15,Customer.WIP,1.35,0.2037,0.0,7.0,1.0
+Pooled Queue,weekendpeak,15,server.NumberBusy,1.3353,0.19571,0.0,4.0,1.0
+Pooled Queue,weekendpeak,15,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,15,server.Utilization,0.33383,0.04893,0.0,1.0,0.25
+Pooled Queue,weekendpeak,15,Pooled Checkout.Queue.NumberInQueue,0.01473,,0.0,3.0,0.0
+Pooled Queue,weekendpeak,16,Customer.VATime,1.5489,,0.50549,5.4259,167.0
+Pooled Queue,weekendpeak,16,Customer.NVATime,0.0,,0.0,0.0,167.0
+Pooled Queue,weekendpeak,16,Customer.TranTime,0.0,,0.0,0.0,167.0
+Pooled Queue,weekendpeak,16,Customer.OtherTime,0.0,,0.0,0.0,167.0
+Pooled Queue,weekendpeak,16,Customer.TotalTime,1.5493,,0.50549,5.4259,167.0
+Pooled Queue,weekendpeak,16,Customer.WIP,1.2323,0.15198,0.0,5.0,1.0
+Pooled Queue,weekendpeak,16,server.NumberBusy,1.232,0.15182,0.0,4.0,1.0
+Pooled Queue,weekendpeak,16,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,16,server.Utilization,0.30802,0.03796,0.0,1.0,0.25
+Pooled Queue,weekendpeak,17,Customer.VATime,1.5962,,0.53842,4.1369,171.0
+Pooled Queue,weekendpeak,17,Customer.NVATime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendpeak,17,Customer.WaitTime,0.01189,,0.0,0.73348,171.0
+Pooled Queue,weekendpeak,17,Customer.TranTime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendpeak,17,Customer.OtherTime,0.0,,0.0,0.0,171.0
+Pooled Queue,weekendpeak,17,Customer.TotalTime,1.6081,,0.53842,4.1369,171.0
+Pooled Queue,weekendpeak,17,Pooled Checkout.Queue.WaitingTime,0.01182,,0.0,0.73348,172.0
+Pooled Queue,weekendpeak,17,Customer.WIP,1.3168,0.20034,0.0,5.0,1.0
+Pooled Queue,weekendpeak,17,server.NumberBusy,1.3071,0.19764,0.0,4.0,1.0
+Pooled Queue,weekendpeak,17,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,17,server.Utilization,0.32679,0.04941,0.0,1.0,0.25
+Pooled Queue,weekendpeak,17,Pooled Checkout.Queue.NumberInQueue,0.00968,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,18,Customer.VATime,1.6287,,0.36287,3.6495,154.0
+Pooled Queue,weekendpeak,18,Customer.NVATime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,18,Customer.WaitTime,0.01154,,0.0,0.63989,154.0
+Pooled Queue,weekendpeak,18,Customer.TranTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,18,Customer.OtherTime,0.0,,0.0,0.0,154.0
+Pooled Queue,weekendpeak,18,Customer.TotalTime,1.6403,,0.36287,3.6495,154.0
+Pooled Queue,weekendpeak,18,Pooled Checkout.Queue.WaitingTime,0.01147,,0.0,0.63989,155.0
+Pooled Queue,weekendpeak,18,Customer.WIP,1.1931,,0.0,6.0,2.0
+Pooled Queue,weekendpeak,18,server.NumberBusy,1.1847,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,18,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,18,server.Utilization,0.29618,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,18,Pooled Checkout.Queue.NumberInQueue,0.00847,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,19,Customer.VATime,1.6345,,0.66902,3.5852,156.0
+Pooled Queue,weekendpeak,19,Customer.NVATime,0.0,,0.0,0.0,156.0
+Pooled Queue,weekendpeak,19,Customer.WaitTime,0.04242,,0.0,1.2529,156.0
+Pooled Queue,weekendpeak,19,Customer.TranTime,0.0,,0.0,0.0,156.0
+Pooled Queue,weekendpeak,19,Customer.OtherTime,0.0,,0.0,0.0,156.0
+Pooled Queue,weekendpeak,19,Customer.TotalTime,1.677,,0.66902,3.5852,156.0
+Pooled Queue,weekendpeak,19,Pooled Checkout.Queue.WaitingTime,0.04242,,0.0,1.2529,156.0
+Pooled Queue,weekendpeak,19,Customer.WIP,1.2472,,0.0,7.0,1.0
+Pooled Queue,weekendpeak,19,server.NumberBusy,1.2157,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,19,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,19,server.Utilization,0.30392,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,19,Pooled Checkout.Queue.NumberInQueue,0.03151,,0.0,3.0,0.0
+Pooled Queue,weekendpeak,20,Customer.VATime,1.6266,,0.46728,4.284,146.0
+Pooled Queue,weekendpeak,20,Customer.NVATime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendpeak,20,Customer.WaitTime,0.03111,,0.0,0.98871,146.0
+Pooled Queue,weekendpeak,20,Customer.TranTime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendpeak,20,Customer.OtherTime,0.0,,0.0,0.0,146.0
+Pooled Queue,weekendpeak,20,Customer.TotalTime,1.6577,,0.46728,4.284,146.0
+Pooled Queue,weekendpeak,20,Pooled Checkout.Queue.WaitingTime,0.03111,,0.0,0.98871,146.0
+Pooled Queue,weekendpeak,20,Customer.WIP,1.1525,,0.0,8.0,0.0
+Pooled Queue,weekendpeak,20,server.NumberBusy,1.1309,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,20,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,20,server.Utilization,0.28273,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,20,Pooled Checkout.Queue.NumberInQueue,0.02163,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,21,Customer.VATime,1.6247,,0.66864,3.2891,145.0
+Pooled Queue,weekendpeak,21,Customer.NVATime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendpeak,21,Customer.WaitTime,0.01356,,0.0,0.80648,145.0
+Pooled Queue,weekendpeak,21,Customer.TranTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendpeak,21,Customer.OtherTime,0.0,,0.0,0.0,145.0
+Pooled Queue,weekendpeak,21,Customer.TotalTime,1.6383,,0.66864,3.2891,145.0
+Pooled Queue,weekendpeak,21,Pooled Checkout.Queue.WaitingTime,0.01356,,0.0,0.80648,145.0
+Pooled Queue,weekendpeak,21,Customer.WIP,1.1312,,0.0,5.0,0.0
+Pooled Queue,weekendpeak,21,server.NumberBusy,1.1218,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,21,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,21,server.Utilization,0.28046,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,21,Pooled Checkout.Queue.NumberInQueue,0.00937,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,22,Customer.VATime,1.5835,,0.59274,3.9744,140.0
+Pooled Queue,weekendpeak,22,Customer.NVATime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,22,Customer.WaitTime,0.0146,,0.0,0.999,140.0
+Pooled Queue,weekendpeak,22,Customer.TranTime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,22,Customer.OtherTime,0.0,,0.0,0.0,140.0
+Pooled Queue,weekendpeak,22,Customer.TotalTime,1.5981,,0.59274,3.9744,140.0
+Pooled Queue,weekendpeak,22,Pooled Checkout.Queue.WaitingTime,0.0146,,0.0,0.999,140.0
+Pooled Queue,weekendpeak,22,Customer.WIP,1.0639,,0.0,6.0,1.0
+Pooled Queue,weekendpeak,22,server.NumberBusy,1.0541,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,22,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,22,server.Utilization,0.26354,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,22,Pooled Checkout.Queue.NumberInQueue,0.00974,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,23,Customer.VATime,1.6809,,0.64877,4.4021,150.0
+Pooled Queue,weekendpeak,23,Customer.NVATime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendpeak,23,Customer.WaitTime,0.02081,,0.0,1.4246,150.0
+Pooled Queue,weekendpeak,23,Customer.TranTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendpeak,23,Customer.OtherTime,0.0,,0.0,0.0,150.0
+Pooled Queue,weekendpeak,23,Customer.TotalTime,1.7017,,0.64877,4.4021,150.0
+Pooled Queue,weekendpeak,23,Pooled Checkout.Queue.WaitingTime,0.02067,,0.0,1.4246,151.0
+Pooled Queue,weekendpeak,23,Customer.WIP,1.2185,,0.0,6.0,1.0
+Pooled Queue,weekendpeak,23,server.NumberBusy,1.2037,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,23,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,23,server.Utilization,0.30093,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,23,Pooled Checkout.Queue.NumberInQueue,0.01486,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,24,Customer.VATime,1.6539,,0.63093,4.1268,149.0
+Pooled Queue,weekendpeak,24,Customer.NVATime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,24,Customer.WaitTime,0.01549,,0.0,0.48205,149.0
+Pooled Queue,weekendpeak,24,Customer.TranTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,24,Customer.OtherTime,0.0,,0.0,0.0,149.0
+Pooled Queue,weekendpeak,24,Customer.TotalTime,1.6694,,0.63093,4.1268,149.0
+Pooled Queue,weekendpeak,24,Pooled Checkout.Queue.WaitingTime,0.01581,,0.0,0.48205,146.0
+Pooled Queue,weekendpeak,24,Customer.WIP,1.1737,,0.0,6.0,0.0
+Pooled Queue,weekendpeak,24,server.NumberBusy,1.1627,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,24,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,24,server.Utilization,0.2907,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,24,Pooled Checkout.Queue.NumberInQueue,0.01099,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,25,Customer.VATime,1.5199,,0.44673,3.6016,162.0
+Pooled Queue,weekendpeak,25,Customer.NVATime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendpeak,25,Customer.WaitTime,0.0045,,0.0,0.26116,162.0
+Pooled Queue,weekendpeak,25,Customer.TranTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendpeak,25,Customer.OtherTime,0.0,,0.0,0.0,162.0
+Pooled Queue,weekendpeak,25,Customer.TotalTime,1.5244,,0.55758,3.6016,162.0
+Pooled Queue,weekendpeak,25,Pooled Checkout.Queue.WaitingTime,0.00448,,0.0,0.26116,163.0
+Pooled Queue,weekendpeak,25,Customer.WIP,1.1671,0.2048,0.0,5.0,2.0
+Pooled Queue,weekendpeak,25,server.NumberBusy,1.1636,,0.0,4.0,2.0
+Pooled Queue,weekendpeak,25,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,25,server.Utilization,0.29092,,0.0,1.0,0.5
+Pooled Queue,weekendpeak,25,Pooled Checkout.Queue.NumberInQueue,0.00347,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,26,Customer.VATime,1.5831,,0.53146,3.6521,161.0
+Pooled Queue,weekendpeak,26,Customer.NVATime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,26,Customer.WaitTime,0.00735,,0.0,0.43781,161.0
+Pooled Queue,weekendpeak,26,Customer.TranTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,26,Customer.OtherTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,26,Customer.TotalTime,1.5904,,0.53146,3.6521,161.0
+Pooled Queue,weekendpeak,26,Pooled Checkout.Queue.WaitingTime,0.00735,,0.0,0.43781,161.0
+Pooled Queue,weekendpeak,26,Customer.WIP,1.2189,0.23505,0.0,6.0,1.0
+Pooled Queue,weekendpeak,26,server.NumberBusy,1.2133,,0.0,4.0,1.0
+Pooled Queue,weekendpeak,26,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,26,server.Utilization,0.30334,,0.0,1.0,0.25
+Pooled Queue,weekendpeak,26,Pooled Checkout.Queue.NumberInQueue,0.00564,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,27,Customer.VATime,1.6004,,0.6753,3.5974,161.0
+Pooled Queue,weekendpeak,27,Customer.NVATime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,27,Customer.WaitTime,0.00337,,0.0,0.28913,161.0
+Pooled Queue,weekendpeak,27,Customer.TranTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,27,Customer.OtherTime,0.0,,0.0,0.0,161.0
+Pooled Queue,weekendpeak,27,Customer.TotalTime,1.6037,,0.6753,3.5974,161.0
+Pooled Queue,weekendpeak,27,Pooled Checkout.Queue.WaitingTime,0.00341,,0.0,0.28913,159.0
+Pooled Queue,weekendpeak,27,Customer.WIP,1.2226,0.17329,0.0,5.0,0.0
+Pooled Queue,weekendpeak,27,server.NumberBusy,1.22,,0.0,4.0,0.0
+Pooled Queue,weekendpeak,27,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,27,server.Utilization,0.30502,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,27,Pooled Checkout.Queue.NumberInQueue,0.00258,,0.0,1.0,0.0
+Pooled Queue,weekendpeak,28,Customer.VATime,1.6619,,0.42942,3.6174,175.0
+Pooled Queue,weekendpeak,28,Customer.NVATime,0.0,,0.0,0.0,175.0
+Pooled Queue,weekendpeak,28,Customer.WaitTime,0.02524,,0.0,0.90015,175.0
+Pooled Queue,weekendpeak,28,Customer.TranTime,0.0,,0.0,0.0,175.0
+Pooled Queue,weekendpeak,28,Customer.OtherTime,0.0,,0.0,0.0,175.0
+Pooled Queue,weekendpeak,28,Customer.TotalTime,1.6871,,0.42942,3.6174,175.0
+Pooled Queue,weekendpeak,28,Pooled Checkout.Queue.WaitingTime,0.02509,,0.0,0.90015,176.0
+Pooled Queue,weekendpeak,28,Customer.WIP,1.4175,0.25181,0.0,6.0,2.0
+Pooled Queue,weekendpeak,28,server.NumberBusy,1.3965,0.23637,0.0,4.0,2.0
+Pooled Queue,weekendpeak,28,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,28,server.Utilization,0.34913,0.05909,0.0,1.0,0.5
+Pooled Queue,weekendpeak,28,Pooled Checkout.Queue.NumberInQueue,0.02103,,0.0,2.0,0.0
+Pooled Queue,weekendpeak,29,Customer.VATime,1.6103,,0.53933,3.9941,170.0
+Pooled Queue,weekendpeak,29,Customer.NVATime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,29,Customer.WaitTime,0.02071,,0.0,0.66197,170.0
+Pooled Queue,weekendpeak,29,Customer.TranTime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,29,Customer.OtherTime,0.0,,0.0,0.0,170.0
+Pooled Queue,weekendpeak,29,Customer.TotalTime,1.631,,0.53933,3.9941,170.0
+Pooled Queue,weekendpeak,29,Pooled Checkout.Queue.WaitingTime,0.02059,,0.0,0.66197,171.0
+Pooled Queue,weekendpeak,29,Customer.WIP,1.325,0.22249,0.0,7.0,3.0
+Pooled Queue,weekendpeak,29,server.NumberBusy,1.3082,,0.0,4.0,3.0
+Pooled Queue,weekendpeak,29,server.NumberScheduled,4.0,,4.0,4.0,4.0
+Pooled Queue,weekendpeak,29,server.Utilization,0.32707,,0.0,1.0,0.75
+Pooled Queue,weekendpeak,29,Pooled Checkout.Queue.NumberInQueue,0.01676,,0.0,3.0,0.0
