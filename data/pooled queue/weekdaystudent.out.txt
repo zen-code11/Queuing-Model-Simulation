@@ -32,8 +32,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .34149     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .34149     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .08537     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .17074     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -44,7 +44,7 @@ _____________________________________________________________
 Customer.NumberIn                           19.000    
 Customer.NumberOut                          19.000    
 server.NumberSeized                         19.000    
-server.ScheduledUtilization                 .08537    
+server.ScheduledUtilization                 .17074    
 System.NumberOut                            19.000    
 
 Beginning replication 2 of 30
@@ -69,22 +69,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .81816     (Insuf)    .26357     2.1657         29    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         29    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.WaitTime                           .03453     (Insuf)    .00000     .57245         29    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         29    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
-Customer.TotalTime                          .81816     (Insuf)    .26357     2.1657         29    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         29    
+Customer.TotalTime                          .85269     (Insuf)    .26357     2.1657         29    
+Pooled Checkout.Queue.WaitingTime           .03453     (Insuf)    .00000     .57245         29    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .47453     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .47453     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .11863     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .49456     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .47453     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .23727     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .02003     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -94,7 +94,7 @@ _____________________________________________________________
 Customer.NumberIn                           29.000    
 Customer.NumberOut                          29.000    
 server.NumberSeized                         29.000    
-server.ScheduledUtilization                 .11863    
+server.ScheduledUtilization                 .23727    
 System.NumberOut                            29.000    
 
 Beginning replication 3 of 30
@@ -119,22 +119,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .77480     (Insuf)    .34167     2.0995         32    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         32    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         32    
+Customer.WaitTime                           .01141     (Insuf)    .00000     .32365         32    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         32    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         32    
-Customer.TotalTime                          .77480     (Insuf)    .34167     2.0995         32    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         32    
+Customer.TotalTime                          .78621     (Insuf)    .34167     2.0995         32    
+Pooled Checkout.Queue.WaitingTime           .01141     (Insuf)    .00000     .32365         32    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .49587     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .49587     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .12397     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .50317     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .49587     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .24794     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00730     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -144,13 +144,11 @@ _____________________________________________________________
 Customer.NumberIn                           32.000    
 Customer.NumberOut                          32.000    
 server.NumberSeized                         32.000    
-server.ScheduledUtilization                 .12397    
+server.ScheduledUtilization                 .24794    
 System.NumberOut                            32.000    
 
 Beginning replication 4 of 30
-SIMAN Run Controller.
 
-34.653472 Minutes>
                                       ARENA Simulation Results
                         saishashankreddypuchala@gmail.com - License: STUDENT
 
@@ -171,22 +169,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .77931     (Insuf)    .36313     1.9754         26    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         26    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         26    
+Customer.WaitTime                           .03882     (Insuf)    .00000     .66686         26    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         26    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         26    
-Customer.TotalTime                          .77931     (Insuf)    .36313     1.9754         26    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+Customer.TotalTime                          .81813     (Insuf)    .36313     1.9754         26    
+Pooled Checkout.Queue.WaitingTime           .03882     (Insuf)    .00000     .66686         26    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .40524     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .40524     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .10131     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .42543     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .40524     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .20262     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .02018     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -196,11 +194,13 @@ _____________________________________________________________
 Customer.NumberIn                           26.000    
 Customer.NumberOut                          26.000    
 server.NumberSeized                         26.000    
-server.ScheduledUtilization                 .10131    
+server.ScheduledUtilization                 .20262    
 System.NumberOut                            26.000    
 
 Beginning replication 5 of 30
+SIMAN Run Controller.
 
+48.821392 Minutes>
                                       ARENA Simulation Results
                         saishashankreddypuchala@gmail.com - License: STUDENT
 
@@ -221,22 +221,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .80193     (Insuf)    .46740     1.5971         31    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .05039     (Insuf)    .00000     .65905         31    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
-Customer.TotalTime                          .80193     (Insuf)    .46740     1.5971         31    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .85232     (Insuf)    .46740     1.5971         31    
+Pooled Checkout.Queue.WaitingTime           .05039     (Insuf)    .00000     .65905         31    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .49720     (Insuf)    .00000     4.0000     .00000    
-server.NumberBusy                           .49720     (Insuf)    .00000     4.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .12430     (Insuf)    .00000     1.0000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .52844     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .49720     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .24860     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .03124     (Insuf)    .00000     2.0000     .00000    
 
                                              OUTPUTS
 
@@ -246,7 +246,7 @@ _____________________________________________________________
 Customer.NumberIn                           31.000    
 Customer.NumberOut                          31.000    
 server.NumberSeized                         31.000    
-server.ScheduledUtilization                 .12430    
+server.ScheduledUtilization                 .24860    
 System.NumberOut                            31.000    
 
 Beginning replication 6 of 30
@@ -271,22 +271,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .68591     (Insuf)    .20907     1.0523         20    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .01230     (Insuf)    .00000     .24604         20    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
-Customer.TotalTime                          .68591     (Insuf)    .20907     1.0523         20    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .69821     (Insuf)    .20907     1.0523         20    
+Pooled Checkout.Queue.WaitingTime           .01230     (Insuf)    .00000     .24604         20    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .27436     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .27436     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .06859     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .27928     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .27436     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .13718     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00492     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -296,7 +296,7 @@ _____________________________________________________________
 Customer.NumberIn                           20.000    
 Customer.NumberOut                          20.000    
 server.NumberSeized                         20.000    
-server.ScheduledUtilization                 .06859    
+server.ScheduledUtilization                 .13718    
 System.NumberOut                            20.000    
 
 Beginning replication 7 of 30
@@ -321,22 +321,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .73092     (Insuf)    .34857     1.4303         33    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         33    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         33    
+Customer.WaitTime                           .01090     (Insuf)    .00000     .35982         33    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         33    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         33    
-Customer.TotalTime                          .73092     (Insuf)    .34857     1.4303         33    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         34    
+Customer.TotalTime                          .74182     (Insuf)    .34857     1.4303         33    
+Pooled Checkout.Queue.WaitingTime           .01058     (Insuf)    .00000     .35982         34    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .48377     (Insuf)    .00000     3.0000     1.0000    
-server.NumberBusy                           .48377     (Insuf)    .00000     3.0000     1.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .12094     (Insuf)    .00000     .75000     .25000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .49096     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .48377     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .24188     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .00720     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -346,7 +346,7 @@ _____________________________________________________________
 Customer.NumberIn                           34.000    
 Customer.NumberOut                          33.000    
 server.NumberSeized                         34.000    
-server.ScheduledUtilization                 .12094    
+server.ScheduledUtilization                 .24188    
 System.NumberOut                            33.000    
 
 Beginning replication 8 of 30
@@ -371,22 +371,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .97789     (Insuf)    .35566     2.6727         36    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         36    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         36    
+Customer.WaitTime                           .02403     (Insuf)    .00000     .42471         36    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         36    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         36    
-Customer.TotalTime                          .97789     (Insuf)    .35566     2.6727         36    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         36    
+Customer.TotalTime                          1.0019     (Insuf)    .35566     2.6727         36    
+Pooled Checkout.Queue.WaitingTime           .02403     (Insuf)    .00000     .42471         36    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .69031     (Insuf)    .00000     3.0000     1.0000    
-server.NumberBusy                           .69031     (Insuf)    .00000     3.0000     1.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .17258     (Insuf)    .00000     .75000     .25000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .70761     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .69031     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .34515     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .01730     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -396,7 +396,7 @@ _____________________________________________________________
 Customer.NumberIn                           36.000    
 Customer.NumberOut                          36.000    
 server.NumberSeized                         36.000    
-server.ScheduledUtilization                 .17258    
+server.ScheduledUtilization                 .34515    
 System.NumberOut                            36.000    
 
 Beginning replication 9 of 30
@@ -421,22 +421,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .87073     (Insuf)    .28114     1.5789         23    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         23    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         23    
+Customer.WaitTime                           .01808     (Insuf)    .00000     .34300         23    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         23    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         23    
-Customer.TotalTime                          .87073     (Insuf)    .28114     1.5789         23    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         24    
+Customer.TotalTime                          .88881     (Insuf)    .28114     1.5789         23    
+Pooled Checkout.Queue.WaitingTime           .01733     (Insuf)    .00000     .34300         24    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .40806     (Insuf)    .00000     3.0000     1.0000    
-server.NumberBusy                           .40806     (Insuf)    .00000     3.0000     1.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .10201     (Insuf)    .00000     .75000     .25000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .41638     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .40806     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .20403     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .00832     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -446,7 +446,7 @@ _____________________________________________________________
 Customer.NumberIn                           24.000    
 Customer.NumberOut                          23.000    
 server.NumberSeized                         24.000    
-server.ScheduledUtilization                 .10201    
+server.ScheduledUtilization                 .20403    
 System.NumberOut                            23.000    
 
 Beginning replication 10 of 30
@@ -471,22 +471,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .90457     (Insuf)    .42342     1.9380         31    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .01349     (Insuf)    .00000     .15404         31    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
-Customer.TotalTime                          .90457     (Insuf)    .42342     1.9380         31    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .91806     (Insuf)    .42342     1.9419         31    
+Pooled Checkout.Queue.WaitingTime           .01349     (Insuf)    .00000     .15404         31    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .56083     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .56083     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .14021     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .56920     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .56083     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .28042     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00837     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -496,7 +496,7 @@ _____________________________________________________________
 Customer.NumberIn                           31.000    
 Customer.NumberOut                          31.000    
 server.NumberSeized                         31.000    
-server.ScheduledUtilization                 .14021    
+server.ScheduledUtilization                 .28042    
 System.NumberOut                            31.000    
 
 Beginning replication 11 of 30
@@ -534,8 +534,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .38760     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .38760     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .09690     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .19380     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -546,7 +546,7 @@ _____________________________________________________________
 Customer.NumberIn                           25.000    
 Customer.NumberOut                          25.000    
 server.NumberSeized                         25.000    
-server.ScheduledUtilization                 .09690    
+server.ScheduledUtilization                 .19380    
 System.NumberOut                            25.000    
 
 Beginning replication 12 of 30
@@ -584,8 +584,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .30801     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .30801     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .07700     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .15401     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -596,7 +596,7 @@ _____________________________________________________________
 Customer.NumberIn                           20.000    
 Customer.NumberOut                          20.000    
 server.NumberSeized                         20.000    
-server.ScheduledUtilization                 .07700    
+server.ScheduledUtilization                 .15401    
 System.NumberOut                            20.000    
 
 Beginning replication 13 of 30
@@ -621,22 +621,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .76157     (Insuf)    .45012     1.6321         25    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         25    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         25    
+Customer.WaitTime                           .03597     (Insuf)    .00000     .48819         25    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         25    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         25    
-Customer.TotalTime                          .76157     (Insuf)    .45012     1.6321         25    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         25    
+Customer.TotalTime                          .79754     (Insuf)    .45012     1.6321         25    
+Pooled Checkout.Queue.WaitingTime           .03597     (Insuf)    .00000     .48819         25    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .38078     (Insuf)    .00000     4.0000     .00000    
-server.NumberBusy                           .38078     (Insuf)    .00000     4.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .09520     (Insuf)    .00000     1.0000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .39877     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .38078     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .19039     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .01799     (Insuf)    .00000     2.0000     .00000    
 
                                              OUTPUTS
 
@@ -646,7 +646,7 @@ _____________________________________________________________
 Customer.NumberIn                           25.000    
 Customer.NumberOut                          25.000    
 server.NumberSeized                         25.000    
-server.ScheduledUtilization                 .09520    
+server.ScheduledUtilization                 .19039    
 System.NumberOut                            25.000    
 
 Beginning replication 14 of 30
@@ -671,22 +671,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .76936     (Insuf)    .31802     2.0876         22    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         22    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         22    
+Customer.WaitTime                           .06445     (Insuf)    .00000     .68644         22    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         22    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         22    
-Customer.TotalTime                          .76936     (Insuf)    .31802     2.0876         22    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         23    
+Customer.TotalTime                          .83381     (Insuf)    .31802     2.0876         22    
+Pooled Checkout.Queue.WaitingTime           .06165     (Insuf)    .00000     .68644         23    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .33316     (Insuf)    .00000     4.0000     2.0000    
-server.NumberBusy                           .33316     (Insuf)    .00000     4.0000     2.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .08329     (Insuf)    .00000     1.0000     .50000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .36152     (Insuf)    .00000     4.0000     2.0000    
+server.NumberBusy                           .33316     (Insuf)    .00000     2.0000     2.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .16658     (Insuf)    .00000     1.0000     1.0000    
+Pooled Checkout.Queue.NumberInQueue         .02836     (Insuf)    .00000     2.0000     .00000    
 
                                              OUTPUTS
 
@@ -696,7 +696,7 @@ _____________________________________________________________
 Customer.NumberIn                           23.000    
 Customer.NumberOut                          22.000    
 server.NumberSeized                         23.000    
-server.ScheduledUtilization                 .08329    
+server.ScheduledUtilization                 .16658    
 System.NumberOut                            22.000    
 
 Beginning replication 15 of 30
@@ -734,8 +734,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .46745     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .46745     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .11686     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .23373     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -746,7 +746,7 @@ _____________________________________________________________
 Customer.NumberIn                           26.000    
 Customer.NumberOut                          26.000    
 server.NumberSeized                         26.000    
-server.ScheduledUtilization                 .11686    
+server.ScheduledUtilization                 .23373    
 System.NumberOut                            26.000    
 
 Beginning replication 16 of 30
@@ -771,22 +771,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .80770     (Insuf)    .40921     1.4062         19    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         19    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         19    
+Customer.WaitTime                           .01747     (Insuf)    .00000     .33190         19    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         19    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         19    
-Customer.TotalTime                          .80770     (Insuf)    .40921     1.4062         19    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         19    
+Customer.TotalTime                          .82516     (Insuf)    .40921     1.4062         19    
+Pooled Checkout.Queue.WaitingTime           .01747     (Insuf)    .00000     .33190         19    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .30692     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .30692     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .07673     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .31356     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .30692     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .15346     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00664     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -796,7 +796,7 @@ _____________________________________________________________
 Customer.NumberIn                           19.000    
 Customer.NumberOut                          19.000    
 server.NumberSeized                         19.000    
-server.ScheduledUtilization                 .07673    
+server.ScheduledUtilization                 .15346    
 System.NumberOut                            19.000    
 
 Beginning replication 17 of 30
@@ -821,22 +821,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .82206     (Insuf)    .41411     1.7682         15    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         15    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         15    
+Customer.WaitTime                           .03033     (Insuf)    .00000     .45493         15    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         15    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         15    
-Customer.TotalTime                          .82206     (Insuf)    .41411     1.7682         15    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         16    
+Customer.TotalTime                          .85239     (Insuf)    .41411     1.7682         15    
+Pooled Checkout.Queue.WaitingTime           .02843     (Insuf)    .00000     .45493         16    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .25963     (Insuf)    .00000     3.0000     1.0000    
-server.NumberBusy                           .25963     (Insuf)    .00000     3.0000     1.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .06491     (Insuf)    .00000     .75000     .25000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .26873     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .25963     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .12981     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .00910     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -846,7 +846,7 @@ _____________________________________________________________
 Customer.NumberIn                           16.000    
 Customer.NumberOut                          15.000    
 server.NumberSeized                         16.000    
-server.ScheduledUtilization                 .06491    
+server.ScheduledUtilization                 .12981    
 System.NumberOut                            15.000    
 
 Beginning replication 18 of 30
@@ -871,22 +871,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .83695     (Insuf)    .25080     2.7680         34    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         34    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         34    
+Customer.WaitTime                           .12227     (Insuf)    .00000     1.7059         34    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         34    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         34    
-Customer.TotalTime                          .83695     (Insuf)    .25080     2.7680         34    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         34    
+Customer.TotalTime                          .95922     (Insuf)    .31955     2.7680         34    
+Pooled Checkout.Queue.WaitingTime           .12227     (Insuf)    .00000     1.7059         34    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .56913     (Insuf)    .00000     4.0000     .00000    
-server.NumberBusy                           .56913     (Insuf)    .00000     4.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .14228     (Insuf)    .00000     1.0000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .65227     (Insuf)    .00000     5.0000     .00000    
+server.NumberBusy                           .56913     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .28456     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .08314     (Insuf)    .00000     3.0000     .00000    
 
                                              OUTPUTS
 
@@ -896,7 +896,7 @@ _____________________________________________________________
 Customer.NumberIn                           34.000    
 Customer.NumberOut                          34.000    
 server.NumberSeized                         34.000    
-server.ScheduledUtilization                 .14228    
+server.ScheduledUtilization                 .28456    
 System.NumberOut                            34.000    
 
 Beginning replication 19 of 30
@@ -921,22 +921,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .75396     (Insuf)    .29074     1.3001         20    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .03580     (Insuf)    .00000     .41525         20    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
-Customer.TotalTime                          .75396     (Insuf)    .29074     1.3001         20    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         21    
+Customer.TotalTime                          .78976     (Insuf)    .29074     1.4435         20    
+Pooled Checkout.Queue.WaitingTime           .03409     (Insuf)    .00000     .41525         21    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .31062     (Insuf)    .00000     3.0000     2.0000    
-server.NumberBusy                           .31062     (Insuf)    .00000     3.0000     2.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .07765     (Insuf)    .00000     .75000     .50000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .32493     (Insuf)    .00000     3.0000     2.0000    
+server.NumberBusy                           .31062     (Insuf)    .00000     2.0000     2.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .15531     (Insuf)    .00000     1.0000     1.0000    
+Pooled Checkout.Queue.NumberInQueue         .01432     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -946,7 +946,7 @@ _____________________________________________________________
 Customer.NumberIn                           21.000    
 Customer.NumberOut                          20.000    
 server.NumberSeized                         21.000    
-server.ScheduledUtilization                 .07765    
+server.ScheduledUtilization                 .15531    
 System.NumberOut                            20.000    
 
 Beginning replication 20 of 30
@@ -984,8 +984,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .28856     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .28856     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .07214     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .14428     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -996,7 +996,7 @@ _____________________________________________________________
 Customer.NumberIn                           18.000    
 Customer.NumberOut                          18.000    
 server.NumberSeized                         18.000    
-server.ScheduledUtilization                 .07214    
+server.ScheduledUtilization                 .14428    
 System.NumberOut                            18.000    
 
 Beginning replication 21 of 30
@@ -1034,8 +1034,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .24808     (Insuf)    .00000     2.0000     1.0000    
 server.NumberBusy                           .24808     (Insuf)    .00000     2.0000     1.0000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .06202     (Insuf)    .00000     .50000     .25000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .12404     (Insuf)    .00000     1.0000     .50000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -1046,7 +1046,7 @@ _____________________________________________________________
 Customer.NumberIn                           18.000    
 Customer.NumberOut                          17.000    
 server.NumberSeized                         18.000    
-server.ScheduledUtilization                 .06202    
+server.ScheduledUtilization                 .12404    
 System.NumberOut                            17.000    
 
 Beginning replication 22 of 30
@@ -1071,22 +1071,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .94635     (Insuf)    .40584     1.7501         27    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         27    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         27    
+Customer.WaitTime                           .00872     (Insuf)    .00000     .20246         27    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         27    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         27    
-Customer.TotalTime                          .94635     (Insuf)    .40584     1.7501         27    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         26    
+Customer.TotalTime                          .95507     (Insuf)    .40584     1.7501         27    
+Pooled Checkout.Queue.WaitingTime           .00905     (Insuf)    .00000     .20246         26    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .49121     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .49121     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .12280     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .49591     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .49121     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .24560     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00471     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -1096,7 +1096,7 @@ _____________________________________________________________
 Customer.NumberIn                           26.000    
 Customer.NumberOut                          27.000    
 server.NumberSeized                         26.000    
-server.ScheduledUtilization                 .12280    
+server.ScheduledUtilization                 .24560    
 System.NumberOut                            27.000    
 
 Beginning replication 23 of 30
@@ -1134,8 +1134,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .25390     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .25390     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .06347     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .12695     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -1146,7 +1146,7 @@ _____________________________________________________________
 Customer.NumberIn                           20.000    
 Customer.NumberOut                          20.000    
 server.NumberSeized                         20.000    
-server.ScheduledUtilization                 .06347    
+server.ScheduledUtilization                 .12695    
 System.NumberOut                            20.000    
 
 Beginning replication 24 of 30
@@ -1171,22 +1171,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .88610     (Insuf)    .28789     2.4763         21    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         21    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         21    
+Customer.WaitTime                           .10057     (Insuf)    .00000     .81951         21    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         21    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
-Customer.TotalTime                          .88610     (Insuf)    .28789     2.4763         21    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         21    
+Customer.TotalTime                          .98667     (Insuf)    .28789     2.4763         21    
+Pooled Checkout.Queue.WaitingTime           .10057     (Insuf)    .00000     .81951         21    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .37216     (Insuf)    .00000     4.0000     .00000    
-server.NumberBusy                           .37216     (Insuf)    .00000     4.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .09304     (Insuf)    .00000     1.0000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .41440     (Insuf)    .00000     4.0000     .00000    
+server.NumberBusy                           .37216     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .18608     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .04224     (Insuf)    .00000     2.0000     .00000    
 
                                              OUTPUTS
 
@@ -1196,7 +1196,7 @@ _____________________________________________________________
 Customer.NumberIn                           21.000    
 Customer.NumberOut                          21.000    
 server.NumberSeized                         21.000    
-server.ScheduledUtilization                 .09304    
+server.ScheduledUtilization                 .18608    
 System.NumberOut                            21.000    
 
 Beginning replication 25 of 30
@@ -1221,22 +1221,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .81119     (Insuf)    .33488     2.2740         31    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         31    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         31    
+Customer.WaitTime                           .01817     (Insuf)    .00000     .29181         31    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         31    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         31    
-Customer.TotalTime                          .81119     (Insuf)    .33488     2.2740         31    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         31    
+Customer.TotalTime                          .82936     (Insuf)    .33488     2.2740         31    
+Pooled Checkout.Queue.WaitingTime           .01817     (Insuf)    .00000     .29181         31    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .50294     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .50294     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .12573     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .51420     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .50294     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .25147     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .01127     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -1246,7 +1246,7 @@ _____________________________________________________________
 Customer.NumberIn                           31.000    
 Customer.NumberOut                          31.000    
 server.NumberSeized                         31.000    
-server.ScheduledUtilization                 .12573    
+server.ScheduledUtilization                 .25147    
 System.NumberOut                            31.000    
 
 Beginning replication 26 of 30
@@ -1269,24 +1269,24 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Customer.VATime                             .95379     (Insuf)    .54287     1.4780         21    
-Customer.NVATime                            .00000     (Insuf)    .00000     .00000         21    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         21    
-Customer.TranTime                           .00000     (Insuf)    .00000     .00000         21    
-Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
-Customer.TotalTime                          .95379     (Insuf)    .54287     1.4780         21    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         20    
+Customer.VATime                             .97285     (Insuf)    .54287     1.4780         20    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         20    
+Customer.WaitTime                           .01445     (Insuf)    .00000     .28894         20    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         20    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         20    
+Customer.TotalTime                          .98730     (Insuf)    .54287     1.4780         20    
+Pooled Checkout.Queue.WaitingTime           .03079     (Insuf)    .00000     .32694         20    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .37702     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .37702     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .09426     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .38592     (Insuf)    .00000     3.0000     1.0000    
+server.NumberBusy                           .37360     (Insuf)    .00000     2.0000     1.0000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .18680     (Insuf)    .00000     1.0000     .50000    
+Pooled Checkout.Queue.NumberInQueue         .01232     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -1294,10 +1294,10 @@ Identifier                                   Value
 _____________________________________________________________
 
 Customer.NumberIn                           20.000    
-Customer.NumberOut                          21.000    
+Customer.NumberOut                          20.000    
 server.NumberSeized                         20.000    
-server.ScheduledUtilization                 .09426    
-System.NumberOut                            21.000    
+server.ScheduledUtilization                 .18680    
+System.NumberOut                            20.000    
 
 Beginning replication 27 of 30
 
@@ -1334,8 +1334,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .39352     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .39352     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .09838     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .19676     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -1346,7 +1346,7 @@ _____________________________________________________________
 Customer.NumberIn                           26.000    
 Customer.NumberOut                          26.000    
 server.NumberSeized                         26.000    
-server.ScheduledUtilization                 .09838    
+server.ScheduledUtilization                 .19676    
 System.NumberOut                            26.000    
 
 Beginning replication 28 of 30
@@ -1384,8 +1384,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .43976     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .43976     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .10994     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .21988     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -1396,7 +1396,7 @@ _____________________________________________________________
 Customer.NumberIn                           31.000    
 Customer.NumberOut                          31.000    
 server.NumberSeized                         31.000    
-server.ScheduledUtilization                 .10994    
+server.ScheduledUtilization                 .21988    
 System.NumberOut                            31.000    
 
 Beginning replication 29 of 30
@@ -1421,22 +1421,22 @@ ________________________________________________________________________________
 
 Customer.VATime                             .79422     (Insuf)    .15205     1.8944         29    
 Customer.NVATime                            .00000     (Insuf)    .00000     .00000         29    
-Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         29    
+Customer.WaitTime                           .01716     (Insuf)    .00000     .42145         29    
 Customer.TranTime                           .00000     (Insuf)    .00000     .00000         29    
 Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         29    
-Customer.TotalTime                          .79422     (Insuf)    .15205     1.8944         29    
-Pooled Checkout.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         27    
+Customer.TotalTime                          .81138     (Insuf)    .15205     1.8944         29    
+Pooled Checkout.Queue.WaitingTime           .01843     (Insuf)    .00000     .42145         27    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Customer.WIP                                .43904     (Insuf)    .00000     3.0000     .00000    
-server.NumberBusy                           .43904     (Insuf)    .00000     3.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .10976     (Insuf)    .00000     .75000     .00000    
-Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Customer.WIP                                .44900     (Insuf)    .00000     3.0000     .00000    
+server.NumberBusy                           .43904     (Insuf)    .00000     2.0000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .21952     (Insuf)    .00000     1.0000     .00000    
+Pooled Checkout.Queue.NumberInQueue         .00995     (Insuf)    .00000     1.0000     .00000    
 
                                              OUTPUTS
 
@@ -1446,7 +1446,7 @@ _____________________________________________________________
 Customer.NumberIn                           27.000    
 Customer.NumberOut                          29.000    
 server.NumberSeized                         27.000    
-server.ScheduledUtilization                 .10976    
+server.ScheduledUtilization                 .21952    
 System.NumberOut                            29.000    
 
 Beginning replication 30 of 30
@@ -1484,8 +1484,8 @@ ________________________________________________________________________________
 
 Customer.WIP                                .24778     (Insuf)    .00000     2.0000     .00000    
 server.NumberBusy                           .24778     (Insuf)    .00000     2.0000     .00000    
-server.NumberScheduled                      4.0000     (Insuf)    4.0000     4.0000     4.0000    
-server.Utilization                          .06195     (Insuf)    .00000     .50000     .00000    
+server.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+server.Utilization                          .12389     (Insuf)    .00000     1.0000     .00000    
 Pooled Checkout.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
 
                                              OUTPUTS
@@ -1496,7 +1496,7 @@ _____________________________________________________________
 Customer.NumberIn                           20.000    
 Customer.NumberOut                          20.000    
 server.NumberSeized                         20.000    
-server.ScheduledUtilization                 .06195    
+server.ScheduledUtilization                 .12389    
 System.NumberOut                            20.000    
 
 
@@ -1515,10 +1515,10 @@ Identifier                                 Average    Half-width Minimum    Maxi
 ___________________________________________________________________________________________________
 
 Customer.NumberIn                           24.966     2.0948     16.000     36.000     30
-Customer.NumberOut                          24.900     2.1399     15.000     36.000     30
+Customer.NumberOut                          24.866     2.1498     15.000     36.000     30
 server.NumberSeized                         24.966     2.0948     16.000     36.000     30
-server.ScheduledUtilization                 .10007     .01021     .06195     .17258     30
-System.NumberOut                            24.900     2.1399     15.000     36.000     30
+server.ScheduledUtilization                 .20009     .02043     .12389     .34515     30
+System.NumberOut                            24.866     2.1498     15.000     36.000     30
 
 Simulation run time: 0.03 minutes.
 Simulation run complete.
