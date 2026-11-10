@@ -728,7 +728,9 @@ Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_2.Util
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_3.NumberBusy,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_3.NumberScheduled,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_3.Utilization,0.0,,0.0,0.0,0.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_1.NumberBusy,0.00092513,,0.0,1.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_1.NumberScheduled,1.0,,1.0,1.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_1.Utilization,0.00092513,,0.0,1.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_4.NumberBusy,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_4.NumberScheduled,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Discrete-Change,Counter_4.Utilization,0.0,,0.0,0.0,0.0
@@ -745,6 +747,7 @@ Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_2.ScheduledUtil
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_3.NumberSeized,0.0,,0.0,0.0,1.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_3.ScheduledUtilization,0.0,,0.0,0.0,1.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_1.NumberSeized,1.0,,1.0,1.0,1.0
+Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_1.ScheduledUtilization,0.00092513,,0.00092513,0.00092513,1.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_4.NumberSeized,0.0,,0.0,0.0,1.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,Counter_4.ScheduledUtilization,0.0,,0.0,0.0,1.0
 Dynamic Counter,weekdaydaytime,Weekday Daytime,16,Output,System.NumberOut,56.0,,56.0,56.0,1.0
@@ -4771,6 +4774,7 @@ Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Counter_1.Util
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Counter_4.NumberBusy,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Counter_4.NumberScheduled,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Counter_4.Utilization,0.0,,0.0,0.0,0.0
+Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Checkout 1.Queue.NumberInQueue,0.00012933,,0.0,1.0,0.0
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Checkout 2.Queue.NumberInQueue,0.11927,,0.0,1.0,0.0
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Checkout 3.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
 Dynamic Counter,weekendnormal,Weekend Non-Peak,12,Discrete-Change,Checkout 4.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
@@ -7244,6 +7248,7 @@ Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Express_Counter.Nu
 Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Express_Counter.NumberScheduled,1.0,,1.0,1.0,1.0
 Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Express_Counter.Utilization,0.11527,,0.0,1.0,1.0
 Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,0.00081569,,0.0,1.0,0.0
 Express Lane,weekdaydaytime,Weekday Daytime,7,Discrete-Change,Express Checkout.Queue.NumberInQueue,0.00583,,0.0,1.0,0.0
 Express Lane,weekdaydaytime,Weekday Daytime,7,Output,Customer.NumberIn,76.0,,76.0,76.0,1.0
 Express Lane,weekdaydaytime,Weekday Daytime,7,Output,Customer.NumberOut,75.0,,75.0,75.0,1.0
@@ -8359,6 +8364,7 @@ Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Express_Counter.NumberB
 Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Express_Counter.NumberScheduled,1.0,,1.0,1.0,1.0
 Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Express_Counter.Utilization,0.4598,,0.0,1.0,0.0
 Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,0.0,,0.0,0.0,0.0
+Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,0.00028552,,0.0,1.0,0.0
 Express Lane,weekdaypeak,Weekday Peak,13,Discrete-Change,Express Checkout.Queue.NumberInQueue,0.19235,,0.0,3.0,0.0
 Express Lane,weekdaypeak,Weekday Peak,13,Output,Customer.NumberIn,65.0,,65.0,65.0,1.0
 Express Lane,weekdaypeak,Weekday Peak,13,Output,Customer.NumberOut,65.0,,65.0,65.0,1.0
@@ -9092,7 +9098,9 @@ Express Lane,weekdaystudent,Weekday Student Rush,7,Tally,Regular Checkout 2.Queu
 Express Lane,weekdaystudent,Weekday Student Rush,7,Tally,Regular Checkout 1.Queue.WaitingTime,0.0,,0.0,0.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Tally,Express Checkout.Queue.WaitingTime,0.03826,,0.0,0.36334,19.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Customer.WIP,0.30858,,0.0,2.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_1.NumberBusy,0.00057495,,0.0,1.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_1.NumberScheduled,1.0,,1.0,1.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_1.Utilization,0.00057495,,0.0,1.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_2.NumberBusy,0.0,,0.0,0.0,0.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_2.NumberScheduled,1.0,,1.0,1.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Regular_Counter_2.Utilization,0.0,,0.0,0.0,0.0
@@ -9105,6 +9113,7 @@ Express Lane,weekdaystudent,Weekday Student Rush,7,Discrete-Change,Express Check
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Customer.NumberIn,20.0,,20.0,20.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Customer.NumberOut,19.0,,19.0,19.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Regular_Counter_1.NumberSeized,1.0,,1.0,1.0,1.0
+Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Regular_Counter_1.ScheduledUtilization,0.00057495,,0.00057495,0.00057495,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Regular_Counter_2.NumberSeized,0.0,,0.0,0.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Regular_Counter_2.ScheduledUtilization,0.0,,0.0,0.0,1.0
 Express Lane,weekdaystudent,Weekday Student Rush,7,Output,Express_Counter.NumberSeized,19.0,,19.0,19.0,1.0
@@ -10492,6 +10501,7 @@ Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Regular_Counter_2
 Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Express_Counter.NumberBusy,0.13157,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Express_Counter.NumberScheduled,1.0,,1.0,1.0,1.0
 Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Express_Counter.Utilization,0.13157,,0.0,1.0,0.0
+Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,0.00094933,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,0.06656,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,22,Discrete-Change,Express Checkout.Queue.NumberInQueue,0.00531,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,22,Output,Customer.NumberIn,144.0,,144.0,144.0,1.0
@@ -10739,6 +10749,7 @@ Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Regular_Counter_2
 Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Express_Counter.NumberBusy,0.12719,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Express_Counter.NumberScheduled,1.0,,1.0,1.0,1.0
 Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Express_Counter.Utilization,0.12719,,0.0,1.0,0.0
+Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Regular Checkout 2.Queue.NumberInQueue,0.00047446,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Regular Checkout 1.Queue.NumberInQueue,0.0983,,0.0,1.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,30,Discrete-Change,Express Checkout.Queue.NumberInQueue,0.01629,,0.0,3.0,0.0
 Express Lane,weekendnormal,Weekend Non-Peak,30,Output,Customer.NumberIn,155.0,,155.0,155.0,1.0
@@ -13369,6 +13380,7 @@ Pooled Queue,weekendnormal,Weekend Non-Peak,10,Discrete-Change,Customer.WIP,0.60
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Discrete-Change,server.NumberBusy,0.60444,0.11982,0.0,4.0,0.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Discrete-Change,server.NumberScheduled,4.0,,4.0,4.0,4.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Discrete-Change,server.Utilization,0.15111,0.02995,0.0,1.0,0.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,10,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,0.0005108,,0.0,1.0,0.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Output,Customer.NumberIn,171.0,,171.0,171.0,1.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Output,Customer.NumberOut,171.0,,171.0,171.0,1.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,10,Output,server.NumberSeized,171.0,,171.0,171.0,1.0
@@ -13444,13 +13456,16 @@ Pooled Queue,weekendnormal,Weekend Non-Peak,14,Output,server.ScheduledUtilizatio
 Pooled Queue,weekendnormal,Weekend Non-Peak,14,Output,System.NumberOut,144.0,,144.0,144.0,1.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.VATime,1.5815,,0.51937,3.7656,174.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.NVATime,0.0,,0.0,0.0,174.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.WaitTime,0.00038492,,0.0,0.06698,174.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.TranTime,0.0,,0.0,0.0,174.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.OtherTime,0.0,,0.0,0.0,174.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Customer.TotalTime,1.5819,,0.51937,3.7656,174.0
+Pooled Queue,weekendnormal,Weekend Non-Peak,15,Tally,Pooled Checkout.Queue.WaitingTime,0.00038272,,0.0,0.06698,175.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Discrete-Change,Customer.WIP,0.60969,0.10137,0.0,5.0,2.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Discrete-Change,server.NumberBusy,0.60954,0.10121,0.0,4.0,2.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Discrete-Change,server.NumberScheduled,4.0,,4.0,4.0,4.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Discrete-Change,server.Utilization,0.15239,0.0253,0.0,1.0,0.5
+Pooled Queue,weekendnormal,Weekend Non-Peak,15,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,0.00014884,,0.0,1.0,0.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Output,Customer.NumberIn,175.0,,175.0,175.0,1.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Output,Customer.NumberOut,174.0,,174.0,174.0,1.0
 Pooled Queue,weekendnormal,Weekend Non-Peak,15,Output,server.NumberSeized,175.0,,175.0,175.0,1.0
@@ -13897,13 +13912,16 @@ Pooled Queue,weekendpeak,Weekend Peak,11,Output,server.ScheduledUtilization,0.26
 Pooled Queue,weekendpeak,Weekend Peak,11,Output,System.NumberOut,140.0,,140.0,140.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.VATime,1.4931,,0.50998,3.9426,168.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.NVATime,0.0,,0.0,0.0,168.0
+Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.WaitTime,0.00030114,,0.0,0.05059,168.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.TranTime,0.0,,0.0,0.0,168.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.OtherTime,0.0,,0.0,0.0,168.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Customer.TotalTime,1.4934,,0.50998,3.9426,168.0
+Pooled Queue,weekendpeak,Weekend Peak,12,Tally,Pooled Checkout.Queue.WaitingTime,0.0002976,,0.0,0.05059,170.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Discrete-Change,Customer.WIP,1.2079,0.14138,0.0,5.0,2.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Discrete-Change,server.NumberBusy,1.2077,0.14127,0.0,4.0,2.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Discrete-Change,server.NumberScheduled,4.0,,4.0,4.0,4.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Discrete-Change,server.Utilization,0.30194,0.03532,0.0,1.0,0.5
+Pooled Queue,weekendpeak,Weekend Peak,12,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,0.00024091,,0.0,1.0,0.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Output,Customer.NumberIn,170.0,,170.0,170.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Output,Customer.NumberOut,168.0,,168.0,168.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,12,Output,server.NumberSeized,170.0,,170.0,170.0,1.0
@@ -13962,13 +13980,16 @@ Pooled Queue,weekendpeak,Weekend Peak,15,Output,server.ScheduledUtilization,0.33
 Pooled Queue,weekendpeak,Weekend Peak,15,Output,System.NumberOut,177.0,,177.0,177.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.VATime,1.5489,,0.50549,5.4259,167.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.NVATime,0.0,,0.0,0.0,167.0
+Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.WaitTime,0.00037631,,0.0,0.06284,167.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.TranTime,0.0,,0.0,0.0,167.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.OtherTime,0.0,,0.0,0.0,167.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Customer.TotalTime,1.5493,,0.50549,5.4259,167.0
+Pooled Queue,weekendpeak,Weekend Peak,16,Tally,Pooled Checkout.Queue.WaitingTime,0.00037631,,0.0,0.06284,167.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Discrete-Change,Customer.WIP,1.2323,0.15198,0.0,5.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Discrete-Change,server.NumberBusy,1.232,0.15182,0.0,4.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Discrete-Change,server.NumberScheduled,4.0,,4.0,4.0,4.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Discrete-Change,server.Utilization,0.30802,0.03796,0.0,1.0,0.25
+Pooled Queue,weekendpeak,Weekend Peak,16,Discrete-Change,Pooled Checkout.Queue.NumberInQueue,0.00029926,,0.0,1.0,0.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Output,Customer.NumberIn,167.0,,167.0,167.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Output,Customer.NumberOut,167.0,,167.0,167.0,1.0
 Pooled Queue,weekendpeak,Weekend Peak,16,Output,server.NumberSeized,167.0,,167.0,167.0,1.0
