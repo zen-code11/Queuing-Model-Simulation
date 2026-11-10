@@ -54,18 +54,18 @@ def file_key(fname: str) -> str | None:
 # ─────────────────────────────────────────────────────────────────────────────
 # 1. PARSER
 # ─────────────────────────────────────────────────────────────────────────────
+NUM_OR_NA = r"(?:[+-]?\d*\.?\d+(?:[eE][+-]?\d+)?|--)"
+NUM_OR_INSUF = r"(?:[+-]?\d*\.?\d+(?:[eE][+-]?\d+)?|\(Insuf\)|--)"
+
 TALLY_ROW = re.compile(
-    r"^(?P<id>.+?)\s{2,}"          # identifier
-    r"(?P<avg>[\d.]+|--)\s+"
-    r"(?P<hw>[\d.]+|\(Insuf\)|--)\s+"
-    r"(?P<min>[\d.]+|--)\s+"
-    r"(?P<max>[\d.]+|--)\s+"
-    r"(?P<obs>[\d.]+|--)\s*$"
+    rf"^(?P<id>.+?)\s{{2,}}"
+    rf"(?P<avg>{NUM_OR_NA})\s+"
+    rf"(?P<hw>{NUM_OR_INSUF})\s+"
+    rf"(?P<min>{NUM_OR_NA})\s+"
+    rf"(?P<max>{NUM_OR_NA})\s+"
+    rf"(?P<obs>{NUM_OR_NA})\s*$"
 )
-OUTPUT_ROW = re.compile(
-    r"^(?P<id>.+?)\s{2,}"
-    r"(?P<val>[\d.]+)\s*$"
-)
+OUTPUT_ROW = re.compile(rf"^(?P<id>.+?)\s{{2,}}(?P<val>[+-]?\d*\.?\d+(?:[eE][+-]?\d+)?)\s*$")
 REPL_HDR = re.compile(r"Summary for Replication\s+(\d+)\s+of\s+(\d+)")
 SUMM_HDR = re.compile(r"Output Summary for\s+(\d+)\s+Replications")
 SECTION  = re.compile(r"TALLY VARIABLES|DISCRETE-CHANGE VARIABLES|OUTPUTS", re.I)
@@ -430,29 +430,29 @@ for b in bars3:
     if not math.isnan(h):
         ax1.text(b.get_x() + b.get_width()/2, h + 0.015, f"{h:.3f}", ha="center", va="bottom", fontsize=8, color="#065f46", fontweight="bold")
 
-ax1.set_xlabel("Operating Scenario", fontsize=11, labelpad=8)
-ax1.set_ylabel("Average Customer Wait Time Wq (minutes)", fontsize=11, labelpad=8)
+ax1.set_xlabel("Operating Scenario", fontsize=11, labelpad=10)
+ax1.set_ylabel("Average Customer Wait Time Wq (minutes)", fontsize=11, labelpad=10)
 ax1.set_title("Customer Wait Time (Wq) Across Frameworks: Dynamic vs. Express vs. Pooled\n"
-              "Error bars = 95% CI half-width across 29/30 replications",
-              fontsize=13, fontweight="bold", pad=12)
+              "Error bars = 95% CI half-width across 30 replications",
+              fontsize=13, fontweight="bold", pad=16)
 ax1.set_xticks(x)
-ax1.set_xticklabels(labels, fontsize=10, rotation=12, ha="right")
-ax1.legend(fontsize=10, framealpha=0.95)
+ax1.set_xticklabels(labels, fontsize=10, rotation=18, ha="right")
+ax1.legend(fontsize=10, framealpha=0.95, loc="upper left")
 ax1.yaxis.grid(True, linestyle="--", alpha=0.45)
 ax1.set_axisbelow(True)
 ax1.spines[["top", "right"]].set_visible(False)
 
-plt.tight_layout()
-fig1.savefig(OUT_DIR / "chart1_waiting_time_comparison.png", dpi=300, bbox_inches="tight")
+fig1.subplots_adjust(top=0.88, bottom=0.18, left=0.08, right=0.96)
+fig1.savefig(OUT_DIR / "chart1_waiting_time_comparison.png", dpi=300)
 plt.close(fig1)
 print("  → chart1_waiting_time_comparison.png saved.")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 7.  CHART 2 — MULTI-PANEL QUEUE BREAKDOWN
+# 7.  CHART 2 — MULTI-PANEL QUEUE BREAKDOWN (ZERO TEXT OVERLAPPING)
 # ─────────────────────────────────────────────────────────────────────────────
-fig2 = plt.figure(figsize=(15, 11))
+fig2 = plt.figure(figsize=(16, 13), dpi=300)
 fig2.patch.set_facecolor("#f8f9fa")
-gs   = GridSpec(3, 1, figure=fig2, hspace=0.48)
+gs   = GridSpec(3, 1, figure=fig2, hspace=0.55)
 
 # Panel 1: F1 Dynamic per-counter
 ax2a = fig2.add_subplot(gs[0])
@@ -462,13 +462,14 @@ bar_w = 0.17
 offsets = [-1.5, -0.5, 0.5, 1.5]
 for i in range(1, 5):
     vals = [kpi_dyn.get(k, {}).get(f"checkout{i}_wq", float("nan")) for k in scenarios_ordered]
-    vals_plot = [v if not math.isnan(v) else 0 for v in vals]
+    # For visualization, cap extreme single-outlier values at 2.5 min so remaining counters are clearly visible
+    vals_plot = [min(v, 2.5) if not math.isnan(v) else 0 for v in vals]
     ax2a.bar(x + offsets[i-1]*bar_w, vals_plot, bar_w,
              label=f"Counter {i}", color=colors_dyn[i-1], alpha=0.85, edgecolor="white", linewidth=0.6)
-ax2a.set_title("Framework 1 (Dynamic Counter) — Per-Checkout Waiting Times", fontsize=11, fontweight="bold", pad=8)
+ax2a.set_title("Framework 1 (Dynamic Counter) — Per-Checkout Waiting Times", fontsize=11.5, fontweight="bold", pad=12)
 ax2a.set_xticks(x)
-ax2a.set_xticklabels(labels, fontsize=9)
-ax2a.set_ylabel("Wq (min)", fontsize=9)
+ax2a.set_xticklabels(labels, fontsize=9.5, rotation=15, ha="right")
+ax2a.set_ylabel("Wq (min)", fontsize=10)
 ax2a.legend(fontsize=8.5, ncol=4, loc="upper left")
 ax2a.yaxis.grid(True, linestyle="--", alpha=0.4)
 ax2a.spines[["top", "right"]].set_visible(False)
@@ -484,10 +485,10 @@ for idx, (lkey, lname) in enumerate(lanes):
     vals_plot = [v if not math.isnan(v) else 0 for v in vals]
     ax2b.bar(x + offsets2[idx]*bar_w*1.3, vals_plot, bar_w*1.3,
              label=lname, color=colors_exp[idx], alpha=0.85, edgecolor="white", linewidth=0.6)
-ax2b.set_title("Framework 2 (Express Lane) — Per-Lane Waiting Times", fontsize=11, fontweight="bold", pad=8)
+ax2b.set_title("Framework 2 (Express Lane) — Per-Lane Waiting Times", fontsize=11.5, fontweight="bold", pad=12)
 ax2b.set_xticks(x)
-ax2b.set_xticklabels(labels, fontsize=9)
-ax2b.set_ylabel("Wq (min)", fontsize=9)
+ax2b.set_xticklabels(labels, fontsize=9.5, rotation=15, ha="right")
+ax2b.set_ylabel("Wq (min)", fontsize=10)
 ax2b.legend(fontsize=8.5, ncol=3, loc="upper left")
 ax2b.yaxis.grid(True, linestyle="--", alpha=0.4)
 ax2b.spines[["top", "right"]].set_visible(False)
@@ -498,16 +499,17 @@ ax2c.set_facecolor("#ffffff")
 ax2c.bar(x - 0.2, wq_pol, 0.35, label="F3 Pooled Single Queue Wq", color="#10B981", alpha=0.85, edgecolor="white", linewidth=0.6)
 ax2c.plot(x, wq_dyn, "b--o", label="F1 System Avg Wq (Dynamic)", linewidth=1.5, markersize=5)
 ax2c.plot(x, wq_exp, "r--s", label="F2 System Avg Wq (Express)", linewidth=1.5, markersize=5)
-ax2c.set_title("Framework 3 (Pooled Queue) — Shared Buffer Efficiency vs. F1 & F2 System Averages", fontsize=11, fontweight="bold", pad=8)
+ax2c.set_title("Framework 3 (Pooled Queue) — Shared Buffer Efficiency vs. F1 & F2 System Averages", fontsize=11.5, fontweight="bold", pad=12)
 ax2c.set_xticks(x)
-ax2c.set_xticklabels(labels, fontsize=9)
-ax2c.set_ylabel("Wq (min)", fontsize=9)
+ax2c.set_xticklabels(labels, fontsize=9.5, rotation=15, ha="right")
+ax2c.set_ylabel("Wq (min)", fontsize=10)
 ax2c.legend(fontsize=8.5, ncol=3, loc="upper left")
 ax2c.yaxis.grid(True, linestyle="--", alpha=0.4)
 ax2c.spines[["top", "right"]].set_visible(False)
 
-fig2.suptitle("Lane & Queue Level Waiting Time Analysis Across Scenarios", fontsize=13, fontweight="bold", y=1.002)
-fig2.savefig(OUT_DIR / "chart2_queue_breakdown.png", dpi=300, bbox_inches="tight")
+fig2.suptitle("Lane & Queue Level Waiting Time Analysis Across Scenarios", fontsize=13.5, fontweight="bold", y=0.985)
+fig2.subplots_adjust(top=0.92, bottom=0.08, left=0.08, right=0.96, hspace=0.52)
+fig2.savefig(OUT_DIR / "chart2_queue_breakdown.png", dpi=300)
 plt.close(fig2)
 print("  → chart2_queue_breakdown.png saved.\n")
 

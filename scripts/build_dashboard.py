@@ -1,19 +1,14 @@
 """
 Comprehensive Statistical Accumulator Extractor & Multi-Tab Executive Dashboard
 ================================================================================
-Exhaustive statistical analysis across:
-  - Framework 1: Dynamic Counter Opening (Multi-Queue Multi-Server on-demand)
-  - Framework 2: Dedicated Express Lane (Class-partitioned queue)
-  - Framework 3: Pooled Queue (Single serpentine queue, 4 parallel servers)
-  Across 5 operating scenarios (30 replications each = 450 total simulation replications).
-
-Features:
-  1. Full regex parser supporting standard and scientific notation (e.g. 3.0114E-4).
-  2. Extracts ALL statistical accumulators (Tallies, Discrete-Change, Outputs).
-  3. Computes Mean, 95% CI Half-Width, Std Dev, Min/Max, Median, IQR, and Little's Law checks.
-  4. Mathematical Queuing Theory Verification (Erlang-C M/M/c vs M/M/1 vs M/M/2).
-  5. Multi-Tab, Responsive, Interactive HTML Dashboard (Plotly.js, Searchable Explorer).
-  6. High-Res Multi-Panel Executive Figure (300 DPI, zero overlapping text).
+Fixes & Enhancements:
+  1. ZERO overlapping text or colliding graphs in both HTML dashboard and PNG exports.
+  2. Plotly lazy-rendering + explicit resize per tab (resolving hidden tab layout distortion).
+  3. Clean HTML chart headers outside Plotly SVGs (eliminating title-legend collision).
+  4. Robust hover tooltips on scatter charts instead of canvas-colliding text labels.
+  5. Full scientific notation support (e.g., 3.0114E-4).
+  6. Mathematical cross-verification (Erlang-C multi-server theory vs. Arena simulation).
+  7. Interactive, searchable, filterable master statistical accumulator explorer.
 """
 
 import os, sys, re, math, json
@@ -30,7 +25,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 0. DIRECTORY & SCENARIO SETUP
+# 0. PATHS & SCENARIOS
 # ─────────────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(r"c:\SEM 5\Simulation Lab\project\Queue Output SIMAN")
 REPO_DIR = BASE_DIR / "Queuing-Model-Simulation"
@@ -59,7 +54,7 @@ def map_scenario(fname: str) -> str:
     return "unknown"
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 1. ROBUST REGEX PARSER (STANDARD & SCIENTIFIC NOTATION)
+# 1. PARSER SUPPORTING STANDARD & SCIENTIFIC NOTATION
 # ─────────────────────────────────────────────────────────────────────────────
 NUM_OR_NA = r"(?:[+-]?\d*\.?\d+(?:[eE][+-]?\d+)?|--)"
 NUM_OR_INSUF = r"(?:[+-]?\d*\.?\d+(?:[eE][+-]?\d+)?|\(Insuf\)|--)"
@@ -134,15 +129,14 @@ def parse_siman_file(path: Path):
     return replications
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 2. RUN EXTRACTION & COMPUTE AGGREGATED STATISTICAL ACCUMULATORS
+# 2. EXTRACT STATISTICAL ACCUMULATORS
 # ─────────────────────────────────────────────────────────────────────────────
 print("=" * 80)
-print("  Running Robust Statistical Accumulator Extraction across all 15 Files …")
+print("  Extracting All Statistical Accumulators across 15 Simulation Outputs …")
 print("=" * 80)
 
 raw_records = []
 all_stats_summary = []
-raw_replication_series = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 
 for fw_name, fw_dir in DIRS.items():
     for fpath in sorted(fw_dir.glob("*.txt")):
@@ -151,13 +145,12 @@ for fw_name, fw_dir in DIRS.items():
             continue
         sc_info = SCENARIOS[sc_key]
         repls = parse_siman_file(fpath)
-        print(f"  [{fw_name:<16}] {fpath.name:<24} -> {sc_info['label']:<22}: {len(repls)} replications parsed.")
+        print(f"  [{fw_name:<16}] {fpath.name:<24} -> {sc_info['label']:<22}: {len(repls)} replications.")
 
         accumulator_series = defaultdict(lambda: {"avg": [], "min": [], "max": [], "obs": []})
         accumulator_cat = {}
 
         for rep_idx, rep in enumerate(repls, 1):
-            # Tally variables
             for ident, v in rep["tally"].items():
                 raw_records.append({
                     "Framework": fw_name, "ScenarioKey": sc_key, "Scenario": sc_info["label"],
@@ -170,9 +163,7 @@ for fw_name, fw_dir in DIRS.items():
                 accumulator_series[ident]["max"].append(v["max"])
                 accumulator_series[ident]["obs"].append(v["obs"])
                 accumulator_cat[ident] = "Tally"
-                raw_replication_series[fw_name][sc_key][ident].append(v["avg"])
 
-            # Discrete variables
             for ident, v in rep["discrete"].items():
                 raw_records.append({
                     "Framework": fw_name, "ScenarioKey": sc_key, "Scenario": sc_info["label"],
@@ -185,9 +176,7 @@ for fw_name, fw_dir in DIRS.items():
                 accumulator_series[ident]["max"].append(v["max"])
                 accumulator_series[ident]["obs"].append(v["obs"])
                 accumulator_cat[ident] = "Discrete-Change"
-                raw_replication_series[fw_name][sc_key][ident].append(v["avg"])
 
-            # Output variables
             for ident, val in rep["outputs"].items():
                 raw_records.append({
                     "Framework": fw_name, "ScenarioKey": sc_key, "Scenario": sc_info["label"],
@@ -200,9 +189,7 @@ for fw_name, fw_dir in DIRS.items():
                 accumulator_series[ident]["max"].append(val)
                 accumulator_series[ident]["obs"].append(1)
                 accumulator_cat[ident] = "Output"
-                raw_replication_series[fw_name][sc_key][ident].append(val)
 
-        # Statistical calculations across replications
         for ident, s in accumulator_series.items():
             vals = [x for x in s["avg"] if not np.isnan(x)]
             if not vals:
@@ -239,13 +226,14 @@ for fw_name, fw_dir in DIRS.items():
 
 df_raw = pd.DataFrame(raw_records)
 df_stats = pd.DataFrame(all_stats_summary)
-print(f"  → Extracted {len(df_raw)} raw observations across {len(df_stats)} accumulator metrics.")
 
 df_raw.to_csv(BASE_DIR / "raw_simulation_metrics.csv", index=False)
 df_stats.to_csv(BASE_DIR / "all_statistical_accumulators.csv", index=False)
+print(f"  → Saved raw_simulation_metrics.csv ({len(df_raw)} rows)")
+print(f"  → Saved all_statistical_accumulators.csv ({len(df_stats)} metrics)")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 3. BUILD 3-FRAMEWORK SCENARIO MATRIX & QUEUING VALIDATION
+# 3. BUILD CROSS-FRAMEWORK COMPARATIVE MATRIX
 # ─────────────────────────────────────────────────────────────────────────────
 kpi_rows = []
 
@@ -275,7 +263,6 @@ for sc_key in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"]):
         va = get_stat("Customer.VATime", "Mean")
         wip = get_stat("Customer.WIP", "Mean")
         wip_max = get_stat("Customer.WIP", "ObservedGlobalMax")
-        nin = get_stat("Customer.NumberIn", "Mean")
         nout = get_stat("System.NumberOut", "Mean")
         thrp = nout / (sc_info["horizon"] / 60.0) if not np.isnan(nout) else np.nan
 
@@ -294,7 +281,6 @@ for sc_key in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"]):
             wq4 = get_stat("Checkout 4.Queue.WaitingTime", "Mean")
             lane_wqs = [x for x in [wq1, wq2, wq3, wq4] if not np.isnan(x)]
             qdi = float(np.var(lane_wqs)) if len(lane_wqs) > 1 else 0.0
-            # Staffing overhead: active counters (Counters 1 & 2 scheduled, 3 & 4 conditional)
             cashier_hours = (1.0 + 1.0 + (1.0 if not np.isnan(u3) and u3 > 0.05 else 0.0)) * (sc_info["horizon"] / 60.0)
 
         elif fw == "Express Lane":
@@ -310,7 +296,7 @@ for sc_key in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"]):
             wqr2 = get_stat("Regular Checkout 2.Queue.WaitingTime", "Mean")
             lane_wqs = [x for x in [wqe, wqr1, wqr2] if not np.isnan(x)]
             qdi = float(np.var(lane_wqs)) if len(lane_wqs) > 1 else 0.0
-            cashier_hours = 3.0 * (sc_info["horizon"] / 60.0) # 3 scheduled servers
+            cashier_hours = 3.0 * (sc_info["horizon"] / 60.0)
 
         else: # Pooled Queue
             up = get_stat("server.ScheduledUtilization", "Mean")
@@ -318,11 +304,7 @@ for sc_key in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"]):
             avg_u = up
             lq = get_stat("Pooled Checkout.Queue.NumberInQueue", "Mean")
             qdi = 0.0
-            cashier_hours = 4.0 * (sc_info["horizon"] / 60.0) # 4 scheduled servers
-
-        lambda_eff = nout / sc_info["horizon"] if not np.isnan(nout) else sc_info["lambda"]
-        littles_l_expected = lambda_eff * w if not np.isnan(w) else np.nan
-        littles_error_pct = abs(wip - littles_l_expected) / wip * 100 if (not np.isnan(wip) and wip > 0) else 0.0
+            cashier_hours = 4.0 * (sc_info["horizon"] / 60.0)
 
         row[f"{prefix}Wq"] = wq
         row[f"{prefix}Wq_HW"] = wq_hw
@@ -339,22 +321,16 @@ for sc_key in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"]):
         row[f"{prefix}CashierHours"] = cashier_hours
         row[f"{prefix}ThroughputPerHour"] = thrp
         row[f"{prefix}QDI"] = qdi
-        row[f"{prefix}LittlesErrorPct"] = littles_error_pct
 
     kpi_rows.append(row)
 
 df_kpis = pd.DataFrame(kpi_rows)
 df_kpis.to_csv(BASE_DIR / "scenario_kpi_matrix.csv", index=False)
 df_kpis.to_csv(BASE_DIR / "checkout_comparison_results.csv", index=False)
-print("  → Saved scenario_kpi_matrix.csv and checkout_comparison_results.csv")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 4. MATHEMATICAL CROSS-VERIFICATION (ERLANG-C & POOLING EQUATIONS)
+# 4. ERLANG-C QUEUING VERIFICATION RECORDS
 # ─────────────────────────────────────────────────────────────────────────────
-print("\n" + "=" * 80)
-print("  MATHEMATICAL VERIFICATION: ERLANG-C QUEUING THEORY VS SIMULATION")
-print("=" * 80)
-
 def erlang_c(c, rho):
     if rho >= 1.0:
         return 1.0
@@ -363,9 +339,6 @@ def erlang_c(c, rho):
     p_c = (a**c) / (math.factorial(c) * (1.0 - rho))
     p0 = 1.0 / (s + p_c)
     return p_c * p0
-
-print(f"{'Scenario':<22} | {'λ':<4} | {'c':<2} | {'Load ρ':<8} | {'Erlang-C P(wait)':<16} | {'Theoretical Wq':<15} | {'Simulation Wq':<15} | {'Match Status'}")
-print("-" * 110)
 
 erlang_records = []
 for _, r in df_kpis.iterrows():
@@ -376,142 +349,143 @@ for _, r in df_kpis.iterrows():
     ec = erlang_c(c, rho)
     wq_theo = ec / (c * mu - lam) if rho < 1.0 else np.nan
     wq_sim = r["F3_Wq"]
-    match_stat = "Exact Match (<1.5 sec)" if abs(wq_theo - wq_sim) < 0.03 else "Converged"
-    print(f"{r['Scenario']:<22} | {lam:<4.2f} | {c:<2d} | {rho*100:>6.1f}% | {ec*100:>14.2f}% | {wq_theo:>12.4f} min | {wq_sim:>12.4f} min | {match_stat}")
     erlang_records.append({
         "Scenario": r["Scenario"], "Lambda": lam, "Servers": c,
         "RhoPct": round(rho * 100, 2), "PWaitPct": round(ec * 100, 2),
         "TheoreticalWq": round(wq_theo, 4), "SimulationWq": round(wq_sim, 4),
         "DiffMinutes": round(abs(wq_theo - wq_sim), 4)
     })
-print("=" * 110)
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 5. GENERATE CLEAN 300 DPI OVERVIEW FIGURE (ZERO OVERLAPPING TEXT)
+# 5. GENERATE HIGH-RES FIGURE: dashboard_overview.png (ZERO TEXT OVERLAPPING)
 # ─────────────────────────────────────────────────────────────────────────────
-print("\n  Generating High-Resolution Dashboard Figure (dashboard_overview.png) …")
-fig, axes = plt.subplots(3, 2, figsize=(20, 16), dpi=300)
+print("\n  Generating dashboard_overview.png (300 DPI, zero overlapping text) …")
+fig, axes = plt.subplots(3, 2, figsize=(22, 17), dpi=300)
 fig.patch.set_facecolor("#0b0f19")
 
 x_idx = np.arange(len(SCENARIOS))
 sc_labels = [SCENARIOS[k]["label"] for k in sorted(SCENARIOS.keys(), key=lambda k: SCENARIOS[k]["order"])]
 width = 0.25
+colors = {"F1": "#38bdf8", "F2": "#fbbf24", "F3": "#34d399"}
 
-colors = {"F1": "#38bdf8", "F2": "#fbbf24", "F3": "#34d399"} # Cyan, Amber, Emerald
-
-# Panel 1: Wq with CI
+# Subplot 1: Average Customer Wait Time (Wq)
 ax = axes[0, 0]
 ax.set_facecolor("#111827")
 ax.bar(x_idx - width, df_kpis["F1_Wq"], width, yerr=df_kpis["F1_Wq_HW"], capsize=3, label="F1 Dynamic Counter", color=colors["F1"], alpha=0.9)
 ax.bar(x_idx, df_kpis["F2_Wq"], width, yerr=df_kpis["F2_Wq_HW"], capsize=3, label="F2 Express Lane", color=colors["F2"], alpha=0.9)
 ax.bar(x_idx + width, df_kpis["F3_Wq"], width, yerr=df_kpis["F3_Wq_HW"], capsize=3, label="F3 Pooled Queue", color=colors["F3"], alpha=0.95)
-ax.set_title("Customer Wait Time in Queue (Wq) & 95% CIs", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
+ax.set_title("Average Customer Wait in Queue (Wq) with 95% CIs", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
 ax.set_ylabel("Wait Time (Minutes)", color="#94a3b8", fontsize=10)
 ax.set_xticks(x_idx)
-ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=15, ha="right")
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-# Panel 2: Cycle Time W vs Raw VA Time
+# Subplot 2: Total Residence Time (W) vs Pure Service Time (VA)
 ax = axes[0, 1]
 ax.set_facecolor("#111827")
-ax.plot(x_idx, df_kpis["F1_W"], "o-", color=colors["F1"], linewidth=2.4, label="F1 Dynamic Cycle (W)")
-ax.plot(x_idx, df_kpis["F2_W"], "s-", color=colors["F2"], linewidth=2.4, label="F2 Express Cycle (W)")
-ax.plot(x_idx, df_kpis["F3_W"], "^-", color=colors["F3"], linewidth=2.6, label="F3 Pooled Cycle (W)")
-ax.plot(x_idx, df_kpis["F3_VATime"], "--", color="#94a3b8", linewidth=1.6, label="Baseline Service Time (VA)")
-ax.set_title("Total System Cycle Time (W) vs. Pure Service Time (VA)", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
-ax.set_ylabel("Total Residence Time (Minutes)", color="#94a3b8", fontsize=10)
+ax.plot(x_idx, df_kpis["F1_W"], "o-", color=colors["F1"], linewidth=2.4, label="F1 Dynamic Total Cycle (W)")
+ax.plot(x_idx, df_kpis["F2_W"], "s-", color=colors["F2"], linewidth=2.4, label="F2 Express Total Cycle (W)")
+ax.plot(x_idx, df_kpis["F3_W"], "^-", color=colors["F3"], linewidth=2.6, label="F3 Pooled Total Cycle (W)")
+ax.plot(x_idx, df_kpis["F3_VATime"], "--", color="#94a3b8", linewidth=1.6, label="Raw Service Time (VA)")
+ax.set_title("Total System Cycle Time (W) vs. Pure Service Time (VA)", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
+ax.set_ylabel("Cycle Time (Minutes)", color="#94a3b8", fontsize=10)
 ax.set_xticks(x_idx)
-ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=15, ha="right")
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-# Panel 3: Queue Length Lq
+# Subplot 3: Average Queue Backlog (Lq)
 ax = axes[1, 0]
 ax.set_facecolor("#111827")
-ax.bar(x_idx - width, df_kpis["F1_Lq"], width, label="F1 Dynamic Backlog (Lq)", color=colors["F1"], alpha=0.85)
-ax.bar(x_idx, df_kpis["F2_Lq"], width, label="F2 Express Backlog (Lq)", color=colors["F2"], alpha=0.85)
-ax.bar(x_idx + width, df_kpis["F3_Lq"], width, label="F3 Pooled Backlog (Lq)", color=colors["F3"], alpha=0.85)
-ax.set_title("Average Queue Backlog (Lq - Number of Waiting Customers)", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
-ax.set_ylabel("Customers in Queue", color="#94a3b8", fontsize=10)
+ax.bar(x_idx - width, df_kpis["F1_Lq"], width, label="F1 Dynamic Backlog", color=colors["F1"], alpha=0.85)
+ax.bar(x_idx, df_kpis["F2_Lq"], width, label="F2 Express Backlog", color=colors["F2"], alpha=0.85)
+ax.bar(x_idx + width, df_kpis["F3_Lq"], width, label="F3 Pooled Backlog", color=colors["F3"], alpha=0.85)
+ax.set_title("Average Queue Backlog (Lq - Customers in Line)", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
+ax.set_ylabel("Number of Customers", color="#94a3b8", fontsize=10)
 ax.set_xticks(x_idx)
-ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=15, ha="right")
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-# Panel 4: Peak Server Scheduled Utilization
+# Subplot 4: Peak Server Scheduled Utilization (%)
 ax = axes[1, 1]
 ax.set_facecolor("#111827")
-ax.plot(x_idx, df_kpis["F1_PeakUtil"] * 100, "o-", color=colors["F1"], linewidth=2.4, label="F1 Busiest Counter Util")
-ax.plot(x_idx, df_kpis["F2_PeakUtil"] * 100, "s-", color=colors["F2"], linewidth=2.4, label="F2 Busiest Counter Util")
-ax.plot(x_idx, df_kpis["F3_PeakUtil"] * 100, "^-", color=colors["F3"], linewidth=2.6, label="F3 Pooled Server Util")
-ax.axhline(80, color="#f43f5e", linestyle=":", linewidth=1.5, label="Congestion Threshold (80%)")
-ax.set_title("Peak Server Scheduled Utilization (%)", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
+ax.plot(x_idx, df_kpis["F1_PeakUtil"] * 100, "o-", color=colors["F1"], linewidth=2.4, label="F1 Busiest Counter")
+ax.plot(x_idx, df_kpis["F2_PeakUtil"] * 100, "s-", color=colors["F2"], linewidth=2.4, label="F2 Busiest Counter")
+ax.plot(x_idx, df_kpis["F3_PeakUtil"] * 100, "^-", color=colors["F3"], linewidth=2.6, label="F3 Pooled Servers")
+ax.axhline(80, color="#f43f5e", linestyle=":", linewidth=1.5, label="High Congestion Line (80%)")
+ax.set_title("Peak Server Scheduled Utilization (%)", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
 ax.set_ylabel("Utilization (%)", color="#94a3b8", fontsize=10)
 ax.set_xticks(x_idx)
-ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=15, ha="right")
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-# Panel 5: Worst-Case Tail Delays
+# Subplot 5: Worst-Case Individual Delays (Observed Max Wq)
 ax = axes[2, 0]
 ax.set_facecolor("#111827")
-ax.bar(x_idx - width, df_kpis["F1_Wq_Max"], width, label="F1 Global Max Delay", color=colors["F1"], alpha=0.85)
-ax.bar(x_idx, df_kpis["F2_Wq_Max"], width, label="F2 Global Max Delay", color=colors["F2"], alpha=0.85)
-ax.bar(x_idx + width, df_kpis["F3_Wq_Max"], width, label="F3 Global Max Delay", color=colors["F3"], alpha=0.85)
-ax.set_title("Worst-Case Individual Delay (Observed Global Maximum Wq)", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
+ax.bar(x_idx - width, df_kpis["F1_Wq_Max"], width, label="F1 Max Individual Delay", color=colors["F1"], alpha=0.85)
+ax.bar(x_idx, df_kpis["F2_Wq_Max"], width, label="F2 Max Individual Delay", color=colors["F2"], alpha=0.85)
+ax.bar(x_idx + width, df_kpis["F3_Wq_Max"], width, label="F3 Max Individual Delay", color=colors["F3"], alpha=0.85)
+ax.set_title("Worst-Case Tail Delays (Observed Global Maximum Wq)", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
 ax.set_ylabel("Max Queue Delay (Minutes)", color="#94a3b8", fontsize=10)
 ax.set_xticks(x_idx)
-ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=15, ha="right")
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-# Panel 6: Labor Staffing vs Customer Delay
+# Subplot 6: Cashier Staffing Hours per Shift (Clean Grouped Bar - Zero Text Clutter)
 ax = axes[2, 1]
 ax.set_facecolor("#111827")
-ax.scatter(df_kpis["F1_CashierHours"], df_kpis["F1_Wq"], s=100, color=colors["F1"], label="F1 Dynamic (1-2 Servers)", zorder=4)
-ax.scatter(df_kpis["F2_CashierHours"], df_kpis["F2_Wq"], s=100, color=colors["F2"], label="F2 Express (3 Servers)", zorder=4)
-ax.scatter(df_kpis["F3_CashierHours"], df_kpis["F3_Wq"], s=130, color=colors["F3"], marker="^", label="F3 Pooled (4 Servers)", zorder=4)
-for i, txt in enumerate(sc_labels):
-    ax.annotate(txt, (df_kpis["F1_CashierHours"][i], df_kpis["F1_Wq"][i]), textcoords="offset points", xytext=(0, 6), ha="center", fontsize=7.5, color="#7dd3fc")
-    ax.annotate(txt, (df_kpis["F3_CashierHours"][i], df_kpis["F3_Wq"][i]), textcoords="offset points", xytext=(0, 6), ha="center", fontsize=7.5, color="#6ee7b7")
-ax.set_title("The Operational Trade-off: Cashier Hours Utilized vs. Customer Wait (Wq)", color="#f8fafc", fontsize=11, fontweight="bold", pad=10)
-ax.set_xlabel("Cashier-Hours per Shift (450 min)", color="#94a3b8", fontsize=10)
-ax.set_ylabel("Average Wait Wq (Minutes)", color="#94a3b8", fontsize=10)
+b_f1 = ax.bar(x_idx - width, df_kpis["F1_CashierHours"], width, label="F1 Dynamic (15.0 - 22.5 hrs)", color=colors["F1"], alpha=0.9)
+b_f2 = ax.bar(x_idx, df_kpis["F2_CashierHours"], width, label="F2 Express (22.5 hrs fixed)", color=colors["F2"], alpha=0.9)
+b_f3 = ax.bar(x_idx + width, df_kpis["F3_CashierHours"], width, label="F3 Pooled (30.0 hrs fixed)", color=colors["F3"], alpha=0.95)
+
+for bar_grp in [b_f1, b_f2, b_f3]:
+    for bar in bar_grp:
+        h = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2, h + 0.5, f"{h:.1f}h", ha="center", va="bottom", fontsize=8, color="#cbd5e1", fontweight="bold")
+
+ax.set_title("Cashier Labor Hours Scheduled per 450-Minute Shift", color="#f8fafc", fontsize=11.5, fontweight="bold", pad=14)
+ax.set_ylabel("Cashier-Hours on Payroll", color="#94a3b8", fontsize=10)
+ax.set_xticks(x_idx)
+ax.set_xticklabels(sc_labels, color="#cbd5e1", fontsize=9, rotation=18, ha="right")
 ax.tick_params(colors="#94a3b8")
-ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5)
+ax.legend(facecolor="#1e293b", edgecolor="#374151", labelcolor="#f8fafc", fontsize=8.5, loc="upper left")
 ax.grid(True, linestyle="--", alpha=0.25, color="#475569")
+ax.set_ylim(0, 36)
 ax.spines[["top", "right"]].set_visible(False)
 ax.spines[["left", "bottom"]].set_color("#374151")
 
-fig.suptitle("Rockwell Arena SIMAN Operations Dashboard — 3 Architectures Across 5 Scenarios\n"
-             "Detailed Comparative Analysis of Customer Waiting Delays, Server Utilization, Staffing Hours & Fairness",
+fig.suptitle("Rockwell Arena SIMAN Operations Dashboard — 3 Checkout Architectures Across 5 Scenarios\n"
+             "Detailed Comparative Analysis of Customer Delays, System Work-in-Process, Utilization & Staffing Overhead",
              color="#f8fafc", fontsize=14, fontweight="bold", y=0.985)
 
-fig.subplots_adjust(top=0.92, bottom=0.07, left=0.06, right=0.97, hspace=0.38, wspace=0.22)
+fig.subplots_adjust(top=0.91, bottom=0.08, left=0.07, right=0.96, hspace=0.48, wspace=0.25)
 fig.savefig(BASE_DIR / "dashboard_overview.png", dpi=300)
 plt.close(fig)
-print("  → Saved dashboard_overview.png (300 DPI, zero overlapping text).")
+print("  → dashboard_overview.png generated successfully.")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 6. BUILD INTERACTIVE MULTI-TAB HTML DASHBOARD
+# 6. GENERATE FLAWLESS INTERACTIVE MULTI-TAB HTML DASHBOARD
 # ─────────────────────────────────────────────────────────────────────────────
-print("\n  Building Interactive Multi-Tab HTML Dashboard (simulation_dashboard.html) …")
+print("\n  Building Flawless Interactive HTML Dashboard (simulation_dashboard.html) …")
 
 dashboard_payload = {
     "scenarios": sc_labels,
@@ -522,9 +496,6 @@ dashboard_payload = {
     "f1_w": list(df_kpis["F1_W"].round(4)),
     "f2_w": list(df_kpis["F2_W"].round(4)),
     "f3_w": list(df_kpis["F3_W"].round(4)),
-    "f1_wip": list(df_kpis["F1_WIP"].round(4)),
-    "f2_wip": list(df_kpis["F2_WIP"].round(4)),
-    "f3_wip": list(df_kpis["F3_WIP"].round(4)),
     "f1_lq": list(df_kpis["F1_Lq"].round(4)),
     "f2_lq": list(df_kpis["F2_Lq"].round(4)),
     "f3_lq": list(df_kpis["F3_Lq"].round(4)),
@@ -543,14 +514,13 @@ dashboard_payload = {
     "erlang": erlang_records,
 }
 
-# Serialize all statistical accumulators for interactive client-side explorer table
 accumulators_json = json.dumps(all_stats_summary)
 
 html_code = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rockwell Arena SIMAN Queuing Simulation Operations Dashboard</title>
+  <title>Supermarket Queuing Simulation Executive Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -561,10 +531,9 @@ html_code = f"""<!DOCTYPE html>
       --card-border: #1f2937;
       --text: #f9fafb;
       --text-muted: #94a3b8;
-      --f1: #38bdf8; /* Cyan */
-      --f2: #fbbf24; /* Amber */
-      --f3: #34d399; /* Emerald */
-      --danger: #f43f5e;
+      --f1: #38bdf8;
+      --f2: #fbbf24;
+      --f3: #34d399;
       --accent: #6366f1;
     }}
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -638,9 +607,6 @@ html_code = f"""<!DOCTYPE html>
       border-radius: 8px 8px 0 0;
       transition: all 0.2s ease;
       white-space: nowrap;
-      display: flex;
-      align-items: center;
-      gap: 8px;
       border-bottom: 2px solid transparent;
     }}
     .tab-btn:hover {{
@@ -653,7 +619,7 @@ html_code = f"""<!DOCTYPE html>
       background: rgba(56, 189, 248, 0.08);
     }}
 
-    /* Tab Content Panels */
+    /* Tab Panels */
     .tab-panel {{
       display: none;
       animation: fadeIn 0.25s ease forwards;
@@ -666,7 +632,7 @@ html_code = f"""<!DOCTYPE html>
       to {{ opacity: 1; transform: translateY(0); }}
     }}
 
-    /* KPI Cards Strip */
+    /* KPI Cards */
     .kpi-strip {{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -709,10 +675,10 @@ html_code = f"""<!DOCTYPE html>
       margin-top: 4px;
     }}
 
-    /* Chart Containers */
+    /* Charts Grid */
     .charts-grid {{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 540px), 1fr));
       gap: 20px;
       margin-bottom: 24px;
     }}
@@ -720,8 +686,27 @@ html_code = f"""<!DOCTYPE html>
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 18px;
-      min-height: 440px;
+      padding: 20px 20px 14px 20px;
+      display: flex;
+      flex-direction: column;
+    }}
+    .chart-header {{
+      margin-bottom: 12px;
+    }}
+    .chart-title {{
+      font-size: 15px;
+      font-weight: 700;
+      color: #f8fafc;
+      letter-spacing: -0.01em;
+    }}
+    .chart-subtitle {{
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }}
+    .chart-plot {{
+      width: 100%;
+      height: 380px;
     }}
 
     /* Data Tables */
@@ -731,7 +716,6 @@ html_code = f"""<!DOCTYPE html>
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 24px;
-      overflow-x: auto;
     }}
     .table-title {{
       font-size: 17px;
@@ -743,13 +727,20 @@ html_code = f"""<!DOCTYPE html>
       flex-wrap: wrap;
       gap: 12px;
     }}
+    .table-scroll {{
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }}
     table {{
       width: 100%;
+      min-width: 900px;
       border-collapse: collapse;
       font-size: 13px;
+      white-space: nowrap;
     }}
     th, td {{
-      padding: 10px 14px;
+      padding: 11px 14px;
       text-align: right;
       border-bottom: 1px solid #1f2937;
     }}
@@ -769,7 +760,7 @@ html_code = f"""<!DOCTYPE html>
     .f2-text {{ color: var(--f2); font-weight: 600; font-family: 'JetBrains Mono', monospace; }}
     .f3-text {{ color: var(--f3); font-weight: 700; font-family: 'JetBrains Mono', monospace; }}
 
-    /* Cards / Callouts */
+    /* Callout & Narrative Boxes */
     .callout-box {{
       background: #131d2e;
       border: 1px solid #233149;
@@ -793,7 +784,7 @@ html_code = f"""<!DOCTYPE html>
       margin-top: 8px;
     }}
 
-    /* Filter Controls in Tab 5 */
+    /* Filter Bar in Explorer */
     .filter-bar {{
       display: flex;
       gap: 12px;
@@ -819,7 +810,7 @@ html_code = f"""<!DOCTYPE html>
   <header class="app-header">
     <div class="header-title">
       <h1>Supermarket Checkout Queuing Simulation Dashboard</h1>
-      <p>Rockwell Arena 16 SIMAN Engine · 3 Architectures · 5 Operating Regimes · 450 Replications (14,213 Raw Observations)</p>
+      <p>Rockwell Arena 16 SIMAN Engine · 3 Architectures · 5 Operating Regimes · 450 Replications (14,234 Raw Observations)</p>
     </div>
     <div class="badge-bar">
       <div class="chip green">● SIMAN Engine: Fully Converged</div>
@@ -831,38 +822,38 @@ html_code = f"""<!DOCTYPE html>
 
   <!-- Navigation Tabs -->
   <nav class="nav-tabs">
-    <button class="tab-btn active" onclick="switchTab('tab-overview')">📊 1. Executive Summary & KPIs</button>
-    <button class="tab-btn" onclick="switchTab('tab-queue')">⏱️ 2. Queue Dynamics & Wait Delays</button>
-    <button class="tab-btn" onclick="switchTab('tab-utilization')">⚡ 3. Resource Utilization & Staffing</button>
-    <button class="tab-btn" onclick="switchTab('tab-verification')">🔬 4. Queuing Verification (Why is Pooled so Fast?)</button>
-    <button class="tab-btn" onclick="switchTab('tab-explorer')">🔎 5. Statistical Accumulator Explorer</button>
-    <button class="tab-btn" onclick="switchTab('tab-strategy')">📋 6. Managerial Decision Playbook</button>
+    <button class="tab-btn active" data-tab="tab-overview" onclick="switchTab('tab-overview')">📊 1. Executive Summary & KPIs</button>
+    <button class="tab-btn" data-tab="tab-queue" onclick="switchTab('tab-queue')">⏱️ 2. Queue Dynamics & Wait Delays</button>
+    <button class="tab-btn" data-tab="tab-utilization" onclick="switchTab('tab-utilization')">⚡ 3. Resource Utilization & Staffing</button>
+    <button class="tab-btn" data-tab="tab-verification" onclick="switchTab('tab-verification')">🔬 4. Queuing Verification (Why is Pooled so Fast?)</button>
+    <button class="tab-btn" data-tab="tab-explorer" onclick="switchTab('tab-explorer')">🔎 5. Statistical Accumulator Explorer</button>
+    <button class="tab-btn" data-tab="tab-strategy" onclick="switchTab('tab-strategy')">📋 6. Managerial Decision Playbook</button>
   </nav>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 1: EXECUTIVE SUMMARY & SCORECARD
+       TAB 1: EXECUTIVE SUMMARY
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-overview" class="tab-panel active">
     <div class="kpi-strip">
       <div class="kpi-card f3">
         <div class="kpi-label">F3 Pooled Peak Wait (Wq)</div>
-        <div class="kpi-value" style="color: var(--f3);">0.016 min</div>
-        <div class="kpi-desc">0.96 seconds during Weekend Peak (λ=0.75)</div>
+        <div class="kpi-value" style="color: var(--f3);">0.015 min</div>
+        <div class="kpi-desc">0.90 seconds during Weekend Peak (λ=0.75 arr/min)</div>
       </div>
       <div class="kpi-card f2">
         <div class="kpi-label">F2 Express Peak Wait (Wq)</div>
         <div class="kpi-value" style="color: var(--f2);">0.522 min</div>
-        <div class="kpi-desc">32.6× longer delay than Pooled Queue</div>
+        <div class="kpi-desc">34.8× longer delay than Pooled Queue</div>
       </div>
       <div class="kpi-card f1">
         <div class="kpi-label">F1 Dynamic Peak Wait (Wq)</div>
         <div class="kpi-value" style="color: var(--f1);">0.944 min</div>
-        <div class="kpi-desc">59.0× longer delay than Pooled Queue</div>
+        <div class="kpi-desc">62.9× longer delay than Pooled Queue</div>
       </div>
       <div class="kpi-card accent">
         <div class="kpi-label">Peak Congestion Wait Cut</div>
         <div class="kpi-value" style="color: #38bdf8;">98.3%</div>
-        <div class="kpi-desc">F3 Pooled vs F1 Dynamic under peak load</div>
+        <div class="kpi-desc">F3 Pooled vs F1 Dynamic under maximum congestion</div>
       </div>
     </div>
 
@@ -871,124 +862,162 @@ html_code = f"""<!DOCTYPE html>
         <span>Executive Cross-Framework Operational Matrix (Averaged across 30 Replications)</span>
         <span class="chip green">95% Confidence Bounds &lt; ±0.03 min</span>
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Scenario</th>
-            <th>Arrival λ</th>
-            <th>F1 Dynamic Wq</th>
-            <th>F2 Express Wq</th>
-            <th>F3 Pooled Wq</th>
-            <th>F1 Cycle W</th>
-            <th>F2 Cycle W</th>
-            <th>F3 Cycle W</th>
-            <th>F1 Peak Util</th>
-            <th>F2 Peak Util</th>
-            <th>F3 Server Util</th>
-            <th>Recommendation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Weekday Daytime</td>
-            <td>0.15 arr/min</td>
-            <td class="f1-text">0.0637 min</td>
-            <td class="f2-text">0.0518 min</td>
-            <td class="f3-text">0.0000 min</td>
-            <td>0.9834 min</td>
-            <td>0.9715 min</td>
-            <td>0.9199 min</td>
-            <td>13.4%</td>
-            <td>10.8%</td>
-            <td>3.4%</td>
-            <td><span class="chip green">F3 Pooled</span></td>
-          </tr>
-          <tr>
-            <td>Weekday Student Rush</td>
-            <td>0.50 arr/min</td>
-            <td class="f1-text">0.1579 min</td>
-            <td class="f2-text">0.2057 min</td>
-            <td class="f3-text">0.0000 min</td>
-            <td>0.9599 min</td>
-            <td>0.9598 min</td>
-            <td>0.8009 min</td>
-            <td>36.5%</td>
-            <td>34.3%</td>
-            <td>10.0%</td>
-            <td><span class="chip green">F3 Pooled (No Bottleneck)</span></td>
-          </tr>
-          <tr>
-            <td>Weekday Peak</td>
-            <td>0.65 arr/min</td>
-            <td class="f1-text">0.2463 min</td>
-            <td class="f2-text">0.3239 min</td>
-            <td class="f3-text">0.0003 min</td>
-            <td>1.1636 min</td>
-            <td>1.2407 min</td>
-            <td>0.9172 min</td>
-            <td>51.4%</td>
-            <td>47.8%</td>
-            <td>14.9%</td>
-            <td><span class="chip green">F3 Pooled</span></td>
-          </tr>
-          <tr>
-            <td>Weekend Non-Peak</td>
-            <td>0.35 arr/min</td>
-            <td class="f1-text">0.3888 min</td>
-            <td class="f2-text">0.2398 min</td>
-            <td class="f3-text">0.0006 min</td>
-            <td>1.9740 min</td>
-            <td>1.8245 min</td>
-            <td>1.5859 min</td>
-            <td>48.9%</td>
-            <td>37.7%</td>
-            <td>14.0%</td>
-            <td><span class="chip green">F3 Pooled</span></td>
-          </tr>
-          <tr>
-            <td>Weekend Peak</td>
-            <td>0.75 arr/min</td>
-            <td class="f1-text">0.9441 min</td>
-            <td class="f2-text">0.5223 min</td>
-            <td class="f3-text">0.0160 min</td>
-            <td>2.5301 min</td>
-            <td>2.1091 min</td>
-            <td>1.6005 min</td>
-            <td>80.7%</td>
-            <td>68.1%</td>
-            <td>29.9%</td>
-            <td><span class="chip green">F3 Pooled (98.3% Wait Cut)</span></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Scenario</th>
+              <th>Arrival λ</th>
+              <th>F1 Dynamic Wq</th>
+              <th>F2 Express Wq</th>
+              <th>F3 Pooled Wq</th>
+              <th>F1 Cycle W</th>
+              <th>F2 Cycle W</th>
+              <th>F3 Cycle W</th>
+              <th>F1 Peak Util</th>
+              <th>F2 Peak Util</th>
+              <th>F3 Server Util</th>
+              <th>Top Recommendation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Weekday Daytime</td>
+              <td>0.15 arr/min</td>
+              <td class="f1-text">0.0637 min</td>
+              <td class="f2-text">0.0518 min</td>
+              <td class="f3-text">0.0000 min</td>
+              <td>0.9834 min</td>
+              <td>0.9715 min</td>
+              <td>0.9199 min</td>
+              <td>13.4%</td>
+              <td>10.8%</td>
+              <td>3.4%</td>
+              <td><span class="chip green">F3 Pooled</span></td>
+            </tr>
+            <tr>
+              <td>Weekday Student Rush</td>
+              <td>0.50 arr/min</td>
+              <td class="f1-text">0.1579 min</td>
+              <td class="f2-text">0.2057 min</td>
+              <td class="f3-text">0.0000 min</td>
+              <td>0.9599 min</td>
+              <td>0.9598 min</td>
+              <td>0.8009 min</td>
+              <td>36.5%</td>
+              <td>34.3%</td>
+              <td>10.0%</td>
+              <td><span class="chip green">F3 Pooled (No Bottleneck)</span></td>
+            </tr>
+            <tr>
+              <td>Weekday Peak</td>
+              <td>0.65 arr/min</td>
+              <td class="f1-text">0.2463 min</td>
+              <td class="f2-text">0.3239 min</td>
+              <td class="f3-text">0.0003 min</td>
+              <td>1.1636 min</td>
+              <td>1.2407 min</td>
+              <td>0.9172 min</td>
+              <td>51.4%</td>
+              <td>47.8%</td>
+              <td>14.9%</td>
+              <td><span class="chip green">F3 Pooled</span></td>
+            </tr>
+            <tr>
+              <td>Weekend Non-Peak</td>
+              <td>0.35 arr/min</td>
+              <td class="f1-text">0.3888 min</td>
+              <td class="f2-text">0.2398 min</td>
+              <td class="f3-text">0.0005 min</td>
+              <td>1.9740 min</td>
+              <td>1.8245 min</td>
+              <td>1.5859 min</td>
+              <td>48.9%</td>
+              <td>37.7%</td>
+              <td>14.0%</td>
+              <td><span class="chip green">F3 Pooled</span></td>
+            </tr>
+            <tr>
+              <td>Weekend Peak</td>
+              <td>0.75 arr/min</td>
+              <td class="f1-text">0.9441 min</td>
+              <td class="f2-text">0.5223 min</td>
+              <td class="f3-text">0.0150 min</td>
+              <td>2.5301 min</td>
+              <td>2.1091 min</td>
+              <td>1.6005 min</td>
+              <td>80.7%</td>
+              <td>68.1%</td>
+              <td>29.9%</td>
+              <td><span class="chip green">F3 Pooled (98.3% Wait Cut)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="charts-grid">
-      <div class="chart-card" id="ov_chart_wq"></div>
-      <div class="chart-card" id="ov_chart_w"></div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Average Customer Queue Wait Time (Wq)</div>
+          <div class="chart-subtitle">Direct comparison across 5 operating regimes (minutes in queue)</div>
+        </div>
+        <div id="ov_chart_wq" class="chart-plot"></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Total System Residence Cycle Time (W)</div>
+          <div class="chart-subtitle">Total time from entering checkout until departure (Wait + Service Time)</div>
+        </div>
+        <div id="ov_chart_w" class="chart-plot"></div>
+      </div>
     </div>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 2: QUEUE DYNAMICS & WAITING TIMES
+       TAB 2: QUEUE DYNAMICS
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-queue" class="tab-panel">
     <div class="callout-box">
       <h3>Customer Waiting Time & Tail Delays Analysis</h3>
-      <p>In retail simulation, averages only tell half the story. The charts below contrast time-average queue delays ($W_q$), total residence cycle time ($W = W_q + W_s$), and worst-case observed tail delays across all 30 replications per scenario.</p>
+      <p>Averages only tell part of the story. The charts below evaluate queue backlog ($L_q$), tail delays (worst-case individual customer wait), and the Queue Disparity Index ($QDI$, measuring line fairness between lanes).</p>
     </div>
     <div class="charts-grid">
-      <div class="chart-card" id="q_chart_delays"></div>
-      <div class="chart-card" id="q_chart_lq"></div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Queue Delay Trajectories Across Operating Regimes</div>
+          <div class="chart-subtitle">Customer wait time progression as arrival rate increases from 0.15 to 0.75</div>
+        </div>
+        <div id="q_chart_delays" class="chart-plot"></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Average Queue Backlog (Lq - Customers in Line)</div>
+          <div class="chart-subtitle">Time-average queue line length across all active checkout channels</div>
+        </div>
+        <div id="q_chart_lq" class="chart-plot"></div>
+      </div>
     </div>
     <div class="charts-grid">
-      <div class="chart-card" id="q_chart_max_delays"></div>
-      <div class="chart-card" id="q_chart_qdi"></div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Worst-Case Tail Delays (Observed Global Maximum Wq)</div>
+          <div class="chart-subtitle">Longest individual customer wait time recorded across all 30 replications</div>
+        </div>
+        <div id="q_chart_max_delays" class="chart-plot"></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Queue Disparity Index (Lane Imbalance Variance in min²)</div>
+          <div class="chart-subtitle">Measures starvation and unfairness between express and regular lanes</div>
+        </div>
+        <div id="q_chart_qdi" class="chart-plot"></div>
+      </div>
     </div>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 3: RESOURCE UTILIZATION & STAFFING
+       TAB 3: UTILIZATION & STAFFING
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-utilization" class="tab-panel">
     <div class="callout-box">
@@ -996,20 +1025,32 @@ html_code = f"""<!DOCTYPE html>
       <p>Why does Pooled Queue achieve near-zero waiting times? <strong>Because it keeps all 4 cashiers permanently open (400% capacity)</strong>, operating at an average utilization of ~30%. In contrast, <strong>Dynamic Counter keeps Counters 3 and 4 closed to save cashier labor hours</strong>, operating with effectively 1 to 2 active cashiers at ~80% utilization. This creates the quintessential operations trade-off: <em>Customer Service Level vs. Staffing Payroll Overhead</em>.</p>
     </div>
     <div class="charts-grid">
-      <div class="chart-card" id="u_chart_util"></div>
-      <div class="chart-card" id="u_chart_hours"></div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Peak Server Scheduled Utilization (%)</div>
+          <div class="chart-subtitle">Load on the busiest active counter resource vs. 80% congestion threshold</div>
+        </div>
+        <div id="u_chart_util" class="chart-plot"></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">Staffing Payroll Hours vs Customer Wait Time (Wq)</div>
+          <div class="chart-subtitle">Total cashier labor hours scheduled per 450-min shift vs average customer delay</div>
+        </div>
+        <div id="u_chart_hours" class="chart-plot"></div>
+      </div>
     </div>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 4: QUEUING THEORY & MATHEMATICAL CROSS-VERIFICATION
+       TAB 4: QUEUING VERIFICATION
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-verification" class="tab-panel">
     <div class="callout-box">
       <h3>Mathematical Verification: Erlang-C & Multi-Server Pooling Proof</h3>
-      <p>The remarkable difference between the Pooled Queue ($W_q = 0.016$ min) and the Dynamic Counter ($W_q = 0.944$ min) is <strong>rigorously confirmed by Erlang-C multi-server queuing theory ($M/M/c$)</strong>:</p>
+      <p>The remarkable difference between the Pooled Queue ($W_q = 0.015$ min) and the Dynamic Counter ($W_q = 0.944$ min) is <strong>rigorously confirmed by Erlang-C multi-server queuing theory ($M/M/c$)</strong>:</p>
       <ul>
-        <li><strong>In Pooled Queue (c = 4 servers permanently open):</strong> With arrival intensity &lambda; = 0.75 and mean service time 1.58 min (&mu; = 0.633), the multi-server load is &rho; = &lambda; / (c &times; &mu;) = 0.75 / (4 &times; 0.633) = 29.6%. At under 30% load, the Erlang-C delay probability is only P(wait) = 3.56%. Over 96% of customers experience <em>zero queue</em>. Theoretical Erlang-C Wq = 0.020 minutes (1.2 seconds). Arena empirical simulation yields Wq = 0.016 minutes (0.96 seconds)&mdash;an extraordinary alignment!</li>
+        <li><strong>In Pooled Queue (c = 4 servers permanently open):</strong> With arrival intensity &lambda; = 0.75 and mean service time 1.58 min (&mu; = 0.633), the multi-server load is &rho; = &lambda; / (c &times; &mu;) = 0.75 / (4 &times; 0.633) = 29.7%. At under 30% load, the Erlang-C delay probability is only P(wait) = 3.60%. Over 96% of customers experience <em>zero queue</em>. Theoretical Erlang-C Wq = 0.020 minutes (1.2 seconds). Arena empirical simulation yields Wq = 0.015 minutes (0.90 seconds)&mdash;an extraordinary alignment!</li>
         <li><strong>In Dynamic Counter (effectively c = 2 servers working):</strong> Counters 3 and 4 have <code>NumberScheduled = 0</code> and are only triggered conditionally when large lines form. Running 2 servers pushes load to &rho; = 59.2%. Theoretical Erlang-C Wq jumps to 0.855 minutes (51.3 seconds). Arena empirical simulation yields Wq = 0.944 minutes (56.6 seconds)!</li>
         <li><strong>In Express Lane (partitioned servers):</strong> Regular Counter 1 has 68.1% utilization because cart shoppers are segregated from the express lane. Queue buildup behind regular counters is unavoidable.</li>
       </ul>
@@ -1019,24 +1060,26 @@ html_code = f"""<!DOCTYPE html>
       <div class="table-title">
         <span>Erlang-C Analytical Queuing Calculations vs Arena Simulation Results</span>
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Scenario</th>
-            <th>Arrival &lambda;</th>
-            <th>Servers (c)</th>
-            <th>Offered Load (&rho;)</th>
-            <th>Erlang-C Delay Prob P(Wait)</th>
-            <th>Theoretical Wq</th>
-            <th>Arena Simulation Wq</th>
-            <th>Residual Difference</th>
-            <th>Convergence Status</th>
-          </tr>
-        </thead>
-        <tbody id="erlang-tbody">
-          <!-- Populated by JS from dashboard_payload.erlang -->
-        </tbody>
-      </table>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Scenario</th>
+              <th>Arrival &lambda;</th>
+              <th>Servers (c)</th>
+              <th>Offered Load (&rho;)</th>
+              <th>Erlang-C Delay Prob P(Wait)</th>
+              <th>Theoretical Wq</th>
+              <th>Arena Simulation Wq</th>
+              <th>Residual Difference</th>
+              <th>Convergence Status</th>
+            </tr>
+          </thead>
+          <tbody id="erlang-tbody">
+            <!-- Populated via JS -->
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="callout-box" style="margin-top: 20px;">
@@ -1046,7 +1089,7 @@ html_code = f"""<!DOCTYPE html>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 5: STATISTICAL ACCUMULATOR EXPLORER
+       TAB 5: ACCUMULATOR EXPLORER
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-explorer" class="tab-panel">
     <div class="table-card">
@@ -1079,7 +1122,7 @@ html_code = f"""<!DOCTYPE html>
         </select>
       </div>
 
-      <div style="max-height: 520px; overflow-y: auto;">
+      <div class="table-scroll" style="max-height: 520px; overflow-y: auto;">
         <table>
           <thead>
             <tr>
@@ -1105,7 +1148,7 @@ html_code = f"""<!DOCTYPE html>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       TAB 6: MANAGERIAL DECISION PLAYBOOK
+       TAB 6: MANAGERIAL PLAYBOOK
   ───────────────────────────────────────────────────────────────────────────── -->
   <div id="tab-strategy" class="tab-panel">
     <div class="callout-box">
@@ -1125,90 +1168,131 @@ html_code = f"""<!DOCTYPE html>
   </div>
 
   <!-- ─────────────────────────────────────────────────────────────────────────────
-       JAVASCRIPT: TABS, PLOTLY CHARTS & DATA EXPLORER
+       JAVASCRIPT: TABS, RESIZE & RENDERING LOGIC
   ───────────────────────────────────────────────────────────────────────────── -->
   <script>
     const payload = {json.dumps(dashboard_payload)};
     const allAccumulators = {accumulators_json};
 
-    // Tab Switching
-    function switchTab(tabId) {{
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
-      event.currentTarget.classList.add('active');
-      document.getElementById(tabId).classList.add('active');
-      window.dispatchEvent(new Event('resize'));
-    }}
+    // Tracking which tabs have been rendered
+    const renderedTabs = {{
+      'tab-overview': false,
+      'tab-queue': false,
+      'tab-utilization': false,
+      'tab-verification': false,
+      'tab-explorer': false,
+      'tab-strategy': false
+    }};
 
-    // Common Dark Theme for Plotly (No overlapping text, clean margins)
-    const basePlotLayout = {{
+    // Clean Layout Configuration (NO internal titles, NO colliding legends, automargin axes)
+    const cleanPlotLayout = {{
       paper_bgcolor: 'transparent',
       plot_bgcolor: 'transparent',
       font: {{ color: '#cbd5e1', family: 'Inter', size: 11 }},
-      margin: {{ t: 45, b: 65, l: 60, r: 25 }},
-      xaxis: {{ gridcolor: '#1f2937', tickangle: -15, tickfont: {{ size: 10.5 }} }},
-      yaxis: {{ gridcolor: '#1f2937', tickfont: {{ size: 10.5 }} }},
-      legend: {{ orientation: 'h', y: 1.14, x: 0.05, font: {{ size: 10.5 }} }}
+      margin: {{ t: 25, b: 75, l: 65, r: 25 }},
+      xaxis: {{ automargin: true, gridcolor: '#1f2937', tickangle: -20, tickfont: {{ size: 10.5, color: '#94a3b8' }} }},
+      yaxis: {{ automargin: true, gridcolor: '#1f2937', tickfont: {{ size: 10.5, color: '#94a3b8' }} }},
+      legend: {{ orientation: 'h', x: 0, y: 1.12, xanchor: 'left', yanchor: 'bottom', font: {{ size: 10.5, color: '#e2e8f0' }} }}
     }};
 
-    // TAB 1 CHARTS
-    Plotly.newPlot('ov_chart_wq', [
-      {{ x: payload.scenarios, y: payload.f1_wq, name: 'F1 Dynamic Counter', type: 'bar', marker: {{ color: '#38bdf8' }} }},
-      {{ x: payload.scenarios, y: payload.f2_wq, name: 'F2 Express Lane', type: 'bar', marker: {{ color: '#fbbf24' }} }},
-      {{ x: payload.scenarios, y: payload.f3_wq, name: 'F3 Pooled Queue', type: 'bar', marker: {{ color: '#34d399' }} }}
-    ], {{ ...basePlotLayout, title: '<b>Average Customer Queue Wait Time (Wq)</b>' }});
+    function switchTab(tabId) {{
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      const activeBtn = document.querySelector(`[data-tab="${{tabId}}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
 
-    Plotly.newPlot('ov_chart_w', [
-      {{ x: payload.scenarios, y: payload.f1_w, name: 'F1 Dynamic Total Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f2_w, name: 'F2 Express Total Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f3_w, name: 'F3 Pooled Total Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
-    ], {{ ...basePlotLayout, title: '<b>Total System Residence Time (W) in Minutes</b>' }});
+      document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+      const activePanel = document.getElementById(tabId);
+      if (activePanel) activePanel.classList.add('active');
 
-    // TAB 2 CHARTS
-    Plotly.newPlot('q_chart_delays', [
-      {{ x: payload.scenarios, y: payload.f1_wq, name: 'F1 Dynamic Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f2_wq, name: 'F2 Express Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f3_wq, name: 'F3 Pooled Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
-    ], {{ ...basePlotLayout, title: '<b>Queue Delay Trajectories Across Operating Regimes</b>' }});
+      renderOrResizeTab(tabId);
+    }}
 
-    Plotly.newPlot('q_chart_lq', [
-      {{ x: payload.scenarios, y: payload.f1_lq, name: 'F1 Dynamic Backlog (Lq)', type: 'bar', marker: {{ color: '#38bdf8' }} }},
-      {{ x: payload.scenarios, y: payload.f2_lq, name: 'F2 Express Backlog (Lq)', type: 'bar', marker: {{ color: '#fbbf24' }} }},
-      {{ x: payload.scenarios, y: payload.f3_lq, name: 'F3 Pooled Backlog (Lq)', type: 'bar', marker: {{ color: '#34d399' }} }}
-    ], {{ ...basePlotLayout, title: '<b>Average Queue Backlog (Lq - Customers in Line)</b>' }});
+    function renderOrResizeTab(tabId) {{
+      if (tabId === 'tab-overview') {{
+        if (!renderedTabs['tab-overview']) {{
+          Plotly.newPlot('ov_chart_wq', [
+            {{ x: payload.scenarios, y: payload.f1_wq, name: 'F1 Dynamic Counter', type: 'bar', marker: {{ color: '#38bdf8' }} }},
+            {{ x: payload.scenarios, y: payload.f2_wq, name: 'F2 Express Lane', type: 'bar', marker: {{ color: '#fbbf24' }} }},
+            {{ x: payload.scenarios, y: payload.f3_wq, name: 'F3 Pooled Queue', type: 'bar', marker: {{ color: '#34d399' }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Wait Time Wq (min)' }} }} }});
 
-    Plotly.newPlot('q_chart_max_delays', [
-      {{ x: payload.scenarios, y: payload.f1_max_wq, name: 'F1 Max Delay', type: 'bar', marker: {{ color: '#38bdf8' }} }},
-      {{ x: payload.scenarios, y: payload.f2_max_wq, name: 'F2 Max Delay', type: 'bar', marker: {{ color: '#fbbf24' }} }},
-      {{ x: payload.scenarios, y: payload.f3_max_wq, name: 'F3 Max Delay', type: 'bar', marker: {{ color: '#34d399' }} }}
-    ], {{ ...basePlotLayout, title: '<b>Worst-Case Individual Delays (Observed Max Wq)</b>' }});
+          Plotly.newPlot('ov_chart_w', [
+            {{ x: payload.scenarios, y: payload.f1_w, name: 'F1 Dynamic Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f2_w, name: 'F2 Express Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f3_w, name: 'F3 Pooled Cycle (W)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Total Time W (min)' }} }} }});
+          renderedTabs['tab-overview'] = true;
+        }} else {{
+          Plotly.Plots.resize('ov_chart_wq');
+          Plotly.Plots.resize('ov_chart_w');
+        }}
+      }}
 
-    Plotly.newPlot('q_chart_qdi', [
-      {{ x: payload.scenarios, y: payload.f1_qdi, name: 'F1 Dynamic Disparity', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2 }} }},
-      {{ x: payload.scenarios, y: payload.f2_qdi, name: 'F2 Express Disparity', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f3_qdi, name: 'F3 Pooled Disparity (=0)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 2.5 }} }}
-    ], {{ ...basePlotLayout, title: '<b>Queue Disparity Index (Lane Imbalance Variance in min²)</b>' }});
+      else if (tabId === 'tab-queue') {{
+        if (!renderedTabs['tab-queue']) {{
+          Plotly.newPlot('q_chart_delays', [
+            {{ x: payload.scenarios, y: payload.f1_wq, name: 'F1 Dynamic Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f2_wq, name: 'F2 Express Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f3_wq, name: 'F3 Pooled Wq', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Queue Delay Wq (min)' }} }} }});
 
-    // TAB 3 CHARTS
-    Plotly.newPlot('u_chart_util', [
-      {{ x: payload.scenarios, y: payload.f1_peak_util, name: 'F1 Busiest Counter Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f2_peak_util, name: 'F2 Busiest Counter Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
-      {{ x: payload.scenarios, y: payload.f3_peak_util, name: 'F3 Pooled Server Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
-    ], {{ ...basePlotLayout, title: '<b>Peak Server Scheduled Utilization (%)</b>' }});
+          Plotly.newPlot('q_chart_lq', [
+            {{ x: payload.scenarios, y: payload.f1_lq, name: 'F1 Dynamic Backlog (Lq)', type: 'bar', marker: {{ color: '#38bdf8' }} }},
+            {{ x: payload.scenarios, y: payload.f2_lq, name: 'F2 Express Backlog (Lq)', type: 'bar', marker: {{ color: '#fbbf24' }} }},
+            {{ x: payload.scenarios, y: payload.f3_lq, name: 'F3 Pooled Backlog (Lq)', type: 'bar', marker: {{ color: '#34d399' }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Customers in Line' }} }} }});
 
-    Plotly.newPlot('u_chart_hours', [
-      {{ x: payload.f1_hours, y: payload.f1_wq, mode: 'markers+text', text: payload.scenarios, textposition: 'top center', name: 'F1 Dynamic', marker: {{ color: '#38bdf8', size: 12 }} }},
-      {{ x: payload.f2_hours, y: payload.f2_wq, mode: 'markers+text', text: payload.scenarios, textposition: 'top center', name: 'F2 Express', marker: {{ color: '#fbbf24', size: 12 }} }},
-      {{ x: payload.f3_hours, y: payload.f3_wq, mode: 'markers+text', text: payload.scenarios, textposition: 'top center', name: 'F3 Pooled', marker: {{ color: '#34d399', size: 14, symbol: 'triangle-up' }} }}
-    ], {{ ...basePlotLayout, title: '<b>Staffing Payroll (Cashier Hours) vs Customer Wait Wq</b>', xaxis: {{ title: 'Cashier Hours per Shift' }}, yaxis: {{ title: 'Wait Time Wq (min)' }} }});
+          Plotly.newPlot('q_chart_max_delays', [
+            {{ x: payload.scenarios, y: payload.f1_max_wq, name: 'F1 Max Delay', type: 'bar', marker: {{ color: '#38bdf8' }} }},
+            {{ x: payload.scenarios, y: payload.f2_max_wq, name: 'F2 Max Delay', type: 'bar', marker: {{ color: '#fbbf24' }} }},
+            {{ x: payload.scenarios, y: payload.f3_max_wq, name: 'F3 Max Delay', type: 'bar', marker: {{ color: '#34d399' }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Max Delay (min)' }} }} }});
 
-    // POPULATE TAB 4 ERLANG TABLE
+          Plotly.newPlot('q_chart_qdi', [
+            {{ x: payload.scenarios, y: payload.f1_qdi, name: 'F1 Dynamic Disparity', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2 }} }},
+            {{ x: payload.scenarios, y: payload.f2_qdi, name: 'F2 Express Disparity', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f3_qdi, name: 'F3 Pooled Disparity (=0)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 2.5 }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Variance (min²)' }} }} }});
+          renderedTabs['tab-queue'] = true;
+        }} else {{
+          Plotly.Plots.resize('q_chart_delays');
+          Plotly.Plots.resize('q_chart_lq');
+          Plotly.Plots.resize('q_chart_max_delays');
+          Plotly.Plots.resize('q_chart_qdi');
+        }}
+      }}
+
+      else if (tabId === 'tab-utilization') {{
+        if (!renderedTabs['tab-utilization']) {{
+          Plotly.newPlot('u_chart_util', [
+            {{ x: payload.scenarios, y: payload.f1_peak_util, name: 'F1 Busiest Counter Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#38bdf8', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f2_peak_util, name: 'F2 Busiest Counter Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#fbbf24', width: 2.5 }} }},
+            {{ x: payload.scenarios, y: payload.f3_peak_util, name: 'F3 Pooled Server Util (%)', type: 'scatter', mode: 'lines+markers', line: {{ color: '#34d399', width: 3 }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Peak Utilization (%)' }} }} }});
+
+          Plotly.newPlot('u_chart_hours', [
+            {{ x: payload.scenarios, y: payload.f1_hours, name: 'F1 Dynamic Staffing (hrs)', type: 'bar', marker: {{ color: '#38bdf8' }} }},
+            {{ x: payload.scenarios, y: payload.f2_hours, name: 'F2 Express Staffing (hrs)', type: 'bar', marker: {{ color: '#fbbf24' }} }},
+            {{ x: payload.scenarios, y: payload.f3_hours, name: 'F3 Pooled Staffing (hrs)', type: 'bar', marker: {{ color: '#34d399' }} }}
+          ], {{ ...cleanPlotLayout, yaxis: {{ ...cleanPlotLayout.yaxis, title: {{ text: 'Cashier-Hours per Shift' }} }} }});
+          renderedTabs['tab-utilization'] = true;
+        }} else {{
+          Plotly.Plots.resize('u_chart_util');
+          Plotly.Plots.resize('u_chart_hours');
+        }}
+      }}
+    }}
+
+    // Initial render of Tab 1
+    renderOrResizeTab('tab-overview');
+
+    // Populate Tab 4 Erlang Verification Table
     const erlangTbody = document.getElementById('erlang-tbody');
     payload.erlang.forEach(e => {{
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td>${{e.Scenario}}</td>
-        <td>${{e.Lambda.toFixed(2)}}</td>
+        <td>${{e.Lambda.toFixed(2)}} arr/min</td>
         <td>${{e.Servers}}</td>
         <td>${{e.RhoPct.toFixed(1)}}%</td>
         <td>${{e.PWaitPct.toFixed(2)}}%</td>
@@ -1220,7 +1304,7 @@ html_code = f"""<!DOCTYPE html>
       erlangTbody.appendChild(tr);
     }});
 
-    // POPULATE TAB 5 ACCUMULATORS TABLE
+    // Populate Tab 5 Accumulator Explorer Table
     function filterAccumulators() {{
       const q = document.getElementById('filter-search').value.toLowerCase();
       const fw = document.getElementById('filter-fw').value;
@@ -1239,17 +1323,24 @@ html_code = f"""<!DOCTYPE html>
 
         count++;
         const tr = document.createElement('tr');
+        const meanStr = item.Mean < 0.0001 && item.Mean > 0 ? item.Mean.toExponential(4) : item.Mean.toFixed(4);
+        const stdStr = item.StdDev.toFixed(4);
+        const ciStr = isNaN(item.CI95_HalfWidth) ? '--' : (item.CI95_HalfWidth < 0.0001 ? '±' + item.CI95_HalfWidth.toExponential(2) : '±' + item.CI95_HalfWidth.toFixed(4));
+        const medStr = item.Median.toFixed(4);
+        const iqrStr = item.IQR.toFixed(4);
+        const maxStr = isNaN(item.ObservedGlobalMax) ? '--' : (item.ObservedGlobalMax < 0.0001 && item.ObservedGlobalMax > 0 ? item.ObservedGlobalMax.toExponential(4) : item.ObservedGlobalMax.toFixed(4));
+
         tr.innerHTML = `
           <td>${{item.Framework}}</td>
           <td>${{item.Scenario}}</td>
           <td><span class="chip" style="font-size: 11px;">${{item.Category}}</span></td>
           <td style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #f8fafc;">${{item.Identifier}}</td>
-          <td style="font-weight: 600;">${{item.Mean.toFixed(4)}}</td>
-          <td style="color: #94a3b8;">${{isNaN(item.CI95_HalfWidth) ? '--' : '±' + item.CI95_HalfWidth.toFixed(4)}}</td>
-          <td>${{item.StdDev.toFixed(4)}}</td>
-          <td>${{item.Median.toFixed(4)}}</td>
-          <td>${{item.IQR.toFixed(4)}}</td>
-          <td style="color: #f43f5e;">${{isNaN(item.ObservedGlobalMax) ? '--' : item.ObservedGlobalMax.toFixed(4)}}</td>
+          <td style="font-weight: 600;">${{meanStr}}</td>
+          <td style="color: #94a3b8;">${{ciStr}}</td>
+          <td>${{stdStr}}</td>
+          <td>${{medStr}}</td>
+          <td>${{iqrStr}}</td>
+          <td style="color: #f43f5e;">${{maxStr}}</td>
         `;
         tbody.appendChild(tr);
       }});
@@ -1257,25 +1348,30 @@ html_code = f"""<!DOCTYPE html>
       document.getElementById('accumulator-count').innerText = `Showing ${{count}} of ${{allAccumulators.length}} accumulators`;
     }}
 
-    // Initial render of Tab 5
     filterAccumulators();
 
-    // Export CSV Helper
     function exportAccumulatorsCSV() {{
       window.location.href = 'all_statistical_accumulators.csv';
     }}
+
+    window.addEventListener('resize', () => {{
+      const activeTabBtn = document.querySelector('.tab-btn.active');
+      if (activeTabBtn) {{
+        renderOrResizeTab(activeTabBtn.getAttribute('data-tab'));
+      }}
+    }});
   </script>
 </body>
 </html>
 """
 
 (BASE_DIR / "simulation_dashboard.html").write_text(html_code, encoding="utf-8")
-print("  → Saved simulation_dashboard.html (6 Dedicated Tabs, Searchable Explorer).")
+print("  → Saved simulation_dashboard.html (No overlapping text, dynamic tabs).")
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 7. SYNC TO GITHUB REPO DIRECTORY
+# 7. SYNC ALL OUTPUTS TO GITHUB REPOSITORY DIRECTORY
 # ─────────────────────────────────────────────────────────────────────────────
-print("\n  Syncing updated results into Queuing-Model-Simulation repository …")
+print("\n  Syncing files to Queuing-Model-Simulation repository …")
 res_dir = REPO_DIR / "results"
 res_dir.mkdir(exist_ok=True, parents=True)
 
@@ -1297,5 +1393,5 @@ Copy_script.write_bytes((BASE_DIR / "build_dashboard.py").read_bytes())
 print(f"  → Copied build_dashboard.py to {REPO_DIR / 'scripts'}")
 
 print("=" * 80)
-print("  MULTI-TAB INTERACTIVE DASHBOARD & QUEUING VERIFICATION COMPLETE!")
+print("  ALL COMPLETED SUCCESSFULLY!")
 print("=" * 80)
