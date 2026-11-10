@@ -13,7 +13,7 @@ from pathlib import Path
 # Page configuration
 st.set_page_config(
     page_title="Supermarket Queuing Simulation Executive Dashboard",
-    page_icon="🛒",
+    page_icon=":shopping_trolley:",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -76,15 +76,15 @@ with st.sidebar:
         width=45
     )
     st.title("Simulation Lab")
-    st.caption("Rockwell Arena 16 SIMAN · Multi-Framework Analysis")
+    st.caption("Rockwell Arena 16 SIMAN | Multi-Framework Analysis")
     
     st.divider()
-    st.markdown("### 📥 Data Downloads")
+    st.markdown("### Data Downloads")
     
     csv_kpi = find_file("checkout_comparison_results.csv")
     if csv_kpi and csv_kpi.exists():
         st.download_button(
-            label="📊 Comparison KPI Matrix (CSV)",
+            label="Comparison KPI Matrix (CSV)",
             data=csv_kpi.read_bytes(),
             file_name="checkout_comparison_results.csv",
             mime="text/csv"
@@ -93,7 +93,7 @@ with st.sidebar:
     csv_acc = find_file("all_statistical_accumulators.csv")
     if csv_acc and csv_acc.exists():
         st.download_button(
-            label="📈 All Accumulators (434 Variables)",
+            label="All Accumulators (434 Variables CSV)",
             data=csv_acc.read_bytes(),
             file_name="all_statistical_accumulators.csv",
             mime="text/csv"
@@ -102,7 +102,7 @@ with st.sidebar:
     csv_raw = find_file("raw_simulation_metrics.csv")
     if csv_raw and csv_raw.exists():
         st.download_button(
-            label="📑 Raw Simulation Data (14k Rows)",
+            label="Raw Simulation Data (14k Rows CSV)",
             data=csv_raw.read_bytes(),
             file_name="raw_simulation_metrics.csv",
             mime="text/csv"
@@ -111,7 +111,7 @@ with st.sidebar:
     png_dash = find_file("dashboard_overview.png")
     if png_dash and png_dash.exists():
         st.download_button(
-            label="🖼️ Overview Infographic (300 DPI)",
+            label="Overview Infographic (300 DPI PNG)",
             data=png_dash.read_bytes(),
             file_name="dashboard_overview.png",
             mime="image/png"

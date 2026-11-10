@@ -347,7 +347,7 @@
       <div class="kpi-card f3">
         <div class="kpi-label">F3 Pooled Peak Wait (Wq)</div>
         <div class="kpi-value" style="color: var(--f3);">0.542 min</div>
-        <div class="kpi-desc">32.5 seconds during Weekend Peak (λ=0.75, 2 cashiers)</div>
+        <div class="kpi-desc">32.5 seconds during Weekend Peak (&lambda; = 0.75 cust/min, 2 cashiers)</div>
       </div>
       <div class="kpi-card f2">
         <div class="kpi-label">F2 Express Peak Wait (Wq)</div>
@@ -369,14 +369,14 @@
     <div class="table-card">
       <div class="table-title">
         <span>Executive Cross-Framework Operational Matrix (Averaged across 30 Replications)</span>
-        <span class="chip green">95% Confidence Bounds &lt; ±0.08 min</span>
+        <span class="chip green">95% Confidence Bounds &lt; &plusmn;0.08 min</span>
       </div>
       <div class="table-scroll">
         <table>
           <thead>
             <tr>
               <th>Scenario</th>
-              <th>Arrival λ</th>
+              <th>Arrival Rate (&lambda;)</th>
               <th>F1 Dynamic Wq</th>
               <th>F2 Express Wq</th>
               <th>F3 Pooled Wq</th>
@@ -489,7 +489,7 @@
   <div id="tab-queue" class="tab-panel">
     <div class="callout-box">
       <h3>Customer Waiting Time & Tail Delays Analysis</h3>
-      <p>Averages only tell part of the story. The charts below evaluate queue backlog ($L_q$), tail delays (worst-case individual customer wait), and the Queue Disparity Index ($QDI$, measuring line fairness between lanes).</p>
+      <p>Averages only tell part of the story. The charts below evaluate queue backlog (L<sub>q</sub>), tail delays (worst-case individual customer wait), and the Queue Disparity Index (Queue Disparity Index QDI, measuring line fairness between lanes).</p>
     </div>
     <div class="charts-grid">
       <div class="chart-card">
@@ -517,7 +517,7 @@
       </div>
       <div class="chart-card">
         <div class="chart-header">
-          <div class="chart-title">Queue Disparity Index (Lane Imbalance Variance in min²)</div>
+          <div class="chart-title">Queue Disparity Index (Lane Imbalance Variance in min<sup>2</sup>)</div>
           <div class="chart-subtitle">Measures starvation and unfairness between express and regular lanes</div>
         </div>
         <div id="q_chart_qdi" class="chart-plot"></div>
@@ -637,11 +637,11 @@
         <label for="acc-scenario-select" style="font-size: 13px; font-weight: 600; color: var(--text-muted); margin-right: 10px;">Select Operating Scenario:</label>
         <select id="acc-scenario-select" class="select-dropdown" onchange="renderCuratedAccumulators()">
           <option value="overall">All Scenarios (Overall Shift Average)</option>
-          <option value="weekdaydaytime">Weekday Daytime (λ=0.15)</option>
-          <option value="weekdaystudent">Weekday Student Rush (λ=0.50, 70% Small)</option>
-          <option value="weekdaypeak">Weekday Peak (λ=0.65)</option>
-          <option value="weekendnormal">Weekend Non-Peak (λ=0.35)</option>
-          <option value="weekendpeak">Weekend Peak (λ=0.75, Heavy Baskets)</option>
+          <option value="weekdaydaytime">Weekday Daytime (&lambda; = 0.15 cust/min)</option>
+          <option value="weekdaystudent">Weekday Student Rush (&lambda; = 0.50 cust/min, 70% Small)</option>
+          <option value="weekdaypeak">Weekday Peak (&lambda; = 0.65 cust/min)</option>
+          <option value="weekendnormal">Weekend Non-Peak (&lambda; = 0.35 cust/min)</option>
+          <option value="weekendpeak">Weekend Peak (&lambda; = 0.75 cust/min, Heavy Baskets)</option>
         </select>
       </div>
       <div>
@@ -687,9 +687,9 @@
               <th>Arena Identifier</th>
               <th>SIMAN Type</th>
               <th>Unit</th>
-              <th>F1 Dynamic (Mean ± CI)</th>
-              <th>F2 Express (Mean ± CI)</th>
-              <th>F3 Pooled (Mean ± CI)</th>
+              <th>F1 Dynamic (Mean &plusmn; CI)</th>
+              <th>F2 Express (Mean &plusmn; CI)</th>
+              <th>F3 Pooled (Mean &plusmn; CI)</th>
               <th>Operational Interpretation & Impact</th>
             </tr>
           </thead>
@@ -714,7 +714,7 @@
       <ul>
         <li><strong>Strategy A — The Gold-Standard Customer Experience (Framework 3 Pooled Queue):</strong>
           <br>Adopt if store front-end architecture permits a single serpentine line with stanchions. Completely eliminates line jockeying, eliminates lane-starvation, guarantees FIFO fairness, and cuts peak waiting times by 98.3%.
-          <br><strong>Staffing Recommendation:</strong> Schedule <strong>3 cashiers instead of 4</strong> during peak periods. As proven by our capacity sensitivity analysis, a 3-server pooled queue delivers a <strong>7.1-second average wait time</strong> (cutting wait by 77.2% vs Express Lane) while <strong>saving 25% on cashier payroll</strong> ($22.5$ vs $30.0$ cashier-hours).
+          <br><strong>Staffing Recommendation:</strong> Schedule <strong>3 cashiers instead of 4</strong> during peak periods. As proven by our capacity sensitivity analysis, a 3-server pooled queue delivers a <strong>7.1-second average wait time</strong> (cutting wait by 77.2% vs Express Lane) while <strong>saving 25% on cashier payroll</strong> (22.5 vs 30.0 cashier-hours).
         </li>
         <li style="margin-top: 10px;"><strong>Strategy B — The Labor-Optimized Hybrid Policy (F1 Weekdays + F2 Weekends):</strong>
           <br>Adopt if floor space cannot accommodate a serpentine queue:
@@ -817,7 +817,7 @@
             { x: payload.scenarios, y: payload.f1_qdi, name: 'F1 Dynamic Disparity', type: 'scatter', mode: 'lines+markers', line: { color: '#38bdf8', width: 2 } },
             { x: payload.scenarios, y: payload.f2_qdi, name: 'F2 Express Disparity', type: 'scatter', mode: 'lines+markers', line: { color: '#fbbf24', width: 2.5 } },
             { x: payload.scenarios, y: payload.f3_qdi, name: 'F3 Pooled Disparity (=0)', type: 'scatter', mode: 'lines+markers', line: { color: '#34d399', width: 2.5 } }
-          ], { ...cleanPlotLayout, yaxis: { ...cleanPlotLayout.yaxis, title: { text: 'Variance (min²)' } } });
+          ], { ...cleanPlotLayout, yaxis: { ...cleanPlotLayout.yaxis, title: { text: 'Variance (min^2)' } } });
           renderedTabs['tab-queue'] = true;
         } else {
           Plotly.Plots.resize('q_chart_delays');
@@ -931,9 +931,9 @@
 
       data.forEach(item => {
         const tr = document.createElement('tr');
-        const f1Str = isNaN(item.f1_mean) ? '--' : `${item.f1_mean.toFixed(3)} ± ${item.f1_ci.toFixed(3)}`;
-        const f2Str = isNaN(item.f2_mean) ? '--' : `${item.f2_mean.toFixed(3)} ± ${item.f2_ci.toFixed(3)}`;
-        const f3Str = isNaN(item.f3_mean) ? '--' : `${item.f3_mean.toFixed(3)} ± ${item.f3_ci.toFixed(3)}`;
+        const f1Str = isNaN(item.f1_mean) ? '--' : `${item.f1_mean.toFixed(3)} &plusmn; ${item.f1_ci.toFixed(3)}`;
+        const f2Str = isNaN(item.f2_mean) ? '--' : `${item.f2_mean.toFixed(3)} &plusmn; ${item.f2_ci.toFixed(3)}`;
+        const f3Str = isNaN(item.f3_mean) ? '--' : `${item.f3_mean.toFixed(3)} &plusmn; ${item.f3_ci.toFixed(3)}`;
 
         let chipColor = 'blue';
         if (item.category === 'Tally') chipColor = 'amber';
